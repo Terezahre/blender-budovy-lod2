@@ -1,0 +1,35 @@
+{
+ "id": "B06_sedlova",
+ "cluster": 164,
+ "profile": "COMPLEX_HIP",
+ "crs": "EPSG:5514",
+ "n_points": 165,
+ "n_ground": 31,
+ "density_pts_m2": 1.941,
+ "zstd": 4.284,
+ "zmin": 297.87,
+ "zmax": 310.26,
+ "ground_z_p5": 297.58,
+ "height_above_ground": 12.68,
+ "footprint_area_m2": 85.0,
+ "bbox": [
+  -737854.67,
+  -1039098.9,
+  -737837.66,
+  -1039090.24
+ ],
+ "roofplane_guess": 6,
+ "sparse": false,
+ "polyfit_fallback": false,
+ "gpkg_ok": true,
+ "params": {
+  "plane_detect__epsilon": 0.15,
+  "plane_detect__min_points": 10,
+  "plane_detect__k": 10,
+  "normal_estimate__k": 5,
+  "line_detect__epsilon": 0.3,
+  "optimisation_data_term": 9.0,
+  "lod13__step_height": 2.5,
+  "max_arr_complexity": 800
+ }
+}

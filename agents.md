@@ -5,22 +5,23 @@ Cíl: nedeformované 3D budovy v LOD2 z leteckého mračna ČÚZK DMP 1G, výstu
 ## Pipeline (povinné pořadí)
 
 1. `data/` — vstupní LAZ/LAS (S-JTSK). Neměnit originály.
-2. `scripts/analyze_laz.py` — statistika mračna + rozdělení budov (class 6) do klastrů.
-3. `scripts/extract_buildings.py` — pro každou budovu: ořez bodů (budova + okolní terén class 2 pro určení podlahy), footprint polygon (GPKG/GeoJSON), `buildings/<ID>/meta.json` s vlastnostmi mračna.
-4. `flowcharts/krav59_lod22/` — Geoflow `reconstruct_one.json` + jeden TOML config na budovu.
-   Pro každou budovu jiné parametry podle `meta.json` (viz tabulka níže).
-   Instalováno: Geoflow 0.3.6 (`C:\Program Files\Geoflow`, lokální runtime
-   `C:\Users\Tereza\geoflow-local` + `GF_PLUGIN_FOLDER`, viz wiki/geoflow/skutecny-beh.md).
-   Používá se `flowcharts/krav59_lod22/reconstruct_objonly.json` (47 uzlů, jen OBJ;
-   bundlovaný brecon má rozbitý CityJSONWriter `meta_poc_address`) a per-building
-   `buildings/<ID>/geof.toml` (mapování profilů na `r_*` globály).
-5. Geoflow `geof` → `output/geof/<ID>/model_lod22.obj` (+ LOD12/LOD13) → validace
-   Blenderem → `output/geof/<ID>/validated_SJTSK.obj`; srovnání s vlastní cestou
-   v `output/geof/<ID>/compare.json`.
-6. Pokud je budova moc složitá (viz kritéria) → `scripts/polyfit_fallback.py` → `output/polyfit/<ID>.obj`.
-7. `scripts/blender_validate.py` (headless Blender) — kontrola deformací, cleanup, re-export do `output/final/<ID>_LOD2_SJTSK.obj`.
-   Souřadnice se NESMÍ posouvat ani škálovat — výstup zůstává v plných S-JTSK souřadnicích (EPSG:5514).
+2. `scripts/analyze_laz.py` / `scripts/scan_map.py` — statistika mračna + klastry budov
+   (DBSCAN class 6); sedlovky hledá celomapový scan (`buildings/gable_candidates.json`).
+3. `scripts/extract_buildings.py` / `scripts/extract_map.py` — pro každou budovu: ořez bodů
+   (budova + okolní terén class 2), footprint (GPKG/GeoJSON), `buildings/<ID>/meta.json`
+   + `geof.toml` s per-building `r_*` parametry.
+4. Geoflow 0.3.6 (`C:\Users\Tereza\geoflow-local\geof.exe` + `GF_PLUGIN_FOLDER`)
+   s `flowcharts/krav59_lod22/reconstruct_objonly.json` (47 uzlů, jen OBJ)
+   → `output/geof/<ID>/model_lod22.obj` (+ LOD12/LOD13).
+5. Pokud je budova moc složitá (viz kritéria) → `scripts/polyfit_fallback.py` (stav viz wiki).
+6. `scripts/blender_validate.py` (headless Blender) — kontrola deformací, cleanup,
+   validovaný model do `output/final/<ID>_LOD2_SJTSK.obj` + render.
+   Souřadnice se NESMÍ posouvat ani škálovat — výstup zůstává v S-JTSK (EPSG:5514).
+7. `scripts/make_viewer.py` → `viewer_3d.html` (three.js, jen Geoflow modely).
 8. Wiki — po každém kroku aktualizovat `wiki/` + `wiki/log.md` (viz Wiki pravidla).
+
+Vlastní prototypová cesta (`scripts/reconstruct_lod2.py` → `output/geoflow/`, kvádry
+v `output/ours/`) je ODSTAVENA. Finále = výhradně Geoflow LoD2.2.
 
 ## Per-building parametry Geoflow (podle vlastností mračna)
 

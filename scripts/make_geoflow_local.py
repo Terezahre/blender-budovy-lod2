@@ -47,7 +47,10 @@ PROFILES = {
                         r_normal_k=5, r_line_epsilon=0.3,
                         r_optimisation_data_term=9.0, r_lod13_step_height=2.5),
 }
-for bid in ["B01_flat", "B02_gable", "B03_row", "B04_panelak", "B05_vez"]:
+import glob
+BIDS = sorted(__import__("json").load(open(m, encoding="utf-8"))["id"]
+             for m in glob.glob("buildings/*/meta.json"))
+for bid in BIDS:
     meta = json.load(open(f"buildings/{bid}/meta.json", encoding="utf-8"))
     pr = dict(PROFILES[meta["profile"]])
     if meta.get("sparse"):

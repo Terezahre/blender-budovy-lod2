@@ -1,0 +1,15 @@
+# G1_sedlova — profil COMPLEX_HIP (geof r_* globaly)
+input_footprint = "buildings/G1_sedlova/footprint.gpkg"
+input_pointcloud = "buildings/G1_sedlova/body.las"
+building_identifier = "id"
+input_footprint_select_sql = ""
+output_obj_lod22 = "output/geof/G1_sedlova/model_lod22.obj"
+output_obj_lod12 = "output/geof/G1_sedlova/model_lod12.obj"
+output_obj_lod13 = "output/geof/G1_sedlova/model_lod13.obj"
+r_plane_epsilon = 0.15
+r_plane_k = 10
+r_plane_min_points = 10
+r_normal_k = 5
+r_line_epsilon = 0.3
+r_optimisation_data_term = 9.0
+r_lod13_step_height = 2.5

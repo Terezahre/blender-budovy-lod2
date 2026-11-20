@@ -1,0 +1,11 @@
+{
+ "id": "G3_domek",
+ "geof_verts": 20,
+ "geof_faces": 36,
+ "geof_rmse": 0.774,
+ "geof_coverage": 0.967,
+ "geof_nonmanifold": 0,
+ "ours_rmse": null,
+ "ours_verts": null,
+ "ours_faces": null
+}

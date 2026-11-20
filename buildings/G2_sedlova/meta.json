@@ -1,0 +1,30 @@
+{
+ "id": "G2_sedlova",
+ "tile": [
+  3,
+  3
+ ],
+ "cluster": 470,
+ "profile": "COMPLEX_HIP",
+ "crs": "EPSG:5514",
+ "n_points": 300,
+ "n_ground": 21,
+ "density_pts_m2": 1.199,
+ "zstd": 1.864,
+ "zmin": 307.4,
+ "zmax": 313.56,
+ "ground_z_p5": 306.97,
+ "height_above_ground": 6.59,
+ "footprint_area_m2": 250.2,
+ "params": {
+  "plane_detect__epsilon": 0.15,
+  "plane_detect__min_points": 10,
+  "plane_detect__k": 10,
+  "normal_estimate__k": 5,
+  "line_detect__epsilon": 0.3,
+  "optimisation_data_term": 9.0,
+  "lod13__step_height": 2.5,
+  "max_arr_complexity": 800
+ },
+ "sparse": false
+}

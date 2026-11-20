@@ -41,4 +41,5 @@ Celkový přehled a výsledky.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
-| [Pilotní výsledky](pipeline/vysledky-pilot.md) | 4 budovy LOD2 PASS/REVIEW, B05 FAIL, otevřené body | 2026-11-20 |
+| [Pilotní výsledky](pipeline/vysledky-pilot.md) | 7 budov Geoflow LoD2.2 (4 ploché + 3 sedlové), verdikty | 2026-11-21 |
+| [Sedlovky ze scanu](pipeline/sedlovky.md) | Celomapový scan KRAV59 + Geoflow-only rozhodnutí | 2026-11-21 |

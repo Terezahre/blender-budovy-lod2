@@ -1,0 +1,11 @@
+{
+ "id": "G2_sedlova",
+ "geof_verts": 20,
+ "geof_faces": 36,
+ "geof_rmse": 1.52,
+ "geof_coverage": 0.971,
+ "geof_nonmanifold": 0,
+ "ours_rmse": null,
+ "ours_verts": null,
+ "ours_faces": null
+}

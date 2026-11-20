@@ -22,10 +22,10 @@ Interaktivní 3D prohlížeč výsledků: [viewer_3d.html](viewer_3d.html) (thre
 ## Stav (2026-11-21)
 
 - [x] Vstupní data ověřena (KRAV59, 939 311 bodů class 6)
-- [x] 5 pilotních budov vybráno + footprinty (GPKG S-JTSK) + per-building configy
-- [x] LOD2 rekonstrukce: B01/B02/B04 PASS, B03 REVIEW, B05 FAIL-skipped
+- [x] Celomapový scan: 286 kandidátů → 24 sedlovek → top 3 (G1, G2, G3)
+- [x] Finále = 7× Geoflow LoD2.2 v S-JTSK (B01–B04 ploché + G1–G3 sedlové); B05/B06 zamítnuty
+- [x] Vlastní cesta odstavena do output/ours/ (prototyp bez střešní struktury)
 - [x] PolyFit pipeline ověřen na toy_data; na pilotu SCIP vrací 0 (dokumentováno)
-- [x] Blender validace (manifold 0, normály OK) + finální OBJ v S-JTSK + rendery
-- [x] Wiki (8 článků) + agents.md
-- [x] Geoflow 0.3.6 nainstalováno + proběhnuto všech 5 budov (output/geof/, srovnání v compare.json)
-- [ ] B05: RUIAN footprinty / hustší data; šikmé střechy (Delaunay větev)
+- [x] Blender validace (manifold 0) + three.js prohlížeč (jen Geoflow)
+- [x] Wiki (9 článků) + agents.md + GitHub push
+- [ ] B05/B06: RUIAN footprinty / hustší data; valbové střechy

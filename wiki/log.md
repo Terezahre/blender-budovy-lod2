@@ -9,6 +9,12 @@
 - Disposition: New
 - 4 budovy × 2 cesty (naše/Geoflow), geometrie vložená v HTML, S-JTSK offset v UI
 
+## [2026-11-21] ingest | Celomapový scan sedlovek + Geoflow-only
+- Disposition: New; Update (vysledky-pilot.md)
+- Raw: raw/pipeline/2026-11-21-scan-sedlovky.md
+- Updated: wiki/pipeline/sedlovky.md
+- Finále = 7× Geoflow LoD2.2 (B01–B04, G1–G3); vlastní cesta odstavena do output/ours/
+
 ## [2026-11-20] ingest | Data KRAV59 + Geoflow + PolyFit + Blender + pilotní výsledky
 - Disposition: New
 - Raw: raw/laz-dmp1g/2026-11-20-krav59-dmp1g.md

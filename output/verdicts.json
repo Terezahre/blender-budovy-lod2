@@ -6,13 +6,13 @@
   "h": 3.41,
   "fp": 140.9,
   "profil": "SIMPLE_FLAT",
-  "rmse": 0.056410930754490454,
+  "rmse": 0.164,
   "rovin": 1,
   "typy": [
    "horizontal"
   ],
-  "verts": 18,
-  "faces": 20,
+  "verts": 32,
+  "faces": 60,
   "verdikt": "PASS"
  },
  "B02_gable": {
@@ -22,14 +22,14 @@
   "h": 9.11,
   "fp": 131.0,
   "profil": "STANDARD_GABLE",
-  "rmse": 0.21867860545695314,
+  "rmse": 0.46,
   "rovin": 2,
   "typy": [
    "horizontal",
    "horizontal"
   ],
   "verts": 16,
-  "faces": 18,
+  "faces": 28,
   "verdikt": "PASS"
  },
  "B03_row": {
@@ -39,13 +39,13 @@
   "h": 7.39,
   "fp": 124.1,
   "profil": "COMPLEX_HIP",
-  "rmse": 0.5924770926339525,
+  "rmse": 1.588,
   "rovin": 1,
   "typy": [
    "horizontal"
   ],
-  "verts": 16,
-  "faces": 18,
+  "verts": 18,
+  "faces": 32,
   "verdikt": "REVIEW"
  },
  "B04_panelak": {
@@ -55,13 +55,13 @@
   "h": 26.3,
   "fp": 523.6,
   "profil": "SIMPLE_FLAT",
-  "rmse": 0.043469553175775076,
+  "rmse": 0.042,
   "rovin": 1,
   "typy": [
    "horizontal"
   ],
-  "verts": 22,
-  "faces": 24,
+  "verts": 36,
+  "faces": 68,
   "verdikt": "PASS"
  },
  "B05_vez": {
@@ -71,7 +71,7 @@
   "h": 35.11,
   "fp": 296.7,
   "profil": "COMPLEX_HIP",
-  "rmse": 6.38277323084981,
+  "rmse": 8.57,
   "rovin": 2,
   "typy": [
    "horizontal",
@@ -80,5 +80,47 @@
   "verts": 84,
   "faces": 102,
   "verdikt": "FAIL-skipped"
+ },
+ "G1_sedlova": {
+  "n": 280,
+  "dens": 1.73,
+  "zstd": 3.348,
+  "h": 9.0,
+  "fp": 161.8,
+  "profil": "COMPLEX_HIP",
+  "rmse": 1.669,
+  "rovin": null,
+  "typy": "sedlova (geof LoD2.2)",
+  "verts": 26,
+  "faces": 48,
+  "verdikt": "PASS"
+ },
+ "G2_sedlova": {
+  "n": 300,
+  "dens": 1.199,
+  "zstd": 1.864,
+  "h": 6.59,
+  "fp": 250.2,
+  "profil": "COMPLEX_HIP",
+  "rmse": 1.52,
+  "rovin": null,
+  "typy": "sedlova (geof LoD2.2)",
+  "verts": 20,
+  "faces": 36,
+  "verdikt": "PASS"
+ },
+ "G3_domek": {
+  "n": 164,
+  "dens": 2.176,
+  "zstd": 1.726,
+  "h": 5.3,
+  "fp": 75.4,
+  "profil": "COMPLEX_HIP",
+  "rmse": 0.774,
+  "rovin": null,
+  "typy": "sedlova (geof LoD2.2)",
+  "verts": 20,
+  "faces": 36,
+  "verdikt": "PASS"
  }
 }

@@ -19,6 +19,7 @@ PILOT = [
     ("B03_row", 171, "COMPLEX_HIP"),
     ("B04_panelak", 59, "SIMPLE_FLAT"),  # vysoky panelovy blok, bimodalni hist: teren + strecha ~25 m
     ("B05_vez", 73, "COMPLEX_HIP"),  # vysoka/clenita struktura, horizontalni + stenove roviny
+    ("B06_sedlova", 164, "COMPLEX_HIP"),  # 17x9 m, velka SIKMA rovina (109 bodu) - sedlova strecha
 ]
 
 BUF = 5.0  # buffer kolem bbox pro ground body (urceni podlahy v Geoflow)

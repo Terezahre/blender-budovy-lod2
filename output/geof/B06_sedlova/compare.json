@@ -1,0 +1,11 @@
+{
+ "id": "B06_sedlova",
+ "geof_verts": 16,
+ "geof_faces": 28,
+ "geof_rmse": 2.683,
+ "geof_coverage": 0.881,
+ "geof_nonmanifold": 0,
+ "ours_rmse": null,
+ "ours_verts": null,
+ "ours_faces": null
+}

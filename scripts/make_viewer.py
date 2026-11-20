@@ -1,16 +1,19 @@
 # -*- coding: utf-8 -*-
-"""Three.js prohlizec vyslednych budov: geometrie OBJ vlozena primo do HTML
-(zadne fetch -> funguje dvojklikem z disku). Three.js + OrbitControls z CDN.
-Vystup: viewer_3d.html (koren projektu).
+"""Three.js prohlizec vyslednych budov (POUZE Geoflow LoD2.2):
+geometrie OBJ vlozena primo do HTML (zadne fetch -> funguje dvojklikem).
+Three.js + OrbitControls z CDN. Vystup: viewer_3d.html (koren projektu).
 """
 import json
 import numpy as np
 
 MODELS = [
-    ("B01_flat", "output/final/B01_flat_LOD2_SJTSK.obj", "output/geof/B01_flat/validated_SJTSK.obj"),
-    ("B02_gable", "output/final/B02_gable_LOD2_SJTSK.obj", "output/geof/B02_gable/validated_SJTSK.obj"),
-    ("B03_row", "output/final/B03_row_LOD2_SJTSK.obj", "output/geof/B03_row/validated_SJTSK.obj"),
-    ("B04_panelak", "output/final/B04_panelak_LOD2_SJTSK.obj", "output/geof/B04_panelak/validated_SJTSK.obj"),
+    ("B01_flat", "output/final/B01_flat_LOD2_SJTSK.obj"),
+    ("B02_gable", "output/final/B02_gable_LOD2_SJTSK.obj"),
+    ("B03_row", "output/final/B03_row_LOD2_SJTSK.obj"),
+    ("B04_panelak", "output/final/B04_panelak_LOD2_SJTSK.obj"),
+    ("G1_sedlova", "output/final/G1_sedlova_LOD2_SJTSK.obj"),
+    ("G2_sedlova", "output/final/G2_sedlova_LOD2_SJTSK.obj"),
+    ("G3_domek", "output/final/G3_domek_LOD2_SJTSK.obj"),
 ]
 
 
@@ -35,8 +38,8 @@ def load_obj_centered(path):
 
 
 data = {}
-for bid, ours, geof in MODELS:
-    data[bid] = {"ours": load_obj_centered(ours), "geof": load_obj_centered(geof)}
+for bid, final in MODELS:
+    data[bid] = load_obj_centered(final)
 
 html = """<!DOCTYPE html>
 <html lang="cs">
@@ -63,10 +66,9 @@ html = """<!DOCTYPE html>
 </head>
 <body>
 <div id="ui">
-  <h3>LOD2 budovy KRAV59 (S-JTSK)</h3>
+  <h3>LOD2.2 budovy KRAV59 — Geoflow (S-JTSK)</h3>
   <div id="models"></div>
   <div class="row">
-    <button id="bOurs" class="active">Naše cesta</button><button id="bGeof">Geoflow</button>
     <button id="bWire">Drátěný model</button><button id="bRot">Rotace</button>
   </div>
   <div id="info"></div>
@@ -85,7 +87,7 @@ const sun = new THREE.DirectionalLight(0xffffff, 2.2);
 sun.position.set(60, 90, -40); scene.add(sun);
 const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1, 5000);
 const controls = new OrbitControls(camera, renderer.domElement);
-let mesh = null, state = {id:'B01_flat', src:'ours', wire:false, rot:true};
+let mesh = null, state = {id:'G3_domek', wire:false, rot:true};
 
 function colorize(geo) {
   const n = geo.attributes.position.count, col = new Float32Array(n*3);
@@ -99,7 +101,7 @@ function colorize(geo) {
   geo.setAttribute('color', new THREE.BufferAttribute(col,3));
 }
 function show() {
-  const d = DATA[state.id][state.src];
+  const d = DATA[state.id];
   if (mesh) { scene.remove(mesh); mesh.geometry.dispose(); }
   const geo = new THREE.BufferGeometry();
   geo.setAttribute('position', new THREE.Float32BufferAttribute(d.pos.flat(),3));
@@ -113,7 +115,7 @@ function show() {
   controls.target.copy(c);
   camera.position.set(c.x+s*0.9, c.y+s*0.7, c.z-s*0.9);
   document.getElementById('info').innerHTML =
-    `<b>${state.id}</b> — ${state.src==='ours'?'naše cesta':'Geoflow'}<br>` +
+    `<b>${state.id}</b> — Geoflow LoD2.2<br>` +
     `vrcholy: ${d.nverts}, faces: ${d.nfaces}<br>` +
     `střed S-JTSK: ${d.offset.map(v=>v.toFixed(1)).join(', ')} (EPSG:5514)<br>` +
     `střecha cihlová / stěny béžové / podlaha šedá`;
@@ -124,12 +126,6 @@ Object.keys(DATA).forEach(id => {
   const b = document.createElement('button'); b.textContent = id; b.dataset.id = id;
   b.onclick = () => { state.id = id; show(); }; box.appendChild(b);
 });
-document.getElementById('bOurs').onclick = e => { state.src='ours'; syncSrc(); show(); };
-document.getElementById('bGeof').onclick = e => { state.src='geof'; syncSrc(); show(); };
-function syncSrc() {
-  document.getElementById('bOurs').classList.toggle('active', state.src==='ours');
-  document.getElementById('bGeof').classList.toggle('active', state.src==='geof');
-}
 document.getElementById('bWire').onclick = e => { state.wire=!state.wire;
   e.target.classList.toggle('active', state.wire); show(); };
 document.getElementById('bRot').onclick = e => { state.rot=!state.rot;
@@ -145,7 +141,7 @@ show();
 </body>
 </html>"""
 
-blob = json.dumps({k: {"ours": v["ours"], "geof": v["geof"]} for k, v in data.items()})
+blob = json.dumps(data)
 # prevedeni na JS-friendly: pos/idx jako vnorené listy
 html = html.replace("__DATA__", blob)
 open("viewer_3d.html", "w", encoding="utf-8").write(html)

@@ -7,7 +7,10 @@ import numpy as np
 import laspy
 from collections import Counter
 
-IDS = ["B01_flat", "B02_gable", "B03_row", "B04_panelak", "B05_vez"]
+import glob
+import os
+IDS = sorted(d for d in os.listdir("output/geof")
+             if os.path.exists(f"output/geof/{d}/model_lod22.obj"))
 
 
 def load_obj(path):
@@ -61,15 +64,19 @@ for bid in IDS:
             for e in ((t[0], t[1]), (t[1], t[2]), (t[2], t[0])):
                 ec[tuple(sorted(e))] += 1
     nm = sum(1 for c in ec.values() if c != 2)
-    rep = json.load(open(f"output/geoflow/{bid}/report.json", encoding="utf-8"))
+    try:
+        rep = json.load(open(f"output/geoflow/{bid}/report.json", encoding="utf-8"))
+        ours_rmse, ours_v, ours_f = round(rep["rmse_roof"], 3), rep["validation"]["n_verts"], rep["validation"]["n_faces"]
+    except FileNotFoundError:
+        ours_rmse, ours_v, ours_f = None, None, None
     out = dict(id=bid, geof_verts=int(len(V)), geof_faces=len(F),
                geof_rmse=round(rmse, 3),
                geof_coverage=round(float(covered.mean()), 3),
                geof_nonmanifold=int(nm),
-               ours_rmse=round(rep["rmse_roof"], 3),
-               ours_verts=rep["validation"]["n_verts"],
-               ours_faces=rep["validation"]["n_faces"])
+               ours_rmse=ours_rmse,
+               ours_verts=ours_v,
+               ours_faces=ours_f)
     json.dump(out, open(f"output/geof/{bid}/compare.json", "w", encoding="utf-8"),
               indent=1)
     print(f"[{bid}] geof rmse={rmse:.3f}m pokryti={covered.mean():.2f} "
-          f"nm={nm} | nase rmse={rep['rmse_roof']:.3f}m")
+          f"nm={nm} | nase rmse={ours_rmse}")
