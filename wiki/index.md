@@ -17,6 +17,7 @@ Rekonstrukce Geoflow a per-building parametry.
 |---------|---------|---------|
 | [Per-building profily](geoflow/profily-parametru.md) | SIMPLE_FLAT / STANDARD_GABLE / COMPLEX_HIP / SPARSE + aplikace na pilot | 2026-11-20 |
 | [Rekonstrukční postup](geoflow/rekonstrukce-postup.md) | RANSAC → DSM → stupně/heightfield → validátor + nástrahy | 2026-11-20 |
+| [Skutečný Geoflow běh](geoflow/skutecny-beh.md) | geof 0.3.6 na všech 5 budovách + srovnání RMSE s vlastní cestou | 2026-11-21 |
 
 ## polyfit
 

@@ -1,0 +1,11 @@
+{
+ "id": "B02_gable",
+ "geof_verts": 16,
+ "geof_faces": 28,
+ "geof_rmse": 0.46,
+ "geof_coverage": 0.978,
+ "geof_nonmanifold": 0,
+ "ours_rmse": 0.219,
+ "ours_verts": 16,
+ "ours_faces": 18
+}

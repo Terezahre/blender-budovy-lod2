@@ -1,5 +1,10 @@
 # Wiki Log
 
+## [2026-11-21] ingest | Skutečný Geoflow běh 0.3.6 + srovnání
+- Disposition: New
+- Raw: raw/geoflow/2026-11-21-geof-run.md
+- Updated: wiki/geoflow/skutecny-beh.md
+
 ## [2026-11-20] ingest | Data KRAV59 + Geoflow + PolyFit + Blender + pilotní výsledky
 - Disposition: New
 - Raw: raw/laz-dmp1g/2026-11-20-krav59-dmp1g.md

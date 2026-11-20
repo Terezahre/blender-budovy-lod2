@@ -1,0 +1,11 @@
+{
+ "id": "B05_vez",
+ "geof_verts": 20,
+ "geof_faces": 36,
+ "geof_rmse": 8.57,
+ "geof_coverage": 0.986,
+ "geof_nonmanifold": 0,
+ "ours_rmse": 6.383,
+ "ours_verts": 84,
+ "ours_faces": 102
+}

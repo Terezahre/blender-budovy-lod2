@@ -1,0 +1,11 @@
+{
+ "id": "B03_row",
+ "geof_verts": 18,
+ "geof_faces": 32,
+ "geof_rmse": 1.588,
+ "geof_coverage": 0.967,
+ "geof_nonmanifold": 0,
+ "ours_rmse": 0.592,
+ "ours_verts": 16,
+ "ours_faces": 18
+}

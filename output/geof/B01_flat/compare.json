@@ -1,0 +1,11 @@
+{
+ "id": "B01_flat",
+ "geof_verts": 32,
+ "geof_faces": 60,
+ "geof_rmse": 0.164,
+ "geof_coverage": 0.948,
+ "geof_nonmanifold": 0,
+ "ours_rmse": 0.056,
+ "ours_verts": 18,
+ "ours_faces": 20
+}

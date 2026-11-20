@@ -1,0 +1,11 @@
+{
+ "id": "B04_panelak",
+ "geof_verts": 36,
+ "geof_faces": 68,
+ "geof_rmse": 0.042,
+ "geof_coverage": 0.977,
+ "geof_nonmanifold": 0,
+ "ours_rmse": 0.043,
+ "ours_verts": 22,
+ "ours_faces": 24
+}

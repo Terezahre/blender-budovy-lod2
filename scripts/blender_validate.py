@@ -40,6 +40,8 @@ with open(IN_OBJ, encoding="utf-8") as fin, open(tmp, "w", encoding="utf-8") as 
             _, x, y, z = line.split()[:4]
             fout.write(f"v {float(x) - OFF[0]:.4f} {float(y) - OFF[1]:.4f} "
                        f"{float(z) - OFF[2]:.4f}\n")
+        elif line.startswith("mtllib") or line.startswith("usemtl"):
+            continue  # materialy Geofow .mtl se neprebiraji, dava se vlastni LOD2
         else:
             fout.write(line)
 bpy.ops.wm.obj_import(filepath=tmp)

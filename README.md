@@ -18,13 +18,13 @@ Pravidla a parametry: viz [agents.md](agents.md). Znalostní báze: [wiki/index.
 7. `blender --background --python scripts/blender_validate.py -- <in.obj> <out.obj>`.
 8. Wiki update + commit + push.
 
-## Stav (2026-11-20)
+## Stav (2026-11-21)
 
 - [x] Vstupní data ověřena (KRAV59, 939 311 bodů class 6)
 - [x] 5 pilotních budov vybráno + footprinty (GPKG S-JTSK) + per-building configy
 - [x] LOD2 rekonstrukce: B01/B02/B04 PASS, B03 REVIEW, B05 FAIL-skipped
 - [x] PolyFit pipeline ověřen na toy_data; na pilotu SCIP vrací 0 (dokumentováno)
 - [x] Blender validace (manifold 0, normály OK) + finální OBJ v S-JTSK + rendery
-- [x] Wiki (7 článků) + agents.md
-- [ ] Geoflow CLI nainstalováno (čeká na admin) → `lod22-reconstruct` s buildings/*/config.toml
+- [x] Wiki (8 článků) + agents.md
+- [x] Geoflow 0.3.6 nainstalováno + proběhnuto všech 5 budov (output/geof/, srovnání v compare.json)
 - [ ] B05: RUIAN footprinty / hustší data; šikmé střechy (Delaunay větev)
