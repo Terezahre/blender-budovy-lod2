@@ -1,0 +1,84 @@
+{
+ "B01_flat": {
+  "n": 211,
+  "dens": 1.497,
+  "zstd": 0.771,
+  "h": 3.41,
+  "fp": 140.9,
+  "profil": "SIMPLE_FLAT",
+  "rmse": 0.056410930754490454,
+  "rovin": 1,
+  "typy": [
+   "horizontal"
+  ],
+  "verts": 18,
+  "faces": 20,
+  "verdikt": "PASS"
+ },
+ "B02_gable": {
+  "n": 229,
+  "dens": 1.748,
+  "zstd": 2.21,
+  "h": 9.11,
+  "fp": 131.0,
+  "profil": "STANDARD_GABLE",
+  "rmse": 0.21867860545695314,
+  "rovin": 2,
+  "typy": [
+   "horizontal",
+   "horizontal"
+  ],
+  "verts": 16,
+  "faces": 18,
+  "verdikt": "PASS"
+ },
+ "B03_row": {
+  "n": 210,
+  "dens": 1.692,
+  "zstd": 2.525,
+  "h": 7.39,
+  "fp": 124.1,
+  "profil": "COMPLEX_HIP",
+  "rmse": 0.5924770926339525,
+  "rovin": 1,
+  "typy": [
+   "horizontal"
+  ],
+  "verts": 16,
+  "faces": 18,
+  "verdikt": "REVIEW"
+ },
+ "B04_panelak": {
+  "n": 750,
+  "dens": 1.432,
+  "zstd": 9.227,
+  "h": 26.3,
+  "fp": 523.6,
+  "profil": "SIMPLE_FLAT",
+  "rmse": 0.043469553175775076,
+  "rovin": 1,
+  "typy": [
+   "horizontal"
+  ],
+  "verts": 22,
+  "faces": 24,
+  "verdikt": "PASS"
+ },
+ "B05_vez": {
+  "n": 489,
+  "dens": 1.648,
+  "zstd": 11.111,
+  "h": 35.11,
+  "fp": 296.7,
+  "profil": "COMPLEX_HIP",
+  "rmse": 6.38277323084981,
+  "rovin": 2,
+  "typy": [
+   "horizontal",
+   "horizontal"
+  ],
+  "verts": 84,
+  "faces": 102,
+  "verdikt": "FAIL-skipped"
+ }
+}

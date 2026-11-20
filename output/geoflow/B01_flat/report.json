@@ -1,0 +1,29 @@
+{
+ "id": "B01_flat",
+ "profile": "SIMPLE_FLAT",
+ "crs": "EPSG:5514",
+ "n_roof_points": 154,
+ "n_planes": 1,
+ "plane_types": [
+  "horizontal"
+ ],
+ "rmse_roof": 0.056410930754490454,
+ "unsegmented": 1,
+ "validation": {
+  "n_verts": 18,
+  "n_faces": 20,
+  "degenerate": 0,
+  "zmin": 297.5,
+  "zmax": 300.56
+ },
+ "params": {
+  "plane_detect__epsilon": 0.25,
+  "plane_detect__min_points": 20,
+  "plane_detect__k": 15,
+  "normal_estimate__k": 8,
+  "line_detect__epsilon": 0.5,
+  "optimisation_data_term": 5.0,
+  "lod13__step_height": 3.0,
+  "max_arr_complexity": 400
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "id": "B05_vez",
+ "profile": "COMPLEX_HIP",
+ "crs": "EPSG:5514",
+ "n_roof_points": 352,
+ "n_planes": 2,
+ "plane_types": [
+  "horizontal",
+  "horizontal"
+ ],
+ "rmse_roof": 6.38277323084981,
+ "unsegmented": 5,
+ "validation": {
+  "n_verts": 84,
+  "n_faces": 102,
+  "degenerate": 0,
+  "zmin": 298.85,
+  "zmax": 333.78000000000003
+ },
+ "params": {
+  "plane_detect__epsilon": 0.15,
+  "plane_detect__min_points": 10,
+  "plane_detect__k": 10,
+  "normal_estimate__k": 5,
+  "line_detect__epsilon": 0.3,
+  "optimisation_data_term": 9.0,
+  "lod13__step_height": 2.5,
+  "max_arr_complexity": 800
+ }
+}

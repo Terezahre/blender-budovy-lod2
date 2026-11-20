@@ -1,0 +1,29 @@
+{
+ "id": "B03_row",
+ "profile": "COMPLEX_HIP",
+ "crs": "EPSG:5514",
+ "n_roof_points": 160,
+ "n_planes": 1,
+ "plane_types": [
+  "horizontal"
+ ],
+ "rmse_roof": 0.5924770926339525,
+ "unsegmented": 4,
+ "validation": {
+  "n_verts": 16,
+  "n_faces": 18,
+  "degenerate": 0,
+  "zmin": 297.92,
+  "zmax": 304.98
+ },
+ "params": {
+  "plane_detect__epsilon": 0.15,
+  "plane_detect__min_points": 10,
+  "plane_detect__k": 10,
+  "normal_estimate__k": 5,
+  "line_detect__epsilon": 0.3,
+  "optimisation_data_term": 9.0,
+  "lod13__step_height": 2.5,
+  "max_arr_complexity": 800
+ }
+}

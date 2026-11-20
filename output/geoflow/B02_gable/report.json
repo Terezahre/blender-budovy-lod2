@@ -1,0 +1,30 @@
+{
+ "id": "B02_gable",
+ "profile": "STANDARD_GABLE",
+ "crs": "EPSG:5514",
+ "n_roof_points": 169,
+ "n_planes": 2,
+ "plane_types": [
+  "horizontal",
+  "horizontal"
+ ],
+ "rmse_roof": 0.21867860545695314,
+ "unsegmented": 1,
+ "validation": {
+  "n_verts": 16,
+  "n_faces": 18,
+  "degenerate": 0,
+  "zmin": 297.17,
+  "zmax": 302.85
+ },
+ "params": {
+  "plane_detect__epsilon": 0.2,
+  "plane_detect__min_points": 15,
+  "plane_detect__k": 15,
+  "normal_estimate__k": 8,
+  "line_detect__epsilon": 0.4,
+  "optimisation_data_term": 7.0,
+  "lod13__step_height": 3.0,
+  "max_arr_complexity": 400
+ }
+}

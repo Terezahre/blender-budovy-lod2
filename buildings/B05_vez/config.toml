@@ -1,0 +1,14 @@
+# Geoflow config B05_vez — profil COMPLEX_HIP
+input_footprint = "buildings/B05_vez/footprint.gpkg"
+input_pointcloud = "buildings/B05_vez/body.las"
+output_obj_lod22 = "output/geoflow/B05_vez/model_lod22.obj"
+output_obj_lod12 = "output/geoflow/B05_vez/model_lod12.obj"
+output_cityjson = "output/geoflow/B05_vez/model.json"
+plane_detect__epsilon = 0.15
+plane_detect__min_points = 10
+plane_detect__k = 10
+normal_estimate__k = 5
+line_detect__epsilon = 0.3
+optimisation_data_term = 9.0
+lod13__step_height = 2.5
+max_arr_complexity = 800

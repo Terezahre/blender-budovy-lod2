@@ -1,0 +1,35 @@
+{
+ "id": "B03_row",
+ "cluster": 171,
+ "profile": "COMPLEX_HIP",
+ "crs": "EPSG:5514",
+ "n_points": 210,
+ "n_ground": 19,
+ "density_pts_m2": 1.692,
+ "zstd": 2.525,
+ "zmin": 297.87,
+ "zmax": 305.31,
+ "ground_z_p5": 297.92,
+ "height_above_ground": 7.39,
+ "footprint_area_m2": 124.1,
+ "bbox": [
+  -737834.44,
+  -1039144.12,
+  -737827.0,
+  -1039114.98
+ ],
+ "roofplane_guess": 6,
+ "sparse": false,
+ "polyfit_fallback": false,
+ "gpkg_ok": true,
+ "params": {
+  "plane_detect__epsilon": 0.15,
+  "plane_detect__min_points": 10,
+  "plane_detect__k": 10,
+  "normal_estimate__k": 5,
+  "line_detect__epsilon": 0.3,
+  "optimisation_data_term": 9.0,
+  "lod13__step_height": 2.5,
+  "max_arr_complexity": 800
+ }
+}

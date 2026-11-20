@@ -1,0 +1,35 @@
+{
+ "id": "B04_panelak",
+ "cluster": 59,
+ "profile": "SIMPLE_FLAT",
+ "crs": "EPSG:5514",
+ "n_points": 750,
+ "n_ground": 119,
+ "density_pts_m2": 1.432,
+ "zstd": 9.227,
+ "zmin": 297.28,
+ "zmax": 324.57,
+ "ground_z_p5": 298.27,
+ "height_above_ground": 26.3,
+ "footprint_area_m2": 523.6,
+ "bbox": [
+  -737943.25,
+  -1038918.98,
+  -737919.9,
+  -1038850.02
+ ],
+ "roofplane_guess": 6,
+ "sparse": false,
+ "polyfit_fallback": false,
+ "gpkg_ok": true,
+ "params": {
+  "plane_detect__epsilon": 0.25,
+  "plane_detect__min_points": 20,
+  "plane_detect__k": 15,
+  "normal_estimate__k": 8,
+  "line_detect__epsilon": 0.5,
+  "optimisation_data_term": 5.0,
+  "lod13__step_height": 3.0,
+  "max_arr_complexity": 400
+ }
+}

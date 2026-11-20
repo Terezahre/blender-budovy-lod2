@@ -1,0 +1,35 @@
+{
+ "id": "B05_vez",
+ "cluster": 73,
+ "profile": "COMPLEX_HIP",
+ "crs": "EPSG:5514",
+ "n_points": 489,
+ "n_ground": 39,
+ "density_pts_m2": 1.648,
+ "zstd": 11.111,
+ "zmin": 299.01,
+ "zmax": 333.96,
+ "ground_z_p5": 298.85,
+ "height_above_ground": 35.11,
+ "footprint_area_m2": 296.7,
+ "bbox": [
+  -737871.54,
+  -1038945.43,
+  -737858.64,
+  -1038904.65
+ ],
+ "roofplane_guess": 6,
+ "sparse": false,
+ "polyfit_fallback": false,
+ "gpkg_ok": true,
+ "params": {
+  "plane_detect__epsilon": 0.15,
+  "plane_detect__min_points": 10,
+  "plane_detect__k": 10,
+  "normal_estimate__k": 5,
+  "line_detect__epsilon": 0.3,
+  "optimisation_data_term": 9.0,
+  "lod13__step_height": 2.5,
+  "max_arr_complexity": 800
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "B01_flat",
+ "cluster": 1,
+ "profile": "SIMPLE_FLAT",
+ "crs": "EPSG:5514",
+ "n_points": 211,
+ "n_ground": 97,
+ "density_pts_m2": 1.497,
+ "zstd": 0.771,
+ "zmin": 297.19,
+ "zmax": 300.91,
+ "ground_z_p5": 297.5,
+ "height_above_ground": 3.41,
+ "footprint_area_m2": 140.9,
+ "bbox": [
+  -737767.17,
+  -1039062.29,
+  -737751.54,
+  -1039050.35
+ ],
+ "roofplane_guess": 1,
+ "sparse": false,
+ "polyfit_fallback": false,
+ "gpkg_ok": true,
+ "params": {
+  "plane_detect__epsilon": 0.25,
+  "plane_detect__min_points": 20,
+  "plane_detect__k": 15,
+  "normal_estimate__k": 8,
+  "line_detect__epsilon": 0.5,
+  "optimisation_data_term": 5.0,
+  "lod13__step_height": 3.0,
+  "max_arr_complexity": 400
+ }
+}

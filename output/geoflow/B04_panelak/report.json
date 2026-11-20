@@ -1,0 +1,29 @@
+{
+ "id": "B04_panelak",
+ "profile": "SIMPLE_FLAT",
+ "crs": "EPSG:5514",
+ "n_roof_points": 584,
+ "n_planes": 1,
+ "plane_types": [
+  "horizontal"
+ ],
+ "rmse_roof": 0.043469553175775076,
+ "unsegmented": 4,
+ "validation": {
+  "n_verts": 22,
+  "n_faces": 24,
+  "degenerate": 0,
+  "zmin": 298.27,
+  "zmax": 324.27
+ },
+ "params": {
+  "plane_detect__epsilon": 0.25,
+  "plane_detect__min_points": 20,
+  "plane_detect__k": 15,
+  "normal_estimate__k": 8,
+  "line_detect__epsilon": 0.5,
+  "optimisation_data_term": 5.0,
+  "lod13__step_height": 3.0,
+  "max_arr_complexity": 400
+ }
+}

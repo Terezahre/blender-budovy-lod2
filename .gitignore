@@ -1,0 +1,7 @@
+# .gitignore — Blender LOD2 projekt
+*.blend1
+__pycache__/
+*.pyc
+# upstream klony s historií a build stromy (~500 MB) — mimo git, viz README
+geoflow-bundle/
+PolyFit/
