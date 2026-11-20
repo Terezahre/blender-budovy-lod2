@@ -11,24 +11,28 @@ import os
 SRC = r"C:\Users\Tereza\geoflow-local\share\share\geoflow\gfc-brecon\single\reconstruct.json"
 DST = "flowcharts/krav59_lod22/reconstruct_objonly.json"
 
-DROP_NODES = {"CityJSONWriter", "OGRWriter-LoD11", "OGRWriter-LoD12",
+DROP_NODES = {"OGRWriter-LoD11", "OGRWriter-LoD12",
               "OGRWriter-LoD12-3D", "OGRWriter-LoD13", "OGRWriter-LoD13-3D",
               "OGRWriter-LoD22", "OGRWriter-LoD22-3D"}
-DROP_GLOBALS = {"output_cityjson", "output_cj_identifier", "output_cj_poc_address",
-                "output_cj_poc_contactName", "output_cj_poc_contactType",
-                "output_cj_poc_email", "output_cj_poc_phone", "output_cj_poc_type",
-                "output_cj_poc_website", "output_cj_referenceDate",
-                "output_cj_referenceSystem", "output_cj_title",
+DROP_GLOBALS = {"output_cj_identifier", "output_cj_poc_address",
+                "output_cj_poc_phone", "output_cj_title",
                 "output_ogr", "output_ogr_EPSG", "output_ogr_format",
                 "output_ogr_overwrite"}
+# parametry CityJSONWriter, ktere instalovany plugin nezna (overeno ve strings DLL)
+DROP_CJ_PARAMS = {"CRS", "meta_identifier", "meta_poc_address",
+                  "meta_poc_phone", "meta_title", "prettyPrint"}
 
 fc = json.load(open(SRC, encoding="utf-8"))
 fc["nodes"] = {n: d for n, d in fc["nodes"].items() if n not in DROP_NODES}
-# spojeni na smazane uzly pryc
+# spojeni na smazane uzly pryc + oprava CityJSONWriter parametru
 for n, d in fc["nodes"].items():
     conns = d.get("connections", {})
     for k in list(conns.keys()):
         conns[k] = [c for c in conns[k] if c[0] not in DROP_NODES]
+cj = fc["nodes"]["CityJSONWriter"]["parameters"]
+for p in DROP_CJ_PARAMS:
+    cj.pop(p, None)
+print("CityJSONWriter params:", sorted(cj.keys()))
 fc["globals"] = {k: v for k, v in fc["globals"].items() if k not in DROP_GLOBALS}
 
 os.makedirs(os.path.dirname(DST), exist_ok=True)
@@ -67,6 +71,8 @@ for bid in BIDS:
     lines.append(f'output_obj_lod22 = "output/geof/{bid}/model_lod22.obj"')
     lines.append(f'output_obj_lod12 = "output/geof/{bid}/model_lod12.obj"')
     lines.append(f'output_obj_lod13 = "output/geof/{bid}/model_lod13.obj"')
+    lines.append(f'output_cityjson = "output/geof/{bid}/model.json"')
+    lines.append('output_cj_referenceSystem = "http://www.opengis.net/def/crs/EPSG/0/5514"')
     for k, v in pr.items():
         lines.append(f"{k} = {v}")
     open(f"buildings/{bid}/geof.toml", "w", encoding="utf-8").write("\n".join(lines) + "\n")

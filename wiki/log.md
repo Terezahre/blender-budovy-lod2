@@ -15,6 +15,12 @@
 - Updated: wiki/pipeline/sedlovky.md
 - Finále = 7× Geoflow LoD2.2 (B01–B04, G1–G3); vlastní cesta odstavena do output/ours/
 
+## [2026-11-21] ingest | CityJSON výstup + Blender roundtrip
+- Disposition: New
+- Raw: raw/pipeline/2026-11-21-cityjson.md
+- Updated: wiki/pipeline/cityjson.md
+- Finále: 7× CityJSON 2.0 (EPSG:5514) + OBJ; run_cityjson.py pro všech 9 budov
+
 ## [2026-11-20] ingest | Data KRAV59 + Geoflow + PolyFit + Blender + pilotní výsledky
 - Disposition: New
 - Raw: raw/laz-dmp1g/2026-11-20-krav59-dmp1g.md

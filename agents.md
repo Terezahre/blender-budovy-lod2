@@ -17,6 +17,10 @@ Cíl: nedeformované 3D budovy v LOD2 z leteckého mračna ČÚZK DMP 1G, výstu
 6. `scripts/blender_validate.py` (headless Blender) — kontrola deformací, cleanup,
    validovaný model do `output/final/<ID>_LOD2_SJTSK.obj` + render.
    Souřadnice se NESMÍ posouvat ani škálovat — výstup zůstává v S-JTSK (EPSG:5514).
+   Most CityJSON→Blender: `cjio model.json lod_filter 2.2 export obj lod22.obj`
+   (vyžaduje `pip install cjio triangle`); vše najednou žene `scripts/run_cityjson.py`.
+7. Výstupní formát dodávky = CityJSON 2.0 (`output/final/<ID>_LOD2_SJTSK.json`,
+   CRS `http://www.opengis.net/def/crs/EPSG/0/5514`) + validovaný OBJ jako příloha.
 7. `scripts/make_viewer.py` → `viewer_3d.html` (three.js, jen Geoflow modely).
 8. Wiki — po každém kroku aktualizovat `wiki/` + `wiki/log.md` (viz Wiki pravidla).
 

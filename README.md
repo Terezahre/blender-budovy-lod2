@@ -27,5 +27,6 @@ Interaktivní 3D prohlížeč výsledků: [viewer_3d.html](viewer_3d.html) (thre
 - [x] Vlastní cesta odstavena do output/ours/ (prototyp bez střešní struktury)
 - [x] PolyFit pipeline ověřen na toy_data; na pilotu SCIP vrací 0 (dokumentováno)
 - [x] Blender validace (manifold 0) + three.js prohlížeč (jen Geoflow)
-- [x] Wiki (9 článků) + agents.md + GitHub push
+- [x] Wiki (10 článků) + agents.md + GitHub push
+- [x] CityJSON 2.0 jako výstupní formát (7× model.json EPSG:5514, cjio most do Blenderu)
 - [ ] B05/B06: RUIAN footprinty / hustší data; valbové střechy

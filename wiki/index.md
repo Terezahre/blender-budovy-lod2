@@ -43,3 +43,4 @@ Celkový přehled a výsledky.
 |---------|---------|---------|
 | [Pilotní výsledky](pipeline/vysledky-pilot.md) | 7 budov Geoflow LoD2.2 (4 ploché + 3 sedlové), verdikty | 2026-11-21 |
 | [Sedlovky ze scanu](pipeline/sedlovky.md) | Celomapový scan KRAV59 + Geoflow-only rozhodnutí | 2026-11-21 |
+| [CityJSON výstup](pipeline/cityjson.md) | CityJSON 2.0 formát + cjio most do Blenderu (roundtrip 1:1) | 2026-11-21 |

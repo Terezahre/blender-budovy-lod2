@@ -20,6 +20,46 @@
    "str",
    ""
   ],
+  "output_cityjson": [
+   "CityJSON output file",
+   "str",
+   "output/model.json"
+  ],
+  "output_cj_poc_contactName": [
+   "CityJSON metatdata poc_contactName. See https://www.cityjson.org/specs/1.1.1/#metadata",
+   "str",
+   ""
+  ],
+  "output_cj_poc_contactType": [
+   "CityJSON metatdata poc_contactType. See https://www.cityjson.org/specs/1.1.1/#metadata",
+   "str",
+   ""
+  ],
+  "output_cj_poc_email": [
+   "CityJSON metatdata poc_email. See https://www.cityjson.org/specs/1.1.1/#metadata",
+   "str",
+   ""
+  ],
+  "output_cj_poc_type": [
+   "CityJSON metatdata poc_type. See https://www.cityjson.org/specs/1.1.1/#metadata",
+   "str",
+   ""
+  ],
+  "output_cj_poc_website": [
+   "CityJSON metatdata poc_website. See https://www.cityjson.org/specs/1.1.1/#metadata",
+   "str",
+   ""
+  ],
+  "output_cj_referenceDate": [
+   "CityJSON metatdata referenceDate. See https://www.cityjson.org/specs/1.1.1/#metadata",
+   "str",
+   ""
+  ],
+  "output_cj_referenceSystem": [
+   "CityJSON metatdata referenceSystem. See https://www.cityjson.org/specs/1.1.1/#metadata",
+   "str",
+   ""
+  ],
   "output_obj_lod12": [
    "OBJ LoD12 output file",
    "str",
@@ -295,10 +335,30 @@
       "arrangement"
      ]
     ],
-    "global_elevation_50p": [],
-    "global_elevation_70p": [],
-    "global_elevation_max": [],
-    "global_elevation_min": []
+    "global_elevation_50p": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ],
+    "global_elevation_70p": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ],
+    "global_elevation_max": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ],
+    "global_elevation_min": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "arrangement": false,
@@ -667,9 +727,44 @@
     "BuildArrFromLines"
    ]
   },
+  "CityJSONWriter": {
+   "marked_inputs": {
+    "attributes": false,
+    "footprints": false,
+    "geometry_lod12": false,
+    "geometry_lod13": false,
+    "geometry_lod22": false,
+    "part_attributes": false
+   },
+   "parameters": {
+    "filepath": "{{output_cityjson}}",
+    "identifier_attribute": "{{building_identifier}}",
+    "meta_poc_contactName": "{{output_cj_poc_contactName}}",
+    "meta_poc_contactType": "{{output_cj_poc_contactType}}",
+    "meta_poc_emailAddress": "{{output_cj_poc_email}}",
+    "meta_poc_website": "{{output_cj_poc_website}}",
+    "meta_referenceDate": "{{output_cj_referenceDate}}",
+    "meta_referenceSystem": "{{output_cj_referenceSystem}}",
+    "only_output_renamed": false,
+    "output_attribute_names": {}
+   },
+   "position": [
+    4553.0,
+    444.0
+   ],
+   "type": [
+    "CoreIO",
+    "CityJSONWriter"
+   ]
+  },
   "DataCoverageCalc": {
    "connections": {
-    "data_coverage": []
+    "data_coverage": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "data_area": false,
@@ -963,6 +1058,10 @@
    "connections": {
     "faces": [
      [
+      "CityJSONWriter",
+      "geometry_lod12"
+     ],
+     [
       "PolygonTriangulator-LoD12",
       "polygons"
      ],
@@ -994,6 +1093,10 @@
    "connections": {
     "faces": [
      [
+      "CityJSONWriter",
+      "geometry_lod13"
+     ],
+     [
       "PolygonTriangulator-LoD13",
       "polygons"
      ],
@@ -1024,6 +1127,10 @@
   "FacesSelector-LoD22": {
    "connections": {
     "faces": [
+     [
+      "CityJSONWriter",
+      "geometry_lod22"
+     ],
      [
       "PolygonTriangulator-LoD22",
       "polygons"
@@ -1066,6 +1173,10 @@
      [
       "ArrExtruder-LoD22",
       "floor_elevation"
+     ],
+     [
+      "CityJSONWriter",
+      "attributes"
      ],
      [
       "LOD1Extruder-LoD11",
@@ -1244,6 +1355,10 @@
       "attributes"
      ],
      [
+      "CityJSONWriter",
+      "attributes"
+     ],
+     [
       "OBJVecWriter-LoD12",
       "attributes"
      ],
@@ -1379,7 +1494,12 @@
   },
   "PC2MeshQuality-LoD12": {
    "connections": {
-    "mesh_error_f": []
+    "mesh_error_f": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "face_ids": false,
@@ -1406,7 +1526,12 @@
   },
   "PC2MeshQuality-LoD13": {
    "connections": {
-    "mesh_error_f": []
+    "mesh_error_f": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "face_ids": false,
@@ -1433,7 +1558,12 @@
   },
   "PC2MeshQuality-LoD22": {
    "connections": {
-    "mesh_error_f": []
+    "mesh_error_f": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "face_ids": false,
@@ -1557,6 +1687,10 @@
   "PolygonSimplifyGEOS": {
    "connections": {
     "simplified_polygons": [
+     [
+      "CityJSONWriter",
+      "footprints"
+     ],
      [
       "LASInPolygons",
       "polygons"
@@ -1942,7 +2076,12 @@
   },
   "Validator-LoD12": {
    "connections": {
-    "errors": []
+    "errors": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "input_geom": false
@@ -1968,7 +2107,12 @@
   },
   "Validator-LoD13": {
    "connections": {
-    "errors": []
+    "errors": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "input_geom": false
@@ -1994,7 +2138,12 @@
   },
   "Validator-LoD22": {
    "connections": {
-    "errors": []
+    "errors": [
+     [
+      "CityJSONWriter",
+      "attributes"
+     ]
+    ]
    },
    "marked_inputs": {
     "input_geom": false
