@@ -1,0 +1,8 @@
+{
+ "profile": "COMPLEX_HIP",
+ "rmse": 3.231,
+ "coverage": 1.0,
+ "nonmanifold": 0,
+ "verts": 340,
+ "faces": 676
+}

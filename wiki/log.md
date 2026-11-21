@@ -148,3 +148,9 @@
 ## [2026-11-22] ml | Overena hypoteza vrstveni LOD1/LOD2: vyvracena
 - B02 OBJ: jeden objekt, zadne grupy; LOD12 = cisty 2-vyskovy blok (297.18/302.89), LOD22 = ploska + 17cm 'sum' (302.75-302.92), zadny hreben. Funkcne LOD1, zadne vrstveni.
 - Zaver auditu tim sili: aranzma bez hrebenove linie = 1 bunka + sum vyskoveho pole.
+
+## [2026-11-22] ml+PL | Varssky pilot komplet: Geoflow LOD2 + decimace + three.js viewer
+- LAZ 12 pts/m2 (5.6M bodu) + GUGiK LoD2 (139k budov, CC BY 4.0); parovani pres WFS skorowidz (scripts/pair_warszawa.py).
+- Testovaci budova 1030: 9018 bodu -> Geoflow COMPLEX_HIP -> 340v/676f, 4 stresni roviny, RMSE 3.23 m, nm=0. Prvni skutecne LOD2 z pipeline.
+- Decimace (scripts/blender_simplify.py, headless): 676 -> 140 tri (-79 %), manifold 0, planar dissolve 0.5deg + kolaps.
+- viewer_pl.html: GT_LoD2 (48 tri) / GEOFLOW (676) / SIMPLE (140) k prepinani, EPSG:2180.
