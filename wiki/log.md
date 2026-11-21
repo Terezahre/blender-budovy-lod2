@@ -108,3 +108,10 @@
 - purity==1.0 (N=386): 0.497/0.487, ale gable recall 0.55->0.31 - cisty subset meni skladbu trid, neni to ciste vitezstvi.
 - Zaver: sum v labely vysvetluje cast, ne strop. Samotna uloha '1 typ na budovu' je sporna (58 % budov smisenych).
 - Pivot: regresni hlava (okap MAE 1.2 m) -> ml/predict_params.py doporucuje Geoflow profil+toml. Pretrenovani modelu na Brno GT bezi (ulozene gb_*.pkl).
+
+## [2026-11-22] ml | Hybrid DOKONCEN: predict_params + ferovy holdout (Brno, ne KRAV59)
+- Holdout SV kvadrant (train 627 / test 287): acc 0.467, MAE vysky 4.86 m (median 13 m).
+- Klicove srovnani: rucni prahy zstd z agents.md na BRNO DSM daji 0.325 (vse hazi hip) - neprenasi se mezi senzory. ML 0.467 = +14 p.b. bez rucni kalibrace.
+- KRAV59 pouzito jen jako smoke test pruchodnosti (out-of-domain senzor+mesto, bez naroku na presnost).
+- ml/predict_params.py: patch -> profil + geof.toml hodnoty (okap deterministicky z DSM, bez ML identity). Demo: 12400478532927488 -> COMPLEX_HIP (GT hip OK), vyska 20.2 vs 17.5 m.
+- Limity (poctive): acc 0.47 nestaci na slepe rizeni Geoflow; pouzivat jako DOPORUCENI + vzdy Blender validace. Hreben MAE 4.9 m.

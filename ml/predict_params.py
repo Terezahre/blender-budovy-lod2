@@ -47,20 +47,23 @@ def main():
     ap.add_argument("--models", default="ml")
     a = ap.parse_args()
     X = featurize(a.patch)
+    d = np.load(a.patch)
     roof = pickle.load(open(os.path.join(a.models, "gb_roof.pkl"), "rb"))
     ridge = pickle.load(open(os.path.join(a.models, "gb_ridge.pkl"), "rb"))
-    eave = pickle.load(open(os.path.join(a.models, "gb_eave.pkl"), "rb"))
     t = int(roof["model"].predict(X)[0])
     h_ridge = float(ridge["model"].predict(X)[0])
-    h_eave = float(eave["model"].predict(X)[0])
+    # okap: deterministicky percentil z DSM (bez ML - model by se ucil identitu)
+    h_eave = float(np.nanpercentile(
+        np.where(np.asarray(d["valid_mask"]).astype(bool),
+                 np.asarray(d["ndsm"]), np.nan), 10))
     profile = LABELS[t]
     params = dict(PROFILE_PARAMS[profile])
     # vyska hrebene zpresnuje step_height: nizke budovy mensi krok
     if h_ridge < 6:
         params["lod13__step_height"] = 2.5
     print(f"patch: {a.patch}")
-    print(f"predikce: typ={t} ({LABELS[t]}) h_rebene={h_ridge:.1f} m h_okap={h_eave:.1f} m "
-          f"(okap MAE~1.2 m, hreben MAE~5.6 m - brat s rezervou)")
+    print(f"predikce: typ={t} ({LABELS[t]}) vyska_budovy={h_ridge:.1f} m okap_DSM={h_eave:.1f} m")
+    print("(holdout: acc typu 0.47, MAE vysky 4.9 m, okap z DSM percentilu - brat s rezervou)")
     print(f"profil: {profile}")
     for k, v in params.items():
         print(f"  {k} = {v}")
