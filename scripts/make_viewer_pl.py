@@ -15,7 +15,6 @@ GMLID = "{http://www.opengis.net/gml}id"
 OUR = f"output/pl_geof/{FID}/model_lod22.obj"
 SIMPLE = f"output/pl_geof/{FID}/model_simple.obj"
 ULTRA = f"output/pl_geof/{FID}/model_light24.obj"
-SMART = f"output/pl_geof/{FID}/model_smart.obj"
 OUT = "viewer_pl.html"
 
 
@@ -119,8 +118,8 @@ sun.position.set(60, 90, -40); scene.add(sun);
 const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1, 5000);
 const controls = new OrbitControls(camera, renderer.domElement);
 let mesh = null, state = {id:'GEOFLOW', wire:false, rot:true};
-const NAMES = {'GT_LoD2':'GUGiK LoD2 GT (48 tri)', 'GEOFLOW':'nas Geoflow (676 tri)', 'SIMPLE':'zjednoduseny (140 tri)', 'ULTRA':'ultralehky (24 tri)', 'SMART':'chytry s vikyri (26 tri)'};
-const COLORS = {'GT_LoD2':0xb0603c, 'GEOFLOW':0x4d7fb0, 'SIMPLE':0x4da06a, 'ULTRA':0x9a6ac8, 'SMART':0xd4a017};
+const NAMES = {'GT_LoD2':'GUGiK LoD2 GT (48 tri)', 'GEOFLOW':'nas Geoflow (676 tri)', 'SIMPLE':'planar 140 tri', 'ULTRA':'nejlehci cely (24 tri)'};
+const COLORS = {'GT_LoD2':0xb0603c, 'GEOFLOW':0x4d7fb0, 'SIMPLE':0x4da06a, 'ULTRA':0x9a6ac8};
 function show() {
   const d = DATA[state.id];
   if (mesh) { scene.remove(mesh); mesh.geometry.dispose(); }
@@ -165,8 +164,7 @@ show();
 
 def main():
     data = {"GT_LoD2": load_gt(), "GEOFLOW": load_obj_centered(OUR),
-            "SIMPLE": load_obj_centered(SIMPLE), "ULTRA": load_obj_centered(ULTRA),
-            "SMART": load_obj_centered(SMART)}
+            "SIMPLE": load_obj_centered(SIMPLE), "ULTRA": load_obj_centered(ULTRA)}
     html = HTML.replace("__DATA__", json.dumps(data))
     open(OUT, "w", encoding="utf-8").write(html)
     print(f"-> {OUT} ({os.path.getsize(OUT)//1024} KB)")
