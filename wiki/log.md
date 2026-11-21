@@ -163,3 +163,7 @@
 ## [2026-11-22] PL | Ortofoto Varsavy + pozor na poradi os EPSG:2180
 - GUGiK ORTO WMS (StandardResolution, layer Raster) chodi pres curl.exe; WMS 1.3.0 vyzaduje BBOX v poradi os (Y,X) vuci LAZ (prvni dotaz vratil les).
 - render/warszawa_orto.jpg: budova potvrzena vizualne.
+
+## [2026-11-22] PL | Overen preklop ortofoto-GT-LiDAR (mapovani C)
+- GUGiK ORTO WMS vraci snimek severem DOLU (radek 0 = jih); spravne mapovani: u=vychod, v=sever odspodu (varianta C ze 4 testu).
+- GT footprint sedi na budove v ortofotu (potvrzeno vizualne). Pripraveno pro korekci vikýru.
