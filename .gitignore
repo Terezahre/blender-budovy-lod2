@@ -2,6 +2,13 @@
 *.blend1
 __pycache__/
 *.pyc
-# upstream klony s historií a build stromy (~500 MB) — mimo git, viz README
+# upstream klony s historii a build stromy (~500 MB) — mimo git, viz README
 geoflow-bundle/
 PolyFit/
+# ML generovana/vstupni data (stahuji se skripty, ne verzovat):
+ml/data_brno/dsm/
+ml/data_brno/laz/
+ml/data_brno/brno_lod2/
+ml/patches/
+ml/patches_brno/
+ml/*.pkl

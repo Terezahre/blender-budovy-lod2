@@ -1,0 +1,8 @@
+# ML CPU pozadavky (studentske PC, bez GPU) - instaluj jen co chybi:
+# pip install -r ml/requirements-ml.txt
+# jiz v prostredi: numpy, laspy, scikit-learn, scipy, shapely, geopandas
+scikit-learn>=1.3
+tifffile>=2024.0  # cteni DSM/DTM TIFF (Brno ImageServer) pro make_patches_brno.py
+# pozdeji pro maly U-Net na CPU (volitelne, az po baseline):
+# torch --index-url https://download.pytorch.org/whl/cpu
+# onnxruntime

@@ -52,3 +52,19 @@
 - Updated: wiki/polyfit/fallback.md
 - Updated: wiki/blender/validace.md
 - Updated: wiki/pipeline/vysledky-pilot.md
+
+## [2026-11-22] ml | Pilot trenovani: Brno + raster-U-Net cesta (CPU)
+- Disposition: New
+- Rozhodnuto: hybrid (sit jen parametry/segmentace, geometrie dal Geoflow+Blender), raster 0.5m patche, lokalni CPU (i5/21GB, bez NVIDIA).
+- Pripraveno: scripts/fetch_brno.py (Brno-stred bbox, 991 ZABAGED budov stazeno do ml/data_brno/), ml/make_patches.py (12 patchu z KRAV59 -> ml/patches/), ml/baseline_sklearn.py (RandomForest LOO presnost 0.50 na 12 vzorcich, nejdulezitejsi zstd+height).
+- GT: Brno LOD2 (TopGis, data.brno.cz) + DMP1G LAZ (atom.cuzk.cz) se stahuji rucne po 1 dlazdici (FETCH_LOG.md); label z LOD2 nahradi heuristiku zstd.
+- Next: rucni stazeni 1-2 DMP dlazdic + Brno LOD2 SHP, pak U-Net s RUIAN (krok 2), pak bez RUIAN (krok 3).
+
+## [2026-11-22] ml | Brno pilot: DSM stazeno, 957 patchu, domain-gap nalezen
+- Disposition: New
+- DSM/DTM Brno 2x2 km (OMI ImageServer DMP2025/DMT2019, 8x TIFF 2000x2000 F32, ~134 MB, CC BY) -> ml/data_brno/dsm/ (gitignored).
+- ml/make_patches_brno.py: 957 nDSM patchu s footprint-maskou (interior semantika = KRAV59 body.las); vyska median 16.7 m, max 57.6 m.
+- Nalez: prahy zstd 1.2/2.5 z agents.md (kalibrovane na ridke DMP1G body) neplati pro husty DSM (median zstd 3.65) -> heuristika rika 570x hip, model z KRAV59 rika 697x gable. Prahy jsou sensor-dependent.
+- Trenink s GT: ml/train_raster.py --labels ml/gt_krav59.json (8 vzorku, 7:1 gable) LOO 7/8 trivialne; MAE ridge 3.83 m (outlier panelak), eave 0.31 m. Ceka na Brno GT.
+- SceneServer query vraci prazdne (overeno GET+POST); pudorys FeatureServer = interiery, ne GT. GT cesta = rucni Polygon-Z SHP (ml/pair_brno.py --mode brno pripraven, schema STRECHA_KOD overeno).
+- Dalsi: rucni download Polygon-Z SHP Brno-stred -> ml/gt_brno.json -> retrain na stovkach vzorku.

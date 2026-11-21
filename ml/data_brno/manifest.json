@@ -1,0 +1,18 @@
+{
+ "bbox_sjtsk": [
+  -598500.0,
+  -1161500.0,
+  -596500.0,
+  -1159500.0
+ ],
+ "crs": "EPSG:5514",
+ "zabaged_count": 991,
+ "brno_lod2_hub": "https://data.brno.cz/maps/dc95041d63e44e129ba0d9258a1dddb4/about",
+ "brno_lod2_app": "https://webmaps.kambrno.cz/3d-model",
+ "dmp1g_atom": "https://atom.cuzk.cz/",
+ "next_steps": [
+  "1) Stahni Brno LOD2 (SHP, S-JTSK) z data.brno.cz do ml/data_brno/brno_lod2/ (rucne, velke).",
+  "2) Na atom.cuzk.cz vyhledej DMP1G-LAZ-SJTSK dlazdice pro vyse uvedeny bbox, stahni 1-2 .laz do ml/data_brno/laz/.",
+  "3) Spust: python ml/make_patches.py --src ml/data_brno (az budou LAZ+LOD2) nebo hned: python ml/make_patches.py --src buildings (KRAV59 pilot)."
+ ]
+}
