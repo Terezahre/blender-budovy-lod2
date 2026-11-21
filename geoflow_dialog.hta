@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Geoflow LoD2.2 — vstup / výstup (S-JTSK EPSG:5514)</title>
+<HTA:APPLICATION ID="geofdlg" APPLICATIONNAME="Geoflow LoD2.2 KRAV59"
+  BORDER="dialog" CAPTION="yes" SHOWINTASKBAR="yes" SINGLEINSTANCE="yes"
+  SYSMENU="yes" WINDOWSTATE="normal" SCROLL="no" />
+<style>
+  body { font-family: "Segoe UI", sans-serif; font-size: 13px; margin: 14px;
+         background: #f0f0f0; }
+  h2 { margin: 0 0 10px; font-size: 16px; }
+  label { display: block; margin-top: 10px; font-weight: bold; }
+  .row { display: flex; gap: 6px; margin-top: 4px; }
+  input[type=text] { flex: 1; padding: 5px; }
+  button { padding: 5px 12px; cursor: pointer; }
+  #runBtn { margin-top: 14px; font-size: 14px; font-weight: bold;
+            background: #e08a5a; border: 1px solid #999; width: 100%;
+            padding: 8px; }
+  #log { width: 100%; height: 180px; margin-top: 10px; font-family: Consolas,
+         monospace; font-size: 11px; }
+  select, .idbox { padding: 5px; margin-top: 4px; width: 100%; }
+  .hint { color: #555; font-size: 11px; }
+</style>
+<script language="JScript">
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var sh = new ActiveXObject("WScript.Shell");
+var GEOF = "C:\\Users\\Tereza\\geoflow-local\\geof.exe";
+var PROFILES = {
+  "SIMPLE_FLAT":    {eps: 0.25, k: 15, minpts: 20, nk: 8, le: 0.5, data: 5.0,  step: 3.0},
+  "STANDARD_GABLE": {eps: 0.20, k: 15, minpts: 15, nk: 8, le: 0.4, data: 7.0,  step: 3.0},
+  "COMPLEX_HIP":    {eps: 0.15, k: 10, minpts: 10, nk: 5, le: 0.3, data: 9.0,  step: 2.5},
+  "DETAIL_GABLE":   {eps: 0.10, k: 8,  minpts: 8,  nk: 5, le: 0.3, data: 15.0, step: 2.5}
+};
+
+function $(id) { return document.getElementById(id); }
+
+function pickFile(target, accept) {
+  var dlg = $(accept);
+  dlg.click();
+  var iv = window.setInterval(function () {
+    if (dlg.value) { $(target).value = dlg.value; window.clearInterval(iv); }
+  }, 200);
+}
+
+function pickFolder(target) {
+  var app = new ActiveXObject("Shell.Application");
+  var fld = app.BrowseForFolder(0, "Vyber výstupní složku", 0x0011, 0);
+  if (fld) { $(target).value = fld.Self.Path; }
+}
+
+function q(s) { return '"' + s + '"'; }
+
+function runGeof() {
+  var las = $("inLas").value, gpkg = $("inFoot").value,
+      out = $("outDir").value, bid = $("bid").value || "BUDOVA1",
+      prof = $("profile").value, P = PROFILES[prof];
+  if (!las || !gpkg || !out) {
+    alert("Vyplň vstupní mračno, footprint i výstupní složku.");
+    return;
+  }
+  if (!fso.FolderExists(out)) { fso.CreateFolder(out); }
+  var bdir = out + "\\" + bid;
+  if (!fso.FolderExists(bdir)) { fso.CreateFolder(bdir); }
+
+  // TOML s per-building r_* parametry (stejné mapování jako scripts/make_geoflow_local.py)
+  var toml = "# " + bid + " — profil " + prof + " (dialog)\r\n"
+    + "input_footprint = " + q(gpkg) + "\r\n"
+    + "input_pointcloud = " + q(las) + "\r\n"
+    + "building_identifier = \"id\"\r\n"
+    + "input_footprint_select_sql = \"\"\r\n"
+    + "output_obj_lod22 = " + q(bdir + "\\model_lod22.obj") + "\r\n"
+    + "output_obj_lod12 = " + q(bdir + "\\model_lod12.obj") + "\r\n"
+    + "output_obj_lod13 = " + q(bdir + "\\model_lod13.obj") + "\r\n"
+    + "output_cityjson = " + q(bdir + "\\model.json") + "\r\n"
+    + "output_cj_referenceSystem = \"http://www.opengis.net/def/crs/EPSG/0/5514\"\r\n"
+    + "r_plane_epsilon = " + P.eps + "\r\n"
+    + "r_plane_k = " + P.k + "\r\n"
+    + "r_plane_min_points = " + P.minpts + "\r\n"
+    + "r_normal_k = " + P.nk + "\r\n"
+    + "r_line_epsilon = " + P.le + "\r\n"
+    + "r_optimisation_data_term = " + P.data + "\r\n"
+    + "r_lod13_step_height = " + P.step + "\r\n";
+  var tomlPath = bdir + "\\geof.toml";
+  var f = fso.CreateTextFile(tomlPath, true);
+  f.Write(toml); f.Close();
+
+  var fc = (prof === "DETAIL_GABLE")
+    ? "flowcharts\\krav59_lod22\\reconstruct_detail.json"
+    : "flowcharts\\krav59_lod22\\reconstruct_objonly.json";
+  var cmd = "cmd /c " + q(GEOF) + " " + q(fc) + " --config " + q(tomlPath);
+  $("log").value = ">>> " + cmd + "\r\n";
+  $("runBtn").disabled = true;
+  var ex = sh.Exec(cmd);
+  var timer = window.setInterval(function () {
+    try {
+      if (!ex.StdOut.AtEndOfStream) {
+        $("log").value += ex.StdOut.ReadAll();
+        $("log").scrollTop = $("log").scrollHeight;
+      }
+    } catch (e) {}
+    if (ex.Status !== 0) {
+      window.clearInterval(timer);
+      try { $("log").value += ex.StdErr.ReadAll(); } catch (e2) {}
+      $("log").value += "\r\n[hotovo, exit=" + ex.ExitCode + "] výstup: " + bdir + "\r\n";
+      $("runBtn").disabled = false;
+    }
+  }, 300);
+}
+</script>
+</head>
+<body>
+<h2>Geoflow LoD2.2 — KRAV59 (S-JTSK)</h2>
+
+<label>1) Vstupní mračno (LAS / LAZ, class 6 + 2)</label>
+<div class="row">
+  <input type="text" id="inLas" placeholder="C:\...\body.las">
+  <button onclick="pickFile('inLas','fileLas')">Procházet…</button>
+</div>
+
+<label>2) Vstupní footprint (GPKG, 1 budova)</label>
+<div class="row">
+  <input type="text" id="inFoot" placeholder="C:\...\footprint.gpkg">
+  <button onclick="pickFile('inFoot','fileFoot')">Procházet…</button>
+</div>
+
+<label>3) Výstupní složka (uložení model.json + OBJ)</label>
+<div class="row">
+  <input type="text" id="outDir" placeholder="C:\...\output\geof">
+  <button onclick="pickFolder('outDir')">Procházet…</button>
+</div>
+
+<label>ID budovy</label>
+<input type="text" id="bid" class="idbox" value="BUDOVA1">
+
+<label>Profil parametrů (dle agents.md)</label>
+<select id="profile">
+  <option value="SIMPLE_FLAT">SIMPLE_FLAT — plochá (eps 0.25, data 5)</option>
+  <option value="STANDARD_GABLE">STANDARD_GABLE — sedlová (eps 0.20, data 7)</option>
+  <option value="COMPLEX_HIP" selected>COMPLEX_HIP — členitá (eps 0.15, data 9)</option>
+  <option value="DETAIL_GABLE">DETAIL_GABLE — ověřené sedlo (eps 0.10, data 15)</option>
+</select>
+
+<button id="runBtn" onclick="runGeof()">Spustit Geoflow</button>
+<textarea id="log" readonly></textarea>
+<p class="hint">Výstup: model.json (CityJSON 2.0, EPSG:5514) + model_lod12/13/22.obj do
+&lt;výstup&gt;\&lt;ID&gt;\. Detail sítě viz wiki.</p>
+
+<input type="file" id="fileLas" accept=".las,.laz" style="display:none">
+<input type="file" id="fileFoot" accept=".gpkg" style="display:none">
+</body>
+</html>

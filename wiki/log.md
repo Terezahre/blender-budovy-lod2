@@ -7,7 +7,11 @@
 
 ## [2026-11-21] build | Three.js prohlížeč viewer_3d.html
 - Disposition: New
-- 4 budovy × 2 cesty (naše/Geoflow), geometrie vložená v HTML, S-JTSK offset v UI
+- 7 budov Geoflow LoD2.2, geometrie vložená v HTML, S-JTSK offset v UI (2026-11-21: jen Geoflow, bez přepínače cest)
+
+## [2026-11-21] build | Geoflow dialog (.bat + HTA JavaScript)
+- Disposition: New
+- geoflow_dialog.bat + geoflow_dialog.hta: vstup (LAS/GPKG), výstup (složka), ID, profil; TOML + geof + log
 
 ## [2026-11-21] ingest | Celomapový scan sedlovek + Geoflow-only
 - Disposition: New; Update (vysledky-pilot.md)

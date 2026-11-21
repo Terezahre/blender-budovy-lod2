@@ -5,7 +5,8 @@ Vstup: `KRAV59_DMP1G/KRAV59.laz` (1 669 893 bodů, class 6 = budovy).
 Výstup: `output/final/<ID>_LOD2_SJTSK.obj` + `*.meta.json` (`crs: EPSG:5514`).
 
 Pravidla a parametry: viz [agents.md](agents.md). Znalostní báze: [wiki/index.md](wiki/index.md).
-Interaktivní 3D prohlížeč výsledků: [viewer_3d.html](viewer_3d.html) (three.js, přepínání budov + naše/Geoflow cesta, dvojklik z disku).
+Interaktivní 3D prohlížeč výsledků: [viewer_3d.html](viewer_3d.html) (three.js, dvojklik z disku).
+Dialogové spouštění Geoflow: [geoflow_dialog.bat](geoflow_dialog.bat) + [geoflow_dialog.hta](geoflow_dialog.hta) (JavaScript dialog: vstupní mračno + výstupní složka + profil).
 
 ## Rychlý start
 
