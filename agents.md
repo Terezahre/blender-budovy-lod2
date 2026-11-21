@@ -80,6 +80,7 @@ normal k, line epsilon, **data term (složitost/detail)**, step height,
 ## Git / GitHub
 
 - Branch `master`, repo `Terezahre/blender-budovy-lod2` (případně dle `gh repo list`).
+- POVINNÉ: vše se vždy a okamžitě tlačí do main na GitHub — po každé změně (kód, wiki, data-okamžitě `git add` + `commit` + `git push origin master/main`). Žádné odkládání pushů, žádné lokální hromadění commitů.
 - Malé, časté commity v češtině: `feat: ...`, `data: ...`, `wiki: ...`, `fix: ...`.
 - Nepushovat bez kontroly `git status`. Velké binárky (>50 MB) patří do Release, ne do gitu.
 - `Geoflow-*-win64.exe` (instalátor) a `KRAV59.zip` se verzují 1× a dál nemění.
