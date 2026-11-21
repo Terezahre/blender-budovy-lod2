@@ -154,3 +154,8 @@
 - Testovaci budova 1030: 9018 bodu -> Geoflow COMPLEX_HIP -> 340v/676f, 4 stresni roviny, RMSE 3.23 m, nm=0. Prvni skutecne LOD2 z pipeline.
 - Decimace (scripts/blender_simplify.py, headless): 676 -> 140 tri (-79 %), manifold 0, planar dissolve 0.5deg + kolaps.
 - viewer_pl.html: GT_LoD2 (48 tri) / GEOFLOW (676) / SIMPLE (140) k prepinani, EPSG:2180.
+
+## [2026-11-22] ml | Decimace s 5cm branou: planar 140 tri je konecna
+- Hausdorff gate (symetricky, numpy): uz ratio 0.8 hybe o 60 cm -> zadny kolaps neprojde 5 cm. Planar dissolve = konecna pri 5 cm.
+- Zjisteni: smart/ultralehke verze ztratily zdi (smart: jen strecha 119-129 m, Hmax 17 m). Slepa decimace (light24, 24 tri, plny rozsah 110-129) lepsi nez chranena.
+- Pouziti: ultra-lehke jen kde staci silueta; pro tvar drzet planar 140 tri.
