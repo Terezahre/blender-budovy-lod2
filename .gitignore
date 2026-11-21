@@ -14,5 +14,10 @@ ml/patches_brno/
 ml/*.pkl
 # Brno Geoflow test vstupy (generovane z DSM, reprodukovatelne):
 buildings_brno/
+# Polsko: LAZ + GPKG vstupy (generovane/stazene, reprodukovatelne):
+buildings_pl/
+output/pl_geof/*
+# Polsko pilot (LAZ+GML stazene, reprodukovatelne skripty):
+data_pl/
 # Brno Geoflow test vystupy (velke OBJ; souhrn zustava verzovany):
 output/brno_geof/*
