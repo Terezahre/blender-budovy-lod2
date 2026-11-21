@@ -102,3 +102,9 @@
 - I konvoluce na celem 64x64 patchi neprolomily strop -> signal je slaby / labely zasumene.
 - Hypotezy sumu: smisene STRECHA_KOD v budove, prestavby 2023-25, spatny join v radovkach.
 - Bezi exp5: filtr purity==1.0 [& rok<=2023] -> pokud acc vyskoci, je to kuraci dat, ne model.
+
+## [2026-11-22] ml | Experiment 5: cistota GT pomaha malo (+3 p.b.), gable kolabuje
+- purity median 0.87, podil 1.0 jen 0.42; rok>2023 zadny (LOD2 2020-23 vs DSM 2025 ok).
+- purity==1.0 (N=386): 0.497/0.487, ale gable recall 0.55->0.31 - cisty subset meni skladbu trid, neni to ciste vitezstvi.
+- Zaver: sum v labely vysvetluje cast, ne strop. Samotna uloha '1 typ na budovu' je sporna (58 % budov smisenych).
+- Pivot: regresni hlava (okap MAE 1.2 m) -> ml/predict_params.py doporucuje Geoflow profil+toml. Pretrenovani modelu na Brno GT bezi (ulozene gb_*.pkl).
