@@ -144,3 +144,7 @@
 - Pricina: DetectLines nenajde hrebenni primky (ridke DMP1G / jitterovana mrizka) -> aranzma bez vnitrnich linii -> plosky vrsek. Validace (manifold, planarita, Val3dity) uroven LOD nekontroluje.
 - Dopad na tvrzeni: 'finale = 8x LoD2.2' je prestrelene; plati pro G1 (+ ploche B01/B04). Zbytek = LOD1 geometrie v LOD2 obalu.
 - Dalsi: audit_roofplanes.py jako brana validace (odmitnout plosky vrsek pri sikmem profilu); resit detekci linii (hustsi data, prahy).
+
+## [2026-11-22] ml | Overena hypoteza vrstveni LOD1/LOD2: vyvracena
+- B02 OBJ: jeden objekt, zadne grupy; LOD12 = cisty 2-vyskovy blok (297.18/302.89), LOD22 = ploska + 17cm 'sum' (302.75-302.92), zadny hreben. Funkcne LOD1, zadne vrstveni.
+- Zaver auditu tim sili: aranzma bez hrebenove linie = 1 bunka + sum vyskoveho pole.
