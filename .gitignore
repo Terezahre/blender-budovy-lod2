@@ -12,3 +12,7 @@ ml/data_brno/brno_lod2/
 ml/patches/
 ml/patches_brno/
 ml/*.pkl
+# Brno Geoflow test vstupy (generovane z DSM, reprodukovatelne):
+buildings_brno/
+# Brno Geoflow test vystupy (velke OBJ; souhrn zustava verzovany):
+output/brno_geof/*
