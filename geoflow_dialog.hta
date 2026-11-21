@@ -2,35 +2,43 @@
 <html lang="cs">
 <head>
 <meta charset="utf-8">
-<title>Geoflow LoD2.2 — vstup / výstup (S-JTSK EPSG:5514)</title>
+<title>Geoflow LoD2.2 — parametry rekonstrukce (S-JTSK EPSG:5514)</title>
 <HTA:APPLICATION ID="geofdlg" APPLICATIONNAME="Geoflow LoD2.2 KRAV59"
   BORDER="dialog" CAPTION="yes" SHOWINTASKBAR="yes" SINGLEINSTANCE="yes"
-  SYSMENU="yes" WINDOWSTATE="normal" SCROLL="no" />
+  SYSMENU="yes" WINDOWSTATE="normal" SCROLL="yes" />
 <style>
   body { font-family: "Segoe UI", sans-serif; font-size: 13px; margin: 14px;
          background: #f0f0f0; }
-  h2 { margin: 0 0 10px; font-size: 16px; }
-  label { display: block; margin-top: 10px; font-weight: bold; }
+  h2 { margin: 0 0 6px; font-size: 16px; }
+  h3 { margin: 14px 0 4px; font-size: 13px; color: #333;
+       border-bottom: 1px solid #ccc; padding-bottom: 3px; }
+  label { display: block; margin-top: 8px; font-weight: bold; }
   .row { display: flex; gap: 6px; margin-top: 4px; }
   input[type=text] { flex: 1; padding: 5px; }
   button { padding: 5px 12px; cursor: pointer; }
   #runBtn { margin-top: 14px; font-size: 14px; font-weight: bold;
             background: #e08a5a; border: 1px solid #999; width: 100%;
             padding: 8px; }
-  #log { width: 100%; height: 180px; margin-top: 10px; font-family: Consolas,
+  #log { width: 100%; height: 150px; margin-top: 10px; font-family: Consolas,
          monospace; font-size: 11px; }
-  select, .idbox { padding: 5px; margin-top: 4px; width: 100%; }
+  select { padding: 5px; margin-top: 4px; width: 100%; }
+  .grid { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .param { width: 31%; }
+  .param span { font-size: 11px; color: #333; display: block; }
+  .param input { width: 100%; padding: 4px; box-sizing: border-box; }
   .hint { color: #555; font-size: 11px; }
+  .idbox { padding: 5px; margin-top: 4px; width: 60%; }
 </style>
 <script language="JScript">
 var fso = new ActiveXObject("Scripting.FileSystemObject");
 var sh = new ActiveXObject("WScript.Shell");
 var GEOF = "C:\\Users\\Tereza\\geoflow-local\\geof.exe";
+// profily dle agents.md (shodne s scripts/make_geoflow_local.py)
 var PROFILES = {
-  "SIMPLE_FLAT":    {eps: 0.25, k: 15, minpts: 20, nk: 8, le: 0.5, data: 5.0,  step: 3.0},
-  "STANDARD_GABLE": {eps: 0.20, k: 15, minpts: 15, nk: 8, le: 0.4, data: 7.0,  step: 3.0},
-  "COMPLEX_HIP":    {eps: 0.15, k: 10, minpts: 10, nk: 5, le: 0.3, data: 9.0,  step: 2.5},
-  "DETAIL_GABLE":   {eps: 0.10, k: 8,  minpts: 8,  nk: 5, le: 0.3, data: 15.0, step: 2.5}
+  "SIMPLE_FLAT":    {eps: 0.25, k: 15, minpts: 20, nk: 8, le: 0.5, data: 5.0,  step: 3.0, arr: 400,  cell: 0.05},
+  "STANDARD_GABLE": {eps: 0.20, k: 15, minpts: 15, nk: 8, le: 0.4, data: 7.0,  step: 3.0, arr: 400,  cell: 0.05},
+  "COMPLEX_HIP":    {eps: 0.15, k: 10, minpts: 10, nk: 5, le: 0.3, data: 9.0,  step: 2.5, arr: 400,  cell: 0.05},
+  "DETAIL_GABLE":   {eps: 0.10, k: 8,  minpts: 8,  nk: 5, le: 0.3, data: 15.0, step: 2.5, arr: 1500, cell: 0.5}
 };
 
 function $(id) { return document.getElementById(id); }
@@ -49,12 +57,19 @@ function pickFolder(target) {
   if (fld) { $(target).value = fld.Self.Path; }
 }
 
+function fillProfile() {
+  var P = PROFILES[$("profile").value];
+  $("pEps").value = P.eps; $("pK").value = P.k; $("pMin").value = P.minpts;
+  $("pNk").value = P.nk; $("pLe").value = P.le; $("pData").value = P.data;
+  $("pStep").value = P.step; $("pArr").value = P.arr; $("pCell").value = P.cell;
+}
+
 function q(s) { return '"' + s + '"'; }
 
 function runGeof() {
   var las = $("inLas").value, gpkg = $("inFoot").value,
       out = $("outDir").value, bid = $("bid").value || "BUDOVA1",
-      prof = $("profile").value, P = PROFILES[prof];
+      prof = $("profile").value;
   if (!las || !gpkg || !out) {
     alert("Vyplň vstupní mračno, footprint i výstupní složku.");
     return;
@@ -63,8 +78,7 @@ function runGeof() {
   var bdir = out + "\\" + bid;
   if (!fso.FolderExists(bdir)) { fso.CreateFolder(bdir); }
 
-  // TOML s per-building r_* parametry (stejné mapování jako scripts/make_geoflow_local.py)
-  var toml = "# " + bid + " — profil " + prof + " (dialog)\r\n"
+  var toml = "# " + bid + " — profil " + prof + " (dialog, rucne laditelne)\r\n"
     + "input_footprint = " + q(gpkg) + "\r\n"
     + "input_pointcloud = " + q(las) + "\r\n"
     + "building_identifier = \"id\"\r\n"
@@ -74,13 +88,15 @@ function runGeof() {
     + "output_obj_lod13 = " + q(bdir + "\\model_lod13.obj") + "\r\n"
     + "output_cityjson = " + q(bdir + "\\model.json") + "\r\n"
     + "output_cj_referenceSystem = \"http://www.opengis.net/def/crs/EPSG/0/5514\"\r\n"
-    + "r_plane_epsilon = " + P.eps + "\r\n"
-    + "r_plane_k = " + P.k + "\r\n"
-    + "r_plane_min_points = " + P.minpts + "\r\n"
-    + "r_normal_k = " + P.nk + "\r\n"
-    + "r_line_epsilon = " + P.le + "\r\n"
-    + "r_optimisation_data_term = " + P.data + "\r\n"
-    + "r_lod13_step_height = " + P.step + "\r\n";
+    + "r_plane_epsilon = " + $("pEps").value + "\r\n"
+    + "r_plane_k = " + $("pK").value + "\r\n"
+    + "r_plane_min_points = " + $("pMin").value + "\r\n"
+    + "r_normal_k = " + $("pNk").value + "\r\n"
+    + "r_line_epsilon = " + $("pLe").value + "\r\n"
+    + "r_optimisation_data_term = " + $("pData").value + "\r\n"
+    + "r_lod13_step_height = " + $("pStep").value + "\r\n"
+    + "r_max_arr_complexity = " + $("pArr").value + "\r\n"
+    + "r_raster_cellsize = " + $("pCell").value + "\r\n";
   var tomlPath = bdir + "\\geof.toml";
   var f = fso.CreateTextFile(tomlPath, true);
   f.Write(toml); f.Close();
@@ -109,9 +125,10 @@ function runGeof() {
 }
 </script>
 </head>
-<body>
+<body onload="fillProfile()">
 <h2>Geoflow LoD2.2 — KRAV59 (S-JTSK)</h2>
 
+<h3>Vstup / výstup</h3>
 <label>1) Vstupní mračno (LAS / LAZ, class 6 + 2)</label>
 <div class="row">
   <input type="text" id="inLas" placeholder="C:\...\body.las">
@@ -124,27 +141,41 @@ function runGeof() {
   <button onclick="pickFile('inFoot','fileFoot')">Procházet…</button>
 </div>
 
-<label>3) Výstupní složka (uložení model.json + OBJ)</label>
+<label>3) Výstupní složka (model.json + OBJ)</label>
 <div class="row">
   <input type="text" id="outDir" placeholder="C:\...\output\geof">
   <button onclick="pickFolder('outDir')">Procházet…</button>
 </div>
 
-<label>ID budovy</label>
-<input type="text" id="bid" class="idbox" value="BUDOVA1">
+<div class="row">
+  <div style="flex:1"><label>ID budovy</label>
+    <input type="text" id="bid" class="idbox" value="BUDOVA1"></div>
+  <div style="flex:2"><label>Profil (předvyplní parametry)</label>
+    <select id="profile" onchange="fillProfile()">
+      <option value="SIMPLE_FLAT">SIMPLE_FLAT — plochá</option>
+      <option value="STANDARD_GABLE">STANDARD_GABLE — sedlová</option>
+      <option value="COMPLEX_HIP" selected>COMPLEX_HIP — členitá</option>
+      <option value="DETAIL_GABLE">DETAIL_GABLE — ověřené sedlo</option>
+    </select></div>
+</div>
 
-<label>Profil parametrů (dle agents.md)</label>
-<select id="profile">
-  <option value="SIMPLE_FLAT">SIMPLE_FLAT — plochá (eps 0.25, data 5)</option>
-  <option value="STANDARD_GABLE">STANDARD_GABLE — sedlová (eps 0.20, data 7)</option>
-  <option value="COMPLEX_HIP" selected>COMPLEX_HIP — členitá (eps 0.15, data 9)</option>
-  <option value="DETAIL_GABLE">DETAIL_GABLE — ověřené sedlo (eps 0.10, data 15)</option>
-</select>
+<h3>Parametry rekonstrukce (lze přepsat ručně)</h3>
+<div class="grid">
+  <div class="param"><span>Plane epsilon [m]</span><input id="pEps" type="text"></div>
+  <div class="param"><span>Plane k (sousedi)</span><input id="pK" type="text"></div>
+  <div class="param"><span>Plane min points</span><input id="pMin" type="text"></div>
+  <div class="param"><span>Normal k</span><input id="pNk" type="text"></div>
+  <div class="param"><span>Line epsilon [m]</span><input id="pLe" type="text"></div>
+  <div class="param"><span>Data term (detail)</span><input id="pData" type="text"></div>
+  <div class="param"><span>Step height [m]</span><input id="pStep" type="text"></div>
+  <div class="param"><span>Max arr complexity</span><input id="pArr" type="text"></div>
+  <div class="param"><span>Raster cell [m]</span><input id="pCell" type="text"></div>
+</div>
+<p class="hint">Data term = váha dat vs. vyhlazení (víc = detailnější střecha).
+Max complexity = strop buněk aranžmá. Raster cell ~ rozestup bodů (2 pts/m² → 0.5).</p>
 
 <button id="runBtn" onclick="runGeof()">Spustit Geoflow</button>
 <textarea id="log" readonly></textarea>
-<p class="hint">Výstup: model.json (CityJSON 2.0, EPSG:5514) + model_lod12/13/22.obj do
-&lt;výstup&gt;\&lt;ID&gt;\. Detail sítě viz wiki.</p>
 
 <input type="file" id="fileLas" accept=".las,.laz" style="display:none">
 <input type="file" id="fileFoot" accept=".gpkg" style="display:none">

@@ -39,6 +39,11 @@ Vstupní vlastnosti z `meta.json`: `n_points`, `density_pts_m2`, `z_std`, `heigh
 | STANDARD_GABLE | `1.2 <= z_std < 2.5` | 0.20 | 15 | 15 / 8 | 0.4 | 7.0 | 3.0 |
 | COMPLEX_HIP | `z_std >= 2.5` nebo `roofplane_guess > 4` | 0.15 | 10 | 10 / 5 | 0.3 | 9.0 | 2.5 |
 | DETAIL_GABLE | ověřené sedlo (RANSAC 2 vyrovnané S roviny + DSM důkaz) | 0.10 | 8 | 8 / 5 | 0.3 | 15.0 | 2.5 |
+
+Dialog `geoflow_dialog.hta` vystavuje všech 9 hodnot ručně: plane epsilon/k/min-points,
+normal k, line epsilon, **data term (složitost/detail)**, step height,
+**max_arr_complexity** (= strop buněk aranžmá; nový globál `r_max_arr_complexity`, default 400),
+**raster cell** (= buňka heightfieldu v m; nový globál `r_raster_cellsize`, default 0.05).
 | SPARSE (`density < 1.0`) | + k profilu výše | +0.05 k epsilon | ×1.5 min_points | k +5 | +0.1 | −2.0 | beze změny |
 
 - `max_arr_complexity` = 400 (standard), 800 pro COMPLEX_HIP.

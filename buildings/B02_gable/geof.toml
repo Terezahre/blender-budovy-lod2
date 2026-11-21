@@ -15,3 +15,5 @@ r_normal_k = 8
 r_line_epsilon = 0.4
 r_optimisation_data_term = 7.0
 r_lod13_step_height = 3.0
+r_max_arr_complexity = 400
+r_raster_cellsize = 0.05

@@ -10,8 +10,9 @@
 - 7 budov Geoflow LoD2.2, geometrie vložená v HTML, S-JTSK offset v UI (2026-11-21: jen Geoflow, bez přepínače cest)
 
 ## [2026-11-21] build | Geoflow dialog (.bat + HTA JavaScript)
-- Disposition: New
-- geoflow_dialog.bat + geoflow_dialog.hta: vstup (LAS/GPKG), výstup (složka), ID, profil; TOML + geof + log
+- Disposition: New; Update (9 rucnich parametru: planarita, complexity, raster)
+- geoflow_dialog.bat + geoflow_dialog.hta: vstup, výstup, ID, profil + 9 číselných polí
+- Nove globaly flowchartu: r_max_arr_complexity (400), r_raster_cellsize (0.05)
 
 ## [2026-11-21] ingest | Celomapový scan sedlovek + Geoflow-only
 - Disposition: New; Update (vysledky-pilot.md)

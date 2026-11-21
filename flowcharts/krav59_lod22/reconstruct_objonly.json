@@ -114,6 +114,16 @@
    "name of boolean attribute in input footprints that tells if the building should be skipped for full LoD1.3+ reconstruction. Eg used for greenhouses and very big industrial buildings, since these are difficult/slow to process due to glass roofs and large footprint area.",
    "str",
    "skip"
+  ],
+  "r_max_arr_complexity": [
+   "maximum arrangement complexity; higher keeps more roof detail but is slower",
+   "int",
+   400
+  ],
+  "r_raster_cellsize": [
+   "heightfield raster cellsize in meters; match point spacing (e.g. 0.5 for 2 pts/m2)",
+   "float",
+   0.05000000074505806
   ]
  },
  "nodes": {
@@ -716,7 +726,7 @@
     "fp_extension": 0.0,
     "insert_lines": true,
     "insert_with_snap": false,
-    "max_arr_complexity": 400
+    "max_arr_complexity": "{{r_max_arr_complexity}}"
    },
    "position": [
     2398.19970703125,
@@ -1940,7 +1950,7 @@
     "values": false
    },
    "parameters": {
-    "cellsize": 0.05000000074505806,
+    "cellsize": "{{r_raster_cellsize}}",
     "fill_nodata": false,
     "fill_nodata_window_size": 5,
     "megapixel_limit": 600,

@@ -24,6 +24,15 @@ DROP_CJ_PARAMS = {"CRS", "meta_identifier", "meta_poc_address",
 
 fc = json.load(open(SRC, encoding="utf-8"))
 fc["nodes"] = {n: d for n, d in fc["nodes"].items() if n not in DROP_NODES}
+# povyseni uzitecnych ladicich parametru na globaly (dialog + TOML):
+fc["nodes"]["BuildArrFromLines"]["parameters"]["max_arr_complexity"] = "{{r_max_arr_complexity}}"
+fc["nodes"]["SegmentRasterise"]["parameters"]["cellsize"] = "{{r_raster_cellsize}}"
+fc["globals"]["r_max_arr_complexity"] = [
+    "maximum arrangement complexity; higher keeps more roof detail but is slower",
+    "int", 400]
+fc["globals"]["r_raster_cellsize"] = [
+    "heightfield raster cellsize in meters; match point spacing (e.g. 0.5 for 2 pts/m2)",
+    "float", 0.05000000074505806]
 # spojeni na smazane uzly pryc + oprava CityJSONWriter parametru
 for n, d in fc["nodes"].items():
     conns = d.get("connections", {})
@@ -53,12 +62,11 @@ os.makedirs(os.path.dirname(DST), exist_ok=True)
 json.dump(fc, open(DST, "w", encoding="utf-8"), indent=1)
 print(f"STANDARD: uzlu: {len(fc['nodes'])}, globalu: {len(fc['globals'])} -> {DST}")
 
-# DETAIL varianta pro overene sedlovky (G3): vetsi bunka heightfieldu,
-# zachovat segmentove hrany LoD22, vyssi komplexita, volnejsi linie
+# DETAIL varianta pro overene sedlovky (G3): nedissolvovat segmentove hrany
+# LoD22 + volnejsi snapping linii; ostatni parametry (vc. bunky a komplexity)
+# se ridici stejnymi globaly, jen profily nesou jine hodnoty
 fc_d = copy.deepcopy(fc)
-fc_d["nodes"]["SegmentRasterise"]["parameters"]["cellsize"] = 0.5
 fc_d["nodes"]["ArrDissolve-LoD22"]["parameters"]["dissolve_seg_edges"] = False
-fc_d["nodes"]["BuildArrFromLines"]["parameters"]["max_arr_complexity"] = 1500
 fc_d["nodes"]["RegulariseLines"]["parameters"]["angle_threshold"] = 0.44999998807907104
 DST_D = "flowcharts/krav59_lod22/reconstruct_detail.json"
 json.dump(fc_d, open(DST_D, "w", encoding="utf-8"), indent=1)
@@ -68,17 +76,21 @@ print(f"DETAIL: -> {DST_D}")
 PROFILES = {
     "SIMPLE_FLAT": dict(r_plane_epsilon=0.25, r_plane_k=15, r_plane_min_points=20,
                         r_normal_k=8, r_line_epsilon=0.5,
-                        r_optimisation_data_term=5.0, r_lod13_step_height=3.0),
+                        r_optimisation_data_term=5.0, r_lod13_step_height=3.0,
+                        r_max_arr_complexity=400, r_raster_cellsize=0.05),
     "STANDARD_GABLE": dict(r_plane_epsilon=0.20, r_plane_k=15, r_plane_min_points=15,
                            r_normal_k=8, r_line_epsilon=0.4,
-                           r_optimisation_data_term=7.0, r_lod13_step_height=3.0),
+                           r_optimisation_data_term=7.0, r_lod13_step_height=3.0,
+                           r_max_arr_complexity=400, r_raster_cellsize=0.05),
     "COMPLEX_HIP": dict(r_plane_epsilon=0.15, r_plane_k=10, r_plane_min_points=10,
                         r_normal_k=5, r_line_epsilon=0.3,
-                        r_optimisation_data_term=9.0, r_lod13_step_height=2.5),
+                        r_optimisation_data_term=9.0, r_lod13_step_height=2.5,
+                        r_max_arr_complexity=400, r_raster_cellsize=0.05),
     # overene sedlovky (G3): uzka detekce + vysoky data-term + DETAIL flowchart
     "DETAIL_GABLE": dict(r_plane_epsilon=0.10, r_plane_k=8, r_plane_min_points=8,
                          r_normal_k=5, r_line_epsilon=0.3,
-                         r_optimisation_data_term=15.0, r_lod13_step_height=2.5),
+                         r_optimisation_data_term=15.0, r_lod13_step_height=2.5,
+                         r_max_arr_complexity=1500, r_raster_cellsize=0.5),
 }
 import glob
 import json as js

@@ -6,7 +6,7 @@ Výstup: `output/final/<ID>_LOD2_SJTSK.obj` + `*.meta.json` (`crs: EPSG:5514`).
 
 Pravidla a parametry: viz [agents.md](agents.md). Znalostní báze: [wiki/index.md](wiki/index.md).
 Interaktivní 3D prohlížeč výsledků: [viewer_3d.html](viewer_3d.html) (three.js, dvojklik z disku).
-Dialogové spouštění Geoflow: [geoflow_dialog.bat](geoflow_dialog.bat) + [geoflow_dialog.hta](geoflow_dialog.hta) (JavaScript dialog: vstupní mračno + výstupní složka + profil).
+Dialogové spouštění Geoflow: [geoflow_dialog.bat](geoflow_dialog.bat) + [geoflow_dialog.hta](geoflow_dialog.hta) (JavaScript dialog: vstup + výstup + 9 laditelných parametrů: planarita, complexity, raster).
 
 ## Rychlý start
 
