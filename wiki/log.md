@@ -83,3 +83,16 @@
 - Hierarchie flat|gable-vs-hip: hip recall az 0.23 (BEZ-RUIAN), acc 0.46.
 - BEZ-RUIAN >= S-RUIAN ve vsech variantach -> RUIAN area jako samotny priznak nepomaha.
 - Bezi exp3: priznaky poctu rovin (rmse1/rmse2/ratio, RANSAC-lite) + HGB balanced.
+
+## [2026-11-22] ml | Experiment 3: priznaky rovin nepomohly (plateau 0.47)
+- rmse1/rmse2/ratio (RANSAC-lite, 4 smery rezu): median ratio 0.777 - 2-rovina jen mirne lepsi nez 1-rovina.
+- Vysledek: S-RUIAN 0.458 (hip 0.17) / BEZ-RUIAN 0.470 (hip 0.19). Zadny skok oproti exp2.
+- Interpretace: DSM 0.5 m obsahuje kominy/klimatizace/vytahove sachte (LOD2 je modeluje od 3 m obvodu) -> rezidualni sum kazi rovinné fity; ruční priznaky plati strop.
+- Bezi exp4: TVAROVE priznaky footprintu (protahlost, pravouhlost, kompaktnost - podstata RUIAN prioru) + MLP; S-RUIAN(tvar+DSM) vs BEZ-RUIAN(jen DSM). To je ferovy test krok 2 vs 3.
+
+## [2026-11-22] ml | Experiment 4: tvar footprintu + MLP (strop 0.47 potvrzen)
+- S-RUIAN(tvar+DSM)+HGB 0.464 (hip 0.21); S-RUIAN+MLP 0.454 (hip 0.29 - nejlepsi hip dosud).
+- BEZ-RUIAN+HGB 0.465 (hip 0.18); BEZ-RUIAN+MLP 0.426 (hip 0.19).
+- Zaver pilotu: rucni priznaky + melke modely maji strop ~0.46-0.47. RUIAN tvar mirne lepsi na hip recall (0.29 vs 0.19 u MLP), celkove v sumu.
+- Krok 2 vs 3: s RUIAN prior je lepsi smer, ale rozhodne az silnejsi model.
+- Dalsi: maly CNN na raw 64x64 patchi (torch CPU, lokalne) - konci rucni featury.
