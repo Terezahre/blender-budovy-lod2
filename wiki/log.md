@@ -115,3 +115,17 @@
 - KRAV59 pouzito jen jako smoke test pruchodnosti (out-of-domain senzor+mesto, bez naroku na presnost).
 - ml/predict_params.py: patch -> profil + geof.toml hodnoty (okap deterministicky z DSM, bez ML identity). Demo: 12400478532927488 -> COMPLEX_HIP (GT hip OK), vyska 20.2 vs 17.5 m.
 - Limity (poctive): acc 0.47 nestaci na slepe rizeni Geoflow; pouzivat jako DOPORUCENI + vzdy Blender validace. Hreben MAE 4.9 m.
+
+## [2026-11-22] ml | Brno Geoflow test bezi: ML vs rucni parametry (3 budovy)
+- Vyber: flat/gable/hip, purity 1.0, SV kvadrant (puvodni holdout): 53006722360410112 / 53006713149718528 / 27822445704511488.
+- Pseudo-LAS z DSM/DTM (mrizka 1 m, S-JTSK, class 6/2) - DMP LAZ pro Brno netreba.
+- Predbezne (bez geof behu): ML profily gable+HIP+gable (2/3 GT), rucni zstd vsude COMPLEX_HIP (1/3) - heuristika na DSM selhava.
+- Bezi: scripts/brno_geof_test.py --run (6x geof: 3 budovy x ml/manual) -> output/brno_geof/results.json (RMSE/pokryti/manifold).
+
+## [2026-11-22] ml | (a) Geoflow na Brne: split hladin nutny, profil nerozhoduje
+- Pseudo-LAS z DSM/DTM (mrizka 1 m + jitter, pf1): geof chodi, manifold 0, pokryti 1.00.
+- Bez splitu: RMSE 20.1 / 5.7 / 1.9 m (ZABAGED polygony michaji 2 vyskove hladiny).
+- Se splitem (gap>=3 m -> hull komponenty): 1.25+0.79 / 3.27 / 2.04+0.81 m.
+- ML vs MANUAL profily daji BITOVE STEJNE meshe (dense data konverguji) - profil je druhorady; vyjimka: 23bodova nizka pristroavba (SIMPLE_FLAT selhal, COMPLEX_HIP prosel).
+- Zaver: pro Brno pridat krok split_levels pred Geoflow; gap 3.0->2.0 (sedlovka ma spicku +2.6 m).
+- Opravy: r_* globaly v TOML (prazdne behy), jitter proti degeneraci DetectLines, nm eval.
