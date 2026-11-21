@@ -746,7 +746,18 @@
     "meta_referenceDate": "{{output_cj_referenceDate}}",
     "meta_referenceSystem": "{{output_cj_referenceSystem}}",
     "only_output_renamed": false,
-    "output_attribute_names": {}
+    "output_attribute_names": {
+     "SkipReplaceTester.replace": "lod11_replace",
+     "SkipReplaceTester.roof_type": "roof_type",
+     "SkipReplaceTester.skip": "reconstruction_skipped",
+     "PC2MeshQuality-LoD12.mesh_error_f": "rmse_lod12",
+     "PC2MeshQuality-LoD13.mesh_error_f": "rmse_lod13",
+     "PC2MeshQuality-LoD22.mesh_error_f": "rmse_lod22",
+     "Validator-LoD12.errors": "val12",
+     "Validator-LoD13.errors": "val13",
+     "Validator-LoD22.errors": "val22",
+     "DataCoverageCalc.data_coverage": "data_coverage"
+    }
    },
    "position": [
     4553.0,

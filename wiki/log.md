@@ -21,6 +21,12 @@
 - Updated: wiki/pipeline/cityjson.md
 - Finále: 7× CityJSON 2.0 (EPSG:5514) + OBJ; run_cityjson.py pro všech 9 budov
 
+## [2026-11-21] ingest | Střechy: placatění, G3 recept, globalizace CityJSON
+- Disposition: New
+- Raw: raw/geoflow/2026-11-21-strechy.md
+- Updated: wiki/geoflow/strechy.md
+- DETAIL flowchart + DETAIL_GABLE jen pro G3; G2 split negativní (ploché poloviny)
+
 ## [2026-11-20] ingest | Data KRAV59 + Geoflow + PolyFit + Blender + pilotní výsledky
 - Disposition: New
 - Raw: raw/laz-dmp1g/2026-11-20-krav59-dmp1g.md

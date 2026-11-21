@@ -1,4 +1,4 @@
-# G3_domek — profil COMPLEX_HIP (geof r_* globaly)
+# G3_domek — profil DETAIL_GABLE (geof r_* globaly)
 input_footprint = "buildings/G3_domek/footprint.gpkg"
 input_pointcloud = "buildings/G3_domek/body.las"
 building_identifier = "id"
@@ -8,10 +8,10 @@ output_obj_lod12 = "output/geof/G3_domek/model_lod12.obj"
 output_obj_lod13 = "output/geof/G3_domek/model_lod13.obj"
 output_cityjson = "output/geof/G3_domek/model.json"
 output_cj_referenceSystem = "http://www.opengis.net/def/crs/EPSG/0/5514"
-r_plane_epsilon = 0.15
-r_plane_k = 10
-r_plane_min_points = 10
+r_plane_epsilon = 0.1
+r_plane_k = 8
+r_plane_min_points = 8
 r_normal_k = 5
 r_line_epsilon = 0.3
-r_optimisation_data_term = 9.0
+r_optimisation_data_term = 15.0
 r_lod13_step_height = 2.5

@@ -33,11 +33,36 @@ cj = fc["nodes"]["CityJSONWriter"]["parameters"]
 for p in DROP_CJ_PARAMS:
     cj.pop(p, None)
 print("CityJSONWriter params:", sorted(cj.keys()))
+# atributy dovnitr CityJSON (rmse, val3dity, pokryti; DetectPlanes klice tato
+# verze flowchartu nepropaguje - overeno)
+cj["output_attribute_names"] = {
+    "SkipReplaceTester.replace": "lod11_replace",
+    "SkipReplaceTester.roof_type": "roof_type",
+    "SkipReplaceTester.skip": "reconstruction_skipped",
+    "PC2MeshQuality-LoD12.mesh_error_f": "rmse_lod12",
+    "PC2MeshQuality-LoD13.mesh_error_f": "rmse_lod13",
+    "PC2MeshQuality-LoD22.mesh_error_f": "rmse_lod22",
+    "Validator-LoD12.errors": "val12",
+    "Validator-LoD13.errors": "val13",
+    "Validator-LoD22.errors": "val22",
+    "DataCoverageCalc.data_coverage": "data_coverage",
+}
 fc["globals"] = {k: v for k, v in fc["globals"].items() if k not in DROP_GLOBALS}
 
 os.makedirs(os.path.dirname(DST), exist_ok=True)
 json.dump(fc, open(DST, "w", encoding="utf-8"), indent=1)
-print(f"uzlu: {len(fc['nodes'])}, globalu: {len(fc['globals'])} -> {DST}")
+print(f"STANDARD: uzlu: {len(fc['nodes'])}, globalu: {len(fc['globals'])} -> {DST}")
+
+# DETAIL varianta pro overene sedlovky (G3): vetsi bunka heightfieldu,
+# zachovat segmentove hrany LoD22, vyssi komplexita, volnejsi linie
+fc_d = copy.deepcopy(fc)
+fc_d["nodes"]["SegmentRasterise"]["parameters"]["cellsize"] = 0.5
+fc_d["nodes"]["ArrDissolve-LoD22"]["parameters"]["dissolve_seg_edges"] = False
+fc_d["nodes"]["BuildArrFromLines"]["parameters"]["max_arr_complexity"] = 1500
+fc_d["nodes"]["RegulariseLines"]["parameters"]["angle_threshold"] = 0.44999998807907104
+DST_D = "flowcharts/krav59_lod22/reconstruct_detail.json"
+json.dump(fc_d, open(DST_D, "w", encoding="utf-8"), indent=1)
+print(f"DETAIL: -> {DST_D}")
 
 # --- per-building TOML (mapovani profilu agents.md -> r_* globaly) ---
 PROFILES = {
@@ -50,12 +75,17 @@ PROFILES = {
     "COMPLEX_HIP": dict(r_plane_epsilon=0.15, r_plane_k=10, r_plane_min_points=10,
                         r_normal_k=5, r_line_epsilon=0.3,
                         r_optimisation_data_term=9.0, r_lod13_step_height=2.5),
+    # overene sedlovky (G3): uzka detekce + vysoky data-term + DETAIL flowchart
+    "DETAIL_GABLE": dict(r_plane_epsilon=0.10, r_plane_k=8, r_plane_min_points=8,
+                         r_normal_k=5, r_line_epsilon=0.3,
+                         r_optimisation_data_term=15.0, r_lod13_step_height=2.5),
 }
 import glob
-BIDS = sorted(__import__("json").load(open(m, encoding="utf-8"))["id"]
+import json as js
+BIDS = sorted(js.load(open(m, encoding="utf-8"))["id"]
              for m in glob.glob("buildings/*/meta.json"))
 for bid in BIDS:
-    meta = json.load(open(f"buildings/{bid}/meta.json", encoding="utf-8"))
+    meta = js.load(open(f"buildings/{bid}/meta.json", encoding="utf-8"))
     pr = dict(PROFILES[meta["profile"]])
     if meta.get("sparse"):
         pr["r_plane_epsilon"] = round(pr["r_plane_epsilon"] + 0.05, 3)

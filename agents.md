@@ -11,8 +11,10 @@ Cíl: nedeformované 3D budovy v LOD2 z leteckého mračna ČÚZK DMP 1G, výstu
    (budova + okolní terén class 2), footprint (GPKG/GeoJSON), `buildings/<ID>/meta.json`
    + `geof.toml` s per-building `r_*` parametry.
 4. Geoflow 0.3.6 (`C:\Users\Tereza\geoflow-local\geof.exe` + `GF_PLUGIN_FOLDER`)
-   s `flowcharts/krav59_lod22/reconstruct_objonly.json` (47 uzlů, jen OBJ)
-   → `output/geof/<ID>/model_lod22.obj` (+ LOD12/LOD13).
+   s `flowcharts/krav59_lod22/reconstruct_objonly.json` (STANDARD; 47 uzlů, jen OBJ)
+   nebo `reconstruct_detail.json` (DETAIL pro profil DETAIL_GABLE: cellsize 0.5,
+   dissolve_seg_edges False, komplexita 1500, angle 0.45 — viz wiki/geoflow/strechy.md)
+   → `output/geof/<ID>/model_lod22.obj` (+ LOD12/LOD13, CityJSON).
 5. Pokud je budova moc složitá (viz kritéria) → `scripts/polyfit_fallback.py` (stav viz wiki).
 6. `scripts/blender_validate.py` (headless Blender) — kontrola deformací, cleanup,
    validovaný model do `output/final/<ID>_LOD2_SJTSK.obj` + render.
@@ -36,6 +38,7 @@ Vstupní vlastnosti z `meta.json`: `n_points`, `density_pts_m2`, `z_std`, `heigh
 | SIMPLE_FLAT | `z_std < 1.2` a `roofplane_guess <= 2` | 0.25 | 20 | 15 / 8 | 0.5 | 5.0 | 3.0 |
 | STANDARD_GABLE | `1.2 <= z_std < 2.5` | 0.20 | 15 | 15 / 8 | 0.4 | 7.0 | 3.0 |
 | COMPLEX_HIP | `z_std >= 2.5` nebo `roofplane_guess > 4` | 0.15 | 10 | 10 / 5 | 0.3 | 9.0 | 2.5 |
+| DETAIL_GABLE | ověřené sedlo (RANSAC 2 vyrovnané S roviny + DSM důkaz) | 0.10 | 8 | 8 / 5 | 0.3 | 15.0 | 2.5 |
 | SPARSE (`density < 1.0`) | + k profilu výše | +0.05 k epsilon | ×1.5 min_points | k +5 | +0.1 | −2.0 | beze změny |
 
 - `max_arr_complexity` = 400 (standard), 800 pro COMPLEX_HIP.
