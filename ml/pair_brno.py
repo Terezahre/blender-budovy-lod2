@@ -158,10 +158,12 @@ def mode_brno():
         eave = float(g["PATA_VYSKA"].min())
         kod = int(g["STRECHA_KOD"].mode().iloc[0])
         rok = int(g["ROK_POROZENI"].mode().iloc[0])
+        purity = float((g["STRECHA_KOD"] == kod).mean())
         gt[str(fid)] = dict(ridge_rel=round(ridge - eave, 2),
                             ridge_abs=ridge, eave_abs=eave,
                             roof_type=STRECHA_MAP.get(kod, 2),
-                            strecha_kod=kod, rok=rok, n_seg=int(len(g)))
+                            strecha_kod=kod, rok=rok, n_seg=int(len(g)),
+                            purity=round(purity, 3))
     json.dump(gt, open(os.path.join("ml", "gt_brno.json"), "w", encoding="utf-8"), indent=1)
     roofs = [v["roof_type"] for v in gt.values()]
     from collections import Counter

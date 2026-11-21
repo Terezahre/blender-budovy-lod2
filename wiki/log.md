@@ -96,3 +96,9 @@
 - Zaver pilotu: rucni priznaky + melke modely maji strop ~0.46-0.47. RUIAN tvar mirne lepsi na hip recall (0.29 vs 0.19 u MLP), celkove v sumu.
 - Krok 2 vs 3: s RUIAN prior je lepsi smer, ale rozhodne az silnejsi model.
 - Dalsi: maly CNN na raw 64x64 patchi (torch CPU, lokalne) - konci rucni featury.
+
+## [2026-11-22] ml | CNN na raw patchi: stale 0.46 (sum je v datech, ne v modelu)
+- S-RUIAN(CNN+tvar) 0.461 (hip 0.19); BEZ-RUIAN(CNN jen DSM) 0.444 (hip 0.29).
+- I konvoluce na celem 64x64 patchi neprolomily strop -> signal je slaby / labely zasumene.
+- Hypotezy sumu: smisene STRECHA_KOD v budove, prestavby 2023-25, spatny join v radovkach.
+- Bezi exp5: filtr purity==1.0 [& rok<=2023] -> pokud acc vyskoci, je to kuraci dat, ne model.
