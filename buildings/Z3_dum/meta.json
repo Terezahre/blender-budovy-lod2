@@ -1,0 +1,24 @@
+{
+ "id": "Z3_dum",
+ "zabaged_fid": "9844434610946048",
+ "profile": "STANDARD_GABLE",
+ "crs": "EPSG:5514",
+ "n_points": 428,
+ "n_ground": 51,
+ "density_pts_m2": 1.502,
+ "zstd": 1.473,
+ "ground_z_p5": 292.42,
+ "height_above_ground": 4.27,
+ "footprint_area_m2": 285.0,
+ "params": {
+  "plane_detect__epsilon": 0.2,
+  "plane_detect__min_points": 15,
+  "plane_detect__k": 15,
+  "normal_estimate__k": 8,
+  "line_detect__epsilon": 0.4,
+  "optimisation_data_term": 7.0,
+  "lod13__step_height": 3.0,
+  "max_arr_complexity": 400
+ },
+ "sparse": false
+}

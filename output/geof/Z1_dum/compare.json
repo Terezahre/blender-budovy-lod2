@@ -1,0 +1,11 @@
+{
+ "id": "Z1_dum",
+ "geof_verts": 74,
+ "geof_faces": 144,
+ "geof_rmse": 2.065,
+ "geof_coverage": 0.559,
+ "geof_nonmanifold": 0,
+ "ours_rmse": null,
+ "ours_verts": null,
+ "ours_faces": null
+}

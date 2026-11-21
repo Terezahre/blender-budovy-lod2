@@ -7,9 +7,10 @@ Cíl: nedeformované 3D budovy v LOD2 z leteckého mračna ČÚZK DMP 1G, výstu
 1. `data/` — vstupní LAZ/LAS (S-JTSK). Neměnit originály.
 2. `scripts/analyze_laz.py` / `scripts/scan_map.py` — statistika mračna + klastry budov
    (DBSCAN class 6); sedlovky hledá celomapový scan (`buildings/gable_candidates.json`).
-3. `scripts/extract_buildings.py` / `scripts/extract_map.py` — pro každou budovu: ořez bodů
-   (budova + okolní terén class 2), footprint (GPKG/GeoJSON), `buildings/<ID>/meta.json`
-   + `geof.toml` s per-building `r_*` parametry.
+3. `scripts/extract_buildings.py` / `scripts/extract_map.py` / `scripts/extract_zabaged.py`
+   — pro každou budovu: ořez bodů (budova + okolní terén class 2), footprint (GPKG/GeoJSON),
+   `buildings/<ID>/meta.json` + `geof.toml` s per-building `r_*` parametry.
+   Priorita footprintů: **ZABAGED/RUIAN katastr** (přesné pravé úhly) > lidarový obal (jen fallback).
 4. Geoflow 0.3.6 (`C:\Users\Tereza\geoflow-local\geof.exe` + `GF_PLUGIN_FOLDER`)
    s `flowcharts/krav59_lod22/reconstruct_objonly.json` (STANDARD; 47 uzlů, jen OBJ)
    nebo `reconstruct_detail.json` (DETAIL pro profil DETAIL_GABLE: cellsize 0.5,

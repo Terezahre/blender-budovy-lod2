@@ -1,6 +1,6 @@
 # Created by Geoflow
 # Generated with Geoflow
-mtllib 00000214844E8560
+mtllib 0000027818FDD280
 v -738164.14482 -1038037.64022 307.12000
 v -738172.97000 -1038050.14000 307.12000
 v -738182.48000 -1038039.84000 307.12000
@@ -71,21 +71,19 @@ f 19 15 4
 usemtl 2
 f 7 19 4
 usemtl 2
-f 17 20 1
-usemtl 2
-f 6 17 1
-usemtl 2
 f 20 18 9
 usemtl 2
 f 1 20 9
+usemtl 2
+f 17 20 1
+usemtl 2
+f 6 17 1
 usemtl 1
-f 11 18 20
+f 15 19 14
 usemtl 1
-f 17 15 14
+f 15 14 17
 usemtl 1
-f 17 16 15
-usemtl 1
-f 14 15 19
+f 16 15 17
 usemtl 1
 f 20 17 14
 usemtl 1
@@ -94,3 +92,5 @@ usemtl 1
 f 20 13 12
 usemtl 1
 f 20 12 11
+usemtl 1
+f 20 11 18

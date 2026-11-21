@@ -14,6 +14,7 @@ MODELS = [
     ("G1_sedlova", "output/final/G1_sedlova_LOD2_SJTSK.obj"),
     ("G2_sedlova", "output/final/G2_sedlova_LOD2_SJTSK.obj"),
     ("G3_domek", "output/final/G3_domek_LOD2_SJTSK.obj"),
+    ("Z3_dum", "output/final/Z3_dum_LOD2_SJTSK.obj"),
 ]
 
 
@@ -87,7 +88,7 @@ const sun = new THREE.DirectionalLight(0xffffff, 2.2);
 sun.position.set(60, 90, -40); scene.add(sun);
 const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1, 5000);
 const controls = new OrbitControls(camera, renderer.domElement);
-let mesh = null, state = {id:'G3_domek', wire:false, rot:true};
+let mesh = null, state = {id:'Z3_dum', wire:false, rot:true};
 
 function colorize(geo) {
   const n = geo.attributes.position.count, col = new Float32Array(n*3);

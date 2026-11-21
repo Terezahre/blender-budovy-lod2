@@ -24,7 +24,8 @@ Dialogové spouštění Geoflow: [geoflow_dialog.bat](geoflow_dialog.bat) + [geo
 
 - [x] Vstupní data ověřena (KRAV59, 939 311 bodů class 6)
 - [x] Celomapový scan: 286 kandidátů → 24 sedlovek → top 3 (G1, G2, G3)
-- [x] Finále = 7× Geoflow LoD2.2 v S-JTSK (B01–B04 ploché + G1–G3 sedlové); B05/B06 zamítnuty
+- [x] Finále = 8× Geoflow LoD2.2 v S-JTSK (B01–B04 + G1–G3 + Z3 katastrální); B05/B06/Z1/Z2 zamítnuty
+- [x] Katastrální footprinty ZABAGED (1495 budov KRAV59); pravidlo: katastr > lidarový obal
 - [x] Vlastní cesta odstavena do output/ours/ (prototyp bez střešní struktury)
 - [x] PolyFit pipeline ověřen na toy_data; na pilotu SCIP vrací 0 (dokumentováno)
 - [x] Blender validace (manifold 0) + three.js prohlížeč (jen Geoflow)

@@ -1,0 +1,19 @@
+# Z2_dum — profil SIMPLE_FLAT (geof r_* globaly)
+input_footprint = "buildings/Z2_dum/footprint.gpkg"
+input_pointcloud = "buildings/Z2_dum/body.las"
+building_identifier = "id"
+input_footprint_select_sql = ""
+output_obj_lod22 = "output/geof/Z2_dum/model_lod22.obj"
+output_obj_lod12 = "output/geof/Z2_dum/model_lod12.obj"
+output_obj_lod13 = "output/geof/Z2_dum/model_lod13.obj"
+output_cityjson = "output/geof/Z2_dum/model.json"
+output_cj_referenceSystem = "http://www.opengis.net/def/crs/EPSG/0/5514"
+r_plane_epsilon = 0.25
+r_plane_k = 15
+r_plane_min_points = 20
+r_normal_k = 8
+r_line_epsilon = 0.5
+r_optimisation_data_term = 5.0
+r_lod13_step_height = 3.0
+r_max_arr_complexity = 400
+r_raster_cellsize = 0.05

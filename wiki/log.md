@@ -32,6 +32,12 @@
 - Updated: wiki/geoflow/strechy.md
 - DETAIL flowchart + DETAIL_GABLE jen pro G3; G2 split negativní (ploché poloviny)
 
+## [2026-11-21] ingest | ZABAGED footprinty (konec blobů)
+- Disposition: New
+- Raw: raw/pipeline/2026-11-21-zabaged.md
+- Updated: wiki/pipeline/zabaged.md
+- 1495 budov KRAV59; Z3 (RMSE 0.104) → 8. finální; Z1/Z2 REJECT; OSM blokováno (406)
+
 ## [2026-11-20] ingest | Data KRAV59 + Geoflow + PolyFit + Blender + pilotní výsledky
 - Disposition: New
 - Raw: raw/laz-dmp1g/2026-11-20-krav59-dmp1g.md
