@@ -137,3 +137,10 @@
 - Sedlovka 3.27 m: horni body (kominy/nastavby z DSM 2025) netvori rovinu; ani COMPLEX_HIP (9.0/800) nepomuze. LOD2 z fotogrametrie vidi vic nez lidar-hustota unese.
 - Nove poznatky pro pipeline: r_* globaly (prazdne behy bez warningu), jitter nutny (grid degenerace), SIMPLE_FLAT pada na <25 bodech.
 - Zaver (a): hybridni smycka uzavrena - predict_params doporucuje, Geoflow stavi, Blender validuje. Dalsi rezerva: vzorkovani 0.5 m pro male nastavby.
+
+## [2026-11-22] ml | KOREKCE: 5 z 8 finalnich modelu je fakticky LOD1
+- Novy scripts/audit_roofplanes.py (shlukovani normal, 10 stupnu): B02/B03/G2/G3/Z3 maji 1 stresni rovinu (plosky vrsek) prestoze profil rika sedlova/valbova. Skutecne LOD2 je jen G1 (2 roviny); B01/B04 spravne ploche.
+- Brno Geoflow modely: vsech 7 vystupu 1 rovina (vcetne hip 27822445704511488b).
+- Pricina: DetectLines nenajde hrebenni primky (ridke DMP1G / jitterovana mrizka) -> aranzma bez vnitrnich linii -> plosky vrsek. Validace (manifold, planarita, Val3dity) uroven LOD nekontroluje.
+- Dopad na tvrzeni: 'finale = 8x LoD2.2' je prestrelene; plati pro G1 (+ ploche B01/B04). Zbytek = LOD1 geometrie v LOD2 obalu.
+- Dalsi: audit_roofplanes.py jako brana validace (odmitnout plosky vrsek pri sikmem profilu); resit detekci linii (hustsi data, prahy).

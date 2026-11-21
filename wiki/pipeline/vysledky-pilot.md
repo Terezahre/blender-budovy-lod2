@@ -2,9 +2,15 @@
 
 > Sources: vlastní měření, 2026-11-20; 2026-11-21
 > Raw: [vysledky](../../raw/pipeline/2026-11-20-pilot-vysledky.md); [scan](../../raw/pipeline/2026-11-21-scan-sedlovky.md); [blender](../../raw/blender/2026-11-20-blender43-headless.md)
-> Updated: 2026-11-21
+> Updated: 2026-11-21; KOREKCE 2026-11-22 (viz níže)
 
-## Overview
+## KOREKCE 2026-11-22: část modelů je fakticky LOD1
+
+`scripts/audit_roofplanes.py` (shlukování normál, 10°): B02/B03/G2/G3/Z3 mají **1 střešní rovinu (plochý vršek)** přestože profil říká sedlová/valbová. Skutečné LOD2 (2 roviny) má jen **G1**; B01/B04 jsou správně ploché. Brno Geoflow výstupy: všech 7 s 1 rovinou.
+
+Příčina: `DetectLines` nenajde hřebenové přímky (řídké DMP1G / rastr) → aranžmá bez vnitřních linií → plochý vršek. Validace (manifold, planarita, Val3dity) úroveň LOD nekontroluje — proto verdikty PASS níže platí pro **topologii**, ne pro střešní strukturu. Verdikt „PASS" = validní solid v S-JTSK; sloupec střech je opravený auditem.
+
+## Overview (původní text 2026-11-21, ponechán z důvodu evidence)
 
 Dodávka: 7 budov Geoflow LoD2.2 jako .obj v S-JTSK (EPSG:5514) v output/final/ — 4 ploché z pilotu + 3 sedlové z celomapového scanu. Vlastní cesta je odstavena (viz níže).
 
