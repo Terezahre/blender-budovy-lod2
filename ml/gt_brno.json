@@ -1,0 +1,9472 @@
+{
+ "12400478532927488": {
+  "ridge_rel": 17.51,
+  "ridge_abs": 230.07,
+  "eave_abs": 212.56,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 147,
+  "purity": 0.605
+ },
+ "16129775047278592": {
+  "ridge_rel": 22.73,
+  "ridge_abs": 230.76,
+  "eave_abs": 208.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 24,
+  "purity": 1.0
+ },
+ "16129775097610240": {
+  "ridge_rel": 26.19,
+  "ridge_abs": 234.08,
+  "eave_abs": 207.89,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 292,
+  "purity": 0.884
+ },
+ "16129775147941888": {
+  "ridge_rel": 22.73,
+  "ridge_abs": 230.76,
+  "eave_abs": 208.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 514,
+  "purity": 0.698
+ },
+ "16222427189084160": {
+  "ridge_rel": 23.49,
+  "ridge_abs": 237.17,
+  "eave_abs": 213.68,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 96,
+  "purity": 0.708
+ },
+ "27456362522869760": {
+  "ridge_rel": 20.28,
+  "ridge_abs": 223.32,
+  "eave_abs": 203.04,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 215,
+  "purity": 0.753
+ },
+ "27479329944371200": {
+  "ridge_rel": 9.63,
+  "ridge_abs": 212.17,
+  "eave_abs": 202.54,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 1.0
+ },
+ "27617039212347392": {
+  "ridge_rel": 22.38,
+  "ridge_abs": 222.63,
+  "eave_abs": 200.25,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 208,
+  "purity": 0.346
+ },
+ "27617212437102592": {
+  "ridge_rel": 22.46,
+  "ridge_abs": 243.1,
+  "eave_abs": 220.64,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 29,
+  "purity": 1.0
+ },
+ "27617212537765888": {
+  "ridge_rel": 23.77,
+  "ridge_abs": 238.67,
+  "eave_abs": 214.9,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 289,
+  "purity": 0.398
+ },
+ "27617213242408960": {
+  "ridge_rel": 33.2,
+  "ridge_abs": 253.91,
+  "eave_abs": 220.71,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 111,
+  "purity": 0.982
+ },
+ "27617213343072256": {
+  "ridge_rel": 23.4,
+  "ridge_abs": 251.08,
+  "eave_abs": 227.68,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 224,
+  "purity": 0.661
+ },
+ "27617213494067200": {
+  "ridge_rel": 24.77,
+  "ridge_abs": 250.87,
+  "eave_abs": 226.1,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 61,
+  "purity": 1.0
+ },
+ "27684071387693056": {
+  "ridge_rel": 16.82,
+  "ridge_abs": 220.48,
+  "eave_abs": 203.66,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 98,
+  "purity": 0.724
+ },
+ "27684086839508992": {
+  "ridge_rel": 23.86,
+  "ridge_abs": 224.89,
+  "eave_abs": 201.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 317,
+  "purity": 0.375
+ },
+ "27684088802443264": {
+  "ridge_rel": 8.19,
+  "ridge_abs": 212.0,
+  "eave_abs": 203.81,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 19,
+  "purity": 0.684
+ },
+ "27684088903106560": {
+  "ridge_rel": 16.31,
+  "ridge_abs": 220.26,
+  "eave_abs": 203.95,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 137,
+  "purity": 0.453
+ },
+ "27684088953438208": {
+  "ridge_rel": 15.03,
+  "ridge_abs": 219.04,
+  "eave_abs": 204.01,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 0.419
+ },
+ "27684109354532864": {
+  "ridge_rel": 16.93,
+  "ridge_abs": 218.04,
+  "eave_abs": 201.11,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 15,
+  "purity": 1.0
+ },
+ "27684137540255744": {
+  "ridge_rel": 19.3,
+  "ridge_abs": 220.48,
+  "eave_abs": 201.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 16,
+  "purity": 0.938
+ },
+ "27684137590587392": {
+  "ridge_rel": 19.34,
+  "ridge_abs": 220.42,
+  "eave_abs": 201.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 213,
+  "purity": 0.451
+ },
+ "27775048978792448": {
+  "ridge_rel": 26.77,
+  "ridge_abs": 227.9,
+  "eave_abs": 201.13,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 424,
+  "purity": 0.83
+ },
+ "27775049079455744": {
+  "ridge_rel": 23.73,
+  "ridge_abs": 225.37,
+  "eave_abs": 201.64,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 117,
+  "purity": 0.915
+ },
+ "27775066997522432": {
+  "ridge_rel": 46.75,
+  "ridge_abs": 241.5,
+  "eave_abs": 194.75,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 235,
+  "purity": 1.0
+ },
+ "27775067047854080": {
+  "ridge_rel": 25.19,
+  "ridge_abs": 224.97,
+  "eave_abs": 199.78,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 892,
+  "purity": 0.399
+ },
+ "27775067098185728": {
+  "ridge_rel": 27.35,
+  "ridge_abs": 227.47,
+  "eave_abs": 200.12,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2021,
+  "n_seg": 241,
+  "purity": 0.929
+ },
+ "27775067148517376": {
+  "ridge_rel": 57.53,
+  "ridge_abs": 258.54,
+  "eave_abs": 201.01,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 811,
+  "purity": 0.813
+ },
+ "27775067198849024": {
+  "ridge_rel": 26.74,
+  "ridge_abs": 227.82,
+  "eave_abs": 201.08,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 25,
+  "purity": 0.6
+ },
+ "27775067903492096": {
+  "ridge_rel": 22.66,
+  "ridge_abs": 223.63,
+  "eave_abs": 200.97,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 234,
+  "purity": 0.393
+ },
+ "27775068155150336": {
+  "ridge_rel": 19.89,
+  "ridge_abs": 219.97,
+  "eave_abs": 200.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 898,
+  "purity": 0.513
+ },
+ "27775068356476928": {
+  "ridge_rel": 21.77,
+  "ridge_abs": 222.41,
+  "eave_abs": 200.64,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 33,
+  "purity": 0.848
+ },
+ "27822375726743552": {
+  "ridge_rel": 22.45,
+  "ridge_abs": 234.28,
+  "eave_abs": 211.83,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 35,
+  "purity": 0.514
+ },
+ "27822375978401792": {
+  "ridge_rel": 23.4,
+  "ridge_abs": 237.17,
+  "eave_abs": 213.77,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 24,
+  "purity": 1.0
+ },
+ "27822443187929088": {
+  "ridge_rel": 20.56,
+  "ridge_abs": 244.0,
+  "eave_abs": 223.44,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 99,
+  "purity": 0.99
+ },
+ "27822443288592384": {
+  "ridge_rel": 2.94,
+  "ridge_abs": 237.71,
+  "eave_abs": 234.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "27822443791908864": {
+  "ridge_rel": 12.24,
+  "ridge_abs": 248.29,
+  "eave_abs": 236.05,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 1,
+  "purity": 1.0
+ },
+ "27822443892572160": {
+  "ridge_rel": 26.85,
+  "ridge_abs": 233.05,
+  "eave_abs": 206.2,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 371,
+  "purity": 0.544
+ },
+ "27822443993235456": {
+  "ridge_rel": 24.69,
+  "ridge_abs": 231.71,
+  "eave_abs": 207.02,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 25,
+  "purity": 0.72
+ },
+ "27822444345556992": {
+  "ridge_rel": 35.2,
+  "ridge_abs": 252.84,
+  "eave_abs": 217.64,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 506,
+  "purity": 0.68
+ },
+ "27822444546883584": {
+  "ridge_rel": 25.04,
+  "ridge_abs": 250.02,
+  "eave_abs": 224.98,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 257,
+  "purity": 0.782
+ },
+ "27822444647546880": {
+  "ridge_rel": 27.02,
+  "ridge_abs": 242.14,
+  "eave_abs": 215.12,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 134,
+  "purity": 0.41
+ },
+ "27822444697878528": {
+  "ridge_rel": 29.98,
+  "ridge_abs": 247.7,
+  "eave_abs": 217.72,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 316,
+  "purity": 0.405
+ },
+ "27822444748210176": {
+  "ridge_rel": 30.26,
+  "ridge_abs": 248.73,
+  "eave_abs": 218.47,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 627,
+  "purity": 0.646
+ },
+ "27822444798541824": {
+  "ridge_rel": 20.1,
+  "ridge_abs": 243.2,
+  "eave_abs": 223.1,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 229,
+  "purity": 0.397
+ },
+ "27822445301858304": {
+  "ridge_rel": 24.3,
+  "ridge_abs": 246.29,
+  "eave_abs": 221.99,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 200,
+  "purity": 0.475
+ },
+ "27822445402521600": {
+  "ridge_rel": 31.49,
+  "ridge_abs": 246.3,
+  "eave_abs": 214.81,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 156,
+  "purity": 0.59
+ },
+ "27822445452853248": {
+  "ridge_rel": 19.89,
+  "ridge_abs": 234.8,
+  "eave_abs": 214.91,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 80,
+  "purity": 0.75
+ },
+ "27822445654179840": {
+  "ridge_rel": 4.31,
+  "ridge_abs": 236.31,
+  "eave_abs": 232.0,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "27822445704511488": {
+  "ridge_rel": 16.53,
+  "ridge_abs": 248.38,
+  "eave_abs": 231.85,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 75,
+  "purity": 1.0
+ },
+ "27822445754843136": {
+  "ridge_rel": 3.01,
+  "ridge_abs": 230.81,
+  "eave_abs": 227.8,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "27822445805174784": {
+  "ridge_rel": 22.42,
+  "ridge_abs": 246.08,
+  "eave_abs": 223.66,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 395,
+  "purity": 0.754
+ },
+ "27822445855506432": {
+  "ridge_rel": 11.92,
+  "ridge_abs": 239.88,
+  "eave_abs": 227.96,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 115,
+  "purity": 0.748
+ },
+ "27822509776699392": {
+  "ridge_rel": 8.65,
+  "ridge_abs": 237.32,
+  "eave_abs": 228.67,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "27936996357832704": {
+  "ridge_rel": 24.62,
+  "ridge_abs": 233.78,
+  "eave_abs": 209.16,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 95,
+  "purity": 0.695
+ },
+ "27936996559159296": {
+  "ridge_rel": 7.91,
+  "ridge_abs": 211.47,
+  "eave_abs": 203.56,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "27936996609490944": {
+  "ridge_rel": 4.89,
+  "ridge_abs": 208.19,
+  "eave_abs": 203.3,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 24,
+  "purity": 1.0
+ },
+ "27936997867782144": {
+  "ridge_rel": 18.87,
+  "ridge_abs": 220.37,
+  "eave_abs": 201.5,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 484,
+  "purity": 0.68
+ },
+ "28124760231641088": {
+  "ridge_rel": 33.66,
+  "ridge_abs": 254.37,
+  "eave_abs": 220.71,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 175,
+  "purity": 0.566
+ },
+ "30050795332304896": {
+  "ridge_rel": 24.93,
+  "ridge_abs": 233.27,
+  "eave_abs": 208.34,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 114,
+  "purity": 0.868
+ },
+ "30050800214474752": {
+  "ridge_rel": 29.54,
+  "ridge_abs": 237.77,
+  "eave_abs": 208.23,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 52,
+  "purity": 0.577
+ },
+ "30050800264806400": {
+  "ridge_rel": 30.59,
+  "ridge_abs": 237.77,
+  "eave_abs": 207.18,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 246,
+  "purity": 0.715
+ },
+ "30074770208849920": {
+  "ridge_rel": 12.59,
+  "ridge_abs": 215.66,
+  "eave_abs": 203.07,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 51,
+  "purity": 0.882
+ },
+ "32239858105712640": {
+  "ridge_rel": 23.5,
+  "ridge_abs": 223.96,
+  "eave_abs": 200.46,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 215,
+  "purity": 0.665
+ },
+ "32239878305480704": {
+  "ridge_rel": 5.09,
+  "ridge_abs": 205.82,
+  "eave_abs": 200.73,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 15,
+  "purity": 0.667
+ },
+ "32239892851326976": {
+  "ridge_rel": 21.03,
+  "ridge_abs": 221.21,
+  "eave_abs": 200.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 112,
+  "purity": 0.384
+ },
+ "32239892901658624": {
+  "ridge_rel": 18.95,
+  "ridge_abs": 219.45,
+  "eave_abs": 200.5,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 121,
+  "purity": 1.0
+ },
+ "32239914024173568": {
+  "ridge_rel": 19.89,
+  "ridge_abs": 219.97,
+  "eave_abs": 200.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 81,
+  "purity": 0.938
+ },
+ "32239914074505216": {
+  "ridge_rel": 9.64,
+  "ridge_abs": 210.17,
+  "eave_abs": 200.53,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 29,
+  "purity": 0.759
+ },
+ "32239914124836864": {
+  "ridge_rel": 26.56,
+  "ridge_abs": 224.15,
+  "eave_abs": 197.59,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 15,
+  "purity": 1.0
+ },
+ "32239941454921728": {
+  "ridge_rel": 4.41,
+  "ridge_abs": 205.95,
+  "eave_abs": 201.54,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "32239941505253376": {
+  "ridge_rel": 2.37,
+  "ridge_abs": 204.14,
+  "eave_abs": 201.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "32262797039501312": {
+  "ridge_rel": 2.39,
+  "ridge_abs": 203.9,
+  "eave_abs": 201.51,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "32262876731277312": {
+  "ridge_rel": 20.96,
+  "ridge_abs": 221.45,
+  "eave_abs": 200.49,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 14,
+  "purity": 0.857
+ },
+ "32262966405496832": {
+  "ridge_rel": 25.42,
+  "ridge_abs": 226.79,
+  "eave_abs": 201.37,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 473,
+  "purity": 0.548
+ },
+ "32262971354775552": {
+  "ridge_rel": 20.83,
+  "ridge_abs": 221.16,
+  "eave_abs": 200.33,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 2395,
+  "purity": 0.494
+ },
+ "32263600886251520": {
+  "ridge_rel": 21.02,
+  "ridge_abs": 223.15,
+  "eave_abs": 202.13,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 244,
+  "purity": 0.709
+ },
+ "32400902937640960": {
+  "ridge_rel": 6.69,
+  "ridge_abs": 224.23,
+  "eave_abs": 217.54,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "32491713595441152": {
+  "ridge_rel": 23.92,
+  "ridge_abs": 226.12,
+  "eave_abs": 202.2,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 105,
+  "purity": 0.876
+ },
+ "32491717521309696": {
+  "ridge_rel": 5.31,
+  "ridge_abs": 206.82,
+  "eave_abs": 201.51,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "32653699931176960": {
+  "ridge_rel": 7.18,
+  "ridge_abs": 210.34,
+  "eave_abs": 203.16,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 0.8
+ },
+ "32653699981508608": {
+  "ridge_rel": 7.18,
+  "ridge_abs": 210.34,
+  "eave_abs": 203.16,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 10,
+  "purity": 1.0
+ },
+ "32653764808671232": {
+  "ridge_rel": 14.33,
+  "ridge_abs": 218.25,
+  "eave_abs": 203.92,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 1.0
+ },
+ "32700104704000000": {
+  "ridge_rel": 5.87,
+  "ridge_abs": 220.0,
+  "eave_abs": 214.13,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "32700106062954496": {
+  "ridge_rel": 18.47,
+  "ridge_abs": 230.69,
+  "eave_abs": 212.22,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 39,
+  "purity": 0.897
+ },
+ "32700132436738048": {
+  "ridge_rel": 2.67,
+  "ridge_abs": 213.47,
+  "eave_abs": 210.8,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "32700336128917504": {
+  "ridge_rel": 32.56,
+  "ridge_abs": 238.71,
+  "eave_abs": 206.15,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 471,
+  "purity": 0.433
+ },
+ "32888625649680384": {
+  "ridge_rel": 16.71,
+  "ridge_abs": 220.49,
+  "eave_abs": 203.78,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 64,
+  "purity": 0.906
+ },
+ "32888625700012032": {
+  "ridge_rel": 19.36,
+  "ridge_abs": 222.82,
+  "eave_abs": 203.46,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 113,
+  "purity": 0.513
+ },
+ "33051302418186240": {
+  "ridge_rel": 4.72,
+  "ridge_abs": 205.83,
+  "eave_abs": 201.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "33051312987832320": {
+  "ridge_rel": 21.05,
+  "ridge_abs": 224.33,
+  "eave_abs": 203.28,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 48,
+  "purity": 0.625
+ },
+ "33051319514169344": {
+  "ridge_rel": 2.69,
+  "ridge_abs": 203.8,
+  "eave_abs": 201.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "33051321124782080": {
+  "ridge_rel": 2.31,
+  "ridge_abs": 206.11,
+  "eave_abs": 203.8,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "33166081728184320": {
+  "ridge_rel": 14.87,
+  "ridge_abs": 217.46,
+  "eave_abs": 202.59,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2021,
+  "n_seg": 22,
+  "purity": 0.636
+ },
+ "33166209721565184": {
+  "ridge_rel": 21.73,
+  "ridge_abs": 225.13,
+  "eave_abs": 203.4,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 161,
+  "purity": 0.578
+ },
+ "33166693106712576": {
+  "ridge_rel": 28.71,
+  "ridge_abs": 230.47,
+  "eave_abs": 201.76,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 333,
+  "purity": 0.55
+ },
+ "33189549765033984": {
+  "ridge_rel": 7.58,
+  "ridge_abs": 209.6,
+  "eave_abs": 202.02,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 98,
+  "purity": 1.0
+ },
+ "33189618635505664": {
+  "ridge_rel": 10.77,
+  "ridge_abs": 212.96,
+  "eave_abs": 202.19,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 186,
+  "purity": 1.0
+ },
+ "33189638130630656": {
+  "ridge_rel": 29.62,
+  "ridge_abs": 233.63,
+  "eave_abs": 204.01,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 593,
+  "purity": 0.437
+ },
+ "34602253427933184": {
+  "ridge_rel": 4.92,
+  "ridge_abs": 205.48,
+  "eave_abs": 200.56,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 12,
+  "purity": 0.833
+ },
+ "34602253629259776": {
+  "ridge_rel": 23.51,
+  "ridge_abs": 223.8,
+  "eave_abs": 200.29,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 296,
+  "purity": 0.439
+ },
+ "34602254887550976": {
+  "ridge_rel": 6.58,
+  "ridge_abs": 207.41,
+  "eave_abs": 200.83,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 10,
+  "purity": 1.0
+ },
+ "34694096958259200": {
+  "ridge_rel": 5.31,
+  "ridge_abs": 206.92,
+  "eave_abs": 201.61,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "35221478442008576": {
+  "ridge_rel": 3.14,
+  "ridge_abs": 206.54,
+  "eave_abs": 203.4,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "35221583299608576": {
+  "ridge_rel": 27.58,
+  "ridge_abs": 228.5,
+  "eave_abs": 200.92,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 28,
+  "purity": 0.893
+ },
+ "35267827581583360": {
+  "ridge_rel": 26.77,
+  "ridge_abs": 243.34,
+  "eave_abs": 216.57,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 179,
+  "purity": 0.983
+ },
+ "36557110560948224": {
+  "ridge_rel": 23.73,
+  "ridge_abs": 223.81,
+  "eave_abs": 200.08,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 58,
+  "purity": 0.534
+ },
+ "37911793544200192": {
+  "ridge_rel": 31.06,
+  "ridge_abs": 235.86,
+  "eave_abs": 204.8,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 575,
+  "purity": 0.386
+ },
+ "41113812660649984": {
+  "ridge_rel": 3.76,
+  "ridge_abs": 211.55,
+  "eave_abs": 207.79,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "41113982831951872": {
+  "ridge_rel": 4.3,
+  "ridge_abs": 204.94,
+  "eave_abs": 200.64,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "41114045276749824": {
+  "ridge_rel": 23.22,
+  "ridge_abs": 223.91,
+  "eave_abs": 200.69,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 41,
+  "purity": 0.878
+ },
+ "41114049873707008": {
+  "ridge_rel": 20.33,
+  "ridge_abs": 220.35,
+  "eave_abs": 200.02,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 84,
+  "purity": 0.857
+ },
+ "41114054890094592": {
+  "ridge_rel": 26.82,
+  "ridge_abs": 227.26,
+  "eave_abs": 200.44,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 215,
+  "purity": 0.47
+ },
+ "41114077774217216": {
+  "ridge_rel": 24.22,
+  "ridge_abs": 224.51,
+  "eave_abs": 200.29,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 152,
+  "purity": 0.493
+ },
+ "41114118878396416": {
+  "ridge_rel": 26.46,
+  "ridge_abs": 226.98,
+  "eave_abs": 200.52,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 419,
+  "purity": 0.399
+ },
+ "41216915951058944": {
+  "ridge_rel": 26.84,
+  "ridge_abs": 243.34,
+  "eave_abs": 216.5,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 125,
+  "purity": 0.472
+ },
+ "41216916001390592": {
+  "ridge_rel": 37.62,
+  "ridge_abs": 253.39,
+  "eave_abs": 215.77,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 984,
+  "purity": 0.595
+ },
+ "41217433511395328": {
+  "ridge_rel": 25.56,
+  "ridge_abs": 227.99,
+  "eave_abs": 202.43,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 124,
+  "purity": 0.621
+ },
+ "41217433561726976": {
+  "ridge_rel": 2.52,
+  "ridge_abs": 207.39,
+  "eave_abs": 204.87,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "41217433712721920": {
+  "ridge_rel": 25.17,
+  "ridge_abs": 237.06,
+  "eave_abs": 211.89,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 241,
+  "purity": 0.444
+ },
+ "41217433763053568": {
+  "ridge_rel": 24.22,
+  "ridge_abs": 229.65,
+  "eave_abs": 205.43,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 98,
+  "purity": 0.816
+ },
+ "41217433813385216": {
+  "ridge_rel": 10.98,
+  "ridge_abs": 213.01,
+  "eave_abs": 202.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 30,
+  "purity": 0.533
+ },
+ "41217433863716864": {
+  "ridge_rel": 8.28,
+  "ridge_abs": 210.65,
+  "eave_abs": 202.37,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 1.0
+ },
+ "41217433964380160": {
+  "ridge_rel": 8.73,
+  "ridge_abs": 211.03,
+  "eave_abs": 202.3,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 0.571
+ },
+ "41217434165706752": {
+  "ridge_rel": 12.09,
+  "ridge_abs": 228.73,
+  "eave_abs": 216.64,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 93,
+  "purity": 0.516
+ },
+ "41217434216038400": {
+  "ridge_rel": 18.67,
+  "ridge_abs": 227.46,
+  "eave_abs": 208.79,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 48,
+  "purity": 0.708
+ },
+ "41217434266370048": {
+  "ridge_rel": 3.96,
+  "ridge_abs": 209.07,
+  "eave_abs": 205.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "41217434316701696": {
+  "ridge_rel": 23.47,
+  "ridge_abs": 225.02,
+  "eave_abs": 201.55,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 110,
+  "purity": 0.445
+ },
+ "41217434568359936": {
+  "ridge_rel": 9.28,
+  "ridge_abs": 211.1,
+  "eave_abs": 201.82,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 53,
+  "purity": 0.83
+ },
+ "41217434618691584": {
+  "ridge_rel": 2.87,
+  "ridge_abs": 204.17,
+  "eave_abs": 201.3,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "41217434669023232": {
+  "ridge_rel": 17.14,
+  "ridge_abs": 218.53,
+  "eave_abs": 201.39,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 285,
+  "purity": 0.463
+ },
+ "41217434769686528": {
+  "ridge_rel": 21.56,
+  "ridge_abs": 230.08,
+  "eave_abs": 208.52,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 216,
+  "purity": 0.477
+ },
+ "41217435071676416": {
+  "ridge_rel": 22.29,
+  "ridge_abs": 228.8,
+  "eave_abs": 206.51,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 0.9
+ },
+ "41217435122008064": {
+  "ridge_rel": 26.1,
+  "ridge_abs": 236.32,
+  "eave_abs": 210.22,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 94,
+  "purity": 0.404
+ },
+ "41217435289780224": {
+  "ridge_rel": 22.71,
+  "ridge_abs": 227.12,
+  "eave_abs": 204.41,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 227,
+  "purity": 0.48
+ },
+ "41217435491106816": {
+  "ridge_rel": 11.5,
+  "ridge_abs": 212.68,
+  "eave_abs": 201.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 68,
+  "purity": 0.574
+ },
+ "41217435541438464": {
+  "ridge_rel": 5.84,
+  "ridge_abs": 207.18,
+  "eave_abs": 201.34,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "41217435591770112": {
+  "ridge_rel": 30.8,
+  "ridge_abs": 233.12,
+  "eave_abs": 202.32,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 102,
+  "purity": 0.412
+ },
+ "41217435893760000": {
+  "ridge_rel": 24.21,
+  "ridge_abs": 229.48,
+  "eave_abs": 205.27,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 41,
+  "purity": 0.366
+ },
+ "41217436749398016": {
+  "ridge_rel": 27.53,
+  "ridge_abs": 240.29,
+  "eave_abs": 212.76,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 810,
+  "purity": 0.377
+ },
+ "41217436799729664": {
+  "ridge_rel": 20.95,
+  "ridge_abs": 225.9,
+  "eave_abs": 204.95,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 150,
+  "purity": 0.507
+ },
+ "41217455841869824": {
+  "ridge_rel": 24.88,
+  "ridge_abs": 228.92,
+  "eave_abs": 204.04,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 147,
+  "purity": 0.381
+ },
+ "41217455892201472": {
+  "ridge_rel": 24.65,
+  "ridge_abs": 229.01,
+  "eave_abs": 204.36,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 1036,
+  "purity": 0.445
+ },
+ "41217502784520192": {
+  "ridge_rel": 47.5,
+  "ridge_abs": 249.3,
+  "eave_abs": 201.8,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 268,
+  "purity": 0.619
+ },
+ "41217502834851840": {
+  "ridge_rel": 17.79,
+  "ridge_abs": 219.59,
+  "eave_abs": 201.8,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "41217504965558272": {
+  "ridge_rel": 29.21,
+  "ridge_abs": 232.24,
+  "eave_abs": 203.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 105,
+  "purity": 0.79
+ },
+ "41217511240237056": {
+  "ridge_rel": 27.86,
+  "ridge_abs": 230.69,
+  "eave_abs": 202.83,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 785,
+  "purity": 0.713
+ },
+ "41217608615198720": {
+  "ridge_rel": 2.72,
+  "ridge_abs": 208.39,
+  "eave_abs": 205.67,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "41286788609736704": {
+  "ridge_rel": 3.13,
+  "ridge_abs": 205.99,
+  "eave_abs": 202.86,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "41286788660068352": {
+  "ridge_rel": 20.25,
+  "ridge_abs": 223.27,
+  "eave_abs": 203.02,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 263,
+  "purity": 0.487
+ },
+ "42246096029745152": {
+  "ridge_rel": 26.83,
+  "ridge_abs": 236.08,
+  "eave_abs": 209.25,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 364,
+  "purity": 0.352
+ },
+ "42280989166141440": {
+  "ridge_rel": 33.3,
+  "ridge_abs": 250.77,
+  "eave_abs": 217.47,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 54,
+  "purity": 0.833
+ },
+ "42280989266804736": {
+  "ridge_rel": 30.05,
+  "ridge_abs": 246.01,
+  "eave_abs": 215.96,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 176,
+  "purity": 0.267
+ },
+ "42280989317136384": {
+  "ridge_rel": 31.3,
+  "ridge_abs": 246.34,
+  "eave_abs": 215.04,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 582,
+  "purity": 0.514
+ },
+ "42280991229739008": {
+  "ridge_rel": 6.75,
+  "ridge_abs": 230.82,
+  "eave_abs": 224.07,
+  "roof_type": 2,
+  "strecha_kod": 5,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "42280991280070656": {
+  "ridge_rel": 26.16,
+  "ridge_abs": 245.56,
+  "eave_abs": 219.4,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 18,
+  "purity": 0.611
+ },
+ "42280991330402304": {
+  "ridge_rel": 25.24,
+  "ridge_abs": 245.56,
+  "eave_abs": 220.32,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 59,
+  "purity": 0.559
+ },
+ "42280991380733952": {
+  "ridge_rel": 4.63,
+  "ridge_abs": 223.26,
+  "eave_abs": 218.63,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "42280991431065600": {
+  "ridge_rel": 30.12,
+  "ridge_abs": 248.7,
+  "eave_abs": 218.58,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 37,
+  "purity": 0.811
+ },
+ "42280991481397248": {
+  "ridge_rel": 8.21,
+  "ridge_abs": 230.8,
+  "eave_abs": 222.59,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 0.75
+ },
+ "42280991531728896": {
+  "ridge_rel": 20.84,
+  "ridge_abs": 243.43,
+  "eave_abs": 222.59,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 20,
+  "purity": 0.6
+ },
+ "42280991582060544": {
+  "ridge_rel": 23.61,
+  "ridge_abs": 246.2,
+  "eave_abs": 222.59,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 87,
+  "purity": 0.678
+ },
+ "42280991632392192": {
+  "ridge_rel": 26.23,
+  "ridge_abs": 242.01,
+  "eave_abs": 215.78,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 533,
+  "purity": 0.769
+ },
+ "42280991749832704": {
+  "ridge_rel": 36.95,
+  "ridge_abs": 252.91,
+  "eave_abs": 215.96,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1451,
+  "purity": 0.364
+ },
+ "42280992001490944": {
+  "ridge_rel": 26.67,
+  "ridge_abs": 243.42,
+  "eave_abs": 216.75,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 236,
+  "purity": 0.292
+ },
+ "42280993997979648": {
+  "ridge_rel": 29.2,
+  "ridge_abs": 236.07,
+  "eave_abs": 206.87,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 394,
+  "purity": 0.492
+ },
+ "42280994048311296": {
+  "ridge_rel": 33.96,
+  "ridge_abs": 241.26,
+  "eave_abs": 207.3,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 507,
+  "purity": 0.294
+ },
+ "42280994098642944": {
+  "ridge_rel": 31.55,
+  "ridge_abs": 239.69,
+  "eave_abs": 208.14,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 798,
+  "purity": 0.467
+ },
+ "42280994148974592": {
+  "ridge_rel": 27.68,
+  "ridge_abs": 242.17,
+  "eave_abs": 214.49,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 35,
+  "purity": 1.0
+ },
+ "42280994199306240": {
+  "ridge_rel": 29.24,
+  "ridge_abs": 242.17,
+  "eave_abs": 212.93,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 552,
+  "purity": 0.572
+ },
+ "42280994249637888": {
+  "ridge_rel": 3.98,
+  "ridge_abs": 220.72,
+  "eave_abs": 216.74,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "42280994350301184": {
+  "ridge_rel": 27.03,
+  "ridge_abs": 239.11,
+  "eave_abs": 212.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 40,
+  "purity": 1.0
+ },
+ "42280994400632832": {
+  "ridge_rel": 27.03,
+  "ridge_abs": 239.11,
+  "eave_abs": 212.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 54,
+  "purity": 0.722
+ },
+ "42280994450964480": {
+  "ridge_rel": 46.92,
+  "ridge_abs": 259.0,
+  "eave_abs": 212.08,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 200,
+  "purity": 0.71
+ },
+ "42280994501296128": {
+  "ridge_rel": 40.5,
+  "ridge_abs": 250.6,
+  "eave_abs": 210.1,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 161,
+  "purity": 0.491
+ },
+ "42280994551627776": {
+  "ridge_rel": 67.98,
+  "ridge_abs": 285.47,
+  "eave_abs": 217.49,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 400,
+  "purity": 0.52
+ },
+ "42280994601959424": {
+  "ridge_rel": 39.87,
+  "ridge_abs": 256.86,
+  "eave_abs": 216.99,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 259,
+  "purity": 0.764
+ },
+ "42280994652291072": {
+  "ridge_rel": 29.8,
+  "ridge_abs": 239.95,
+  "eave_abs": 210.15,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 251,
+  "purity": 1.0
+ },
+ "42280994702622720": {
+  "ridge_rel": 30.31,
+  "ridge_abs": 247.57,
+  "eave_abs": 217.26,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 133,
+  "purity": 0.692
+ },
+ "42280994752954368": {
+  "ridge_rel": 30.31,
+  "ridge_abs": 247.57,
+  "eave_abs": 217.26,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 37,
+  "purity": 0.595
+ },
+ "42280994803286016": {
+  "ridge_rel": 30.7,
+  "ridge_abs": 247.96,
+  "eave_abs": 217.26,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 97,
+  "purity": 0.907
+ },
+ "42280994853617664": {
+  "ridge_rel": 26.6,
+  "ridge_abs": 243.94,
+  "eave_abs": 217.34,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 113,
+  "purity": 0.416
+ },
+ "42280994903949312": {
+  "ridge_rel": 30.04,
+  "ridge_abs": 246.43,
+  "eave_abs": 216.39,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 125,
+  "purity": 0.68
+ },
+ "42280994954280960": {
+  "ridge_rel": 30.04,
+  "ridge_abs": 246.43,
+  "eave_abs": 216.39,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 378,
+  "purity": 0.635
+ },
+ "42280995004612608": {
+  "ridge_rel": 29.09,
+  "ridge_abs": 246.43,
+  "eave_abs": 217.34,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 70,
+  "purity": 0.443
+ },
+ "42280995054944256": {
+  "ridge_rel": 4.14,
+  "ridge_abs": 220.63,
+  "eave_abs": 216.49,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "42280995205939200": {
+  "ridge_rel": 31.29,
+  "ridge_abs": 251.46,
+  "eave_abs": 220.17,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 306,
+  "purity": 0.562
+ },
+ "42280995256270848": {
+  "ridge_rel": 30.48,
+  "ridge_abs": 250.45,
+  "eave_abs": 219.97,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 36,
+  "purity": 0.806
+ },
+ "42280995306602496": {
+  "ridge_rel": 30.48,
+  "ridge_abs": 250.45,
+  "eave_abs": 219.97,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 267,
+  "purity": 0.573
+ },
+ "42280995356934144": {
+  "ridge_rel": 26.64,
+  "ridge_abs": 249.97,
+  "eave_abs": 223.33,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "42280995407265792": {
+  "ridge_rel": 24.61,
+  "ridge_abs": 247.21,
+  "eave_abs": 222.6,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 26,
+  "purity": 1.0
+ },
+ "42280995507929088": {
+  "ridge_rel": 28.47,
+  "ridge_abs": 252.14,
+  "eave_abs": 223.67,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 257,
+  "purity": 0.992
+ },
+ "42280995558260736": {
+  "ridge_rel": 22.85,
+  "ridge_abs": 244.51,
+  "eave_abs": 221.66,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 421,
+  "purity": 0.515
+ },
+ "42280995608592384": {
+  "ridge_rel": 23.28,
+  "ridge_abs": 244.63,
+  "eave_abs": 221.35,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 139,
+  "purity": 0.892
+ },
+ "42280995658924032": {
+  "ridge_rel": 94.47,
+  "ridge_abs": 310.57,
+  "eave_abs": 216.1,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 274,
+  "purity": 0.85
+ },
+ "42280995709255680": {
+  "ridge_rel": 7.32,
+  "ridge_abs": 214.17,
+  "eave_abs": 206.85,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 33,
+  "purity": 1.0
+ },
+ "42280995759587328": {
+  "ridge_rel": 7.4,
+  "ridge_abs": 215.86,
+  "eave_abs": 208.46,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "42280995860250624": {
+  "ridge_rel": 29.53,
+  "ridge_abs": 243.31,
+  "eave_abs": 213.78,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 53,
+  "purity": 0.868
+ },
+ "42280995910582272": {
+  "ridge_rel": 29.53,
+  "ridge_abs": 243.31,
+  "eave_abs": 213.78,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 357,
+  "purity": 0.308
+ },
+ "42280995960913920": {
+  "ridge_rel": 26.24,
+  "ridge_abs": 241.35,
+  "eave_abs": 215.11,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 128,
+  "purity": 0.688
+ },
+ "42280996044800000": {
+  "ridge_rel": 22.99,
+  "ridge_abs": 239.79,
+  "eave_abs": 216.8,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 106,
+  "purity": 1.0
+ },
+ "42280996111908864": {
+  "ridge_rel": 26.24,
+  "ridge_abs": 241.35,
+  "eave_abs": 215.11,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 203,
+  "purity": 0.803
+ },
+ "42280996162240512": {
+  "ridge_rel": 28.36,
+  "ridge_abs": 243.5,
+  "eave_abs": 215.14,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 115,
+  "purity": 0.852
+ },
+ "42280996212572160": {
+  "ridge_rel": 28.45,
+  "ridge_abs": 242.74,
+  "eave_abs": 214.29,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 0.842
+ },
+ "42280996262903808": {
+  "ridge_rel": 27.93,
+  "ridge_abs": 240.38,
+  "eave_abs": 212.45,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 96,
+  "purity": 0.969
+ },
+ "42280996313235456": {
+  "ridge_rel": 30.29,
+  "ridge_abs": 242.74,
+  "eave_abs": 212.45,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 282,
+  "purity": 0.309
+ },
+ "42280996397121536": {
+  "ridge_rel": 26.74,
+  "ridge_abs": 234.43,
+  "eave_abs": 207.69,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 156,
+  "purity": 0.654
+ },
+ "42280996481007616": {
+  "ridge_rel": 23.57,
+  "ridge_abs": 227.98,
+  "eave_abs": 204.41,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 66,
+  "purity": 0.712
+ },
+ "42280996531339264": {
+  "ridge_rel": 28.31,
+  "ridge_abs": 236.22,
+  "eave_abs": 207.91,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 79,
+  "purity": 0.759
+ },
+ "42280996682334208": {
+  "ridge_rel": 28.84,
+  "ridge_abs": 236.22,
+  "eave_abs": 207.38,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 226,
+  "purity": 0.544
+ },
+ "42280997286313984": {
+  "ridge_rel": 27.69,
+  "ridge_abs": 239.11,
+  "eave_abs": 211.42,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 220,
+  "purity": 0.482
+ },
+ "42280997336645632": {
+  "ridge_rel": 67.98,
+  "ridge_abs": 285.47,
+  "eave_abs": 217.49,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 90,
+  "purity": 0.833
+ },
+ "42280997386977280": {
+  "ridge_rel": 32.76,
+  "ridge_abs": 245.31,
+  "eave_abs": 212.55,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 884,
+  "purity": 0.493
+ },
+ "42280997437308928": {
+  "ridge_rel": 27.24,
+  "ridge_abs": 243.63,
+  "eave_abs": 216.39,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 20,
+  "purity": 0.95
+ },
+ "42280997487640576": {
+  "ridge_rel": 26.24,
+  "ridge_abs": 241.35,
+  "eave_abs": 215.11,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 236,
+  "purity": 0.555
+ },
+ "42280997537972224": {
+  "ridge_rel": 36.09,
+  "ridge_abs": 253.31,
+  "eave_abs": 217.22,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 931,
+  "purity": 0.382
+ },
+ "42281000255881216": {
+  "ridge_rel": 31.64,
+  "ridge_abs": 243.92,
+  "eave_abs": 212.28,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 49,
+  "purity": 0.714
+ },
+ "42281000306212864": {
+  "ridge_rel": 26.71,
+  "ridge_abs": 238.99,
+  "eave_abs": 212.28,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 99,
+  "purity": 0.515
+ },
+ "42281000406876160": {
+  "ridge_rel": 11.28,
+  "ridge_abs": 221.95,
+  "eave_abs": 210.67,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 18,
+  "purity": 1.0
+ },
+ "42281000457207808": {
+  "ridge_rel": 32.87,
+  "ridge_abs": 235.45,
+  "eave_abs": 202.58,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 70,
+  "purity": 0.829
+ },
+ "42281000507539456": {
+  "ridge_rel": 27.39,
+  "ridge_abs": 233.81,
+  "eave_abs": 206.42,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 299,
+  "purity": 0.431
+ },
+ "42281000557871104": {
+  "ridge_rel": 28.02,
+  "ridge_abs": 233.18,
+  "eave_abs": 205.16,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 238,
+  "purity": 0.689
+ },
+ "42281000608202752": {
+  "ridge_rel": 21.45,
+  "ridge_abs": 230.52,
+  "eave_abs": 209.07,
+  "roof_type": 2,
+  "strecha_kod": 5,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "42281000658534400": {
+  "ridge_rel": 22.74,
+  "ridge_abs": 230.52,
+  "eave_abs": 207.78,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 108,
+  "purity": 0.62
+ },
+ "42281000708866048": {
+  "ridge_rel": 29.08,
+  "ridge_abs": 236.36,
+  "eave_abs": 207.28,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 32,
+  "purity": 1.0
+ },
+ "42281000759197696": {
+  "ridge_rel": 33.65,
+  "ridge_abs": 248.49,
+  "eave_abs": 214.84,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 142,
+  "purity": 0.423
+ },
+ "42281000809529344": {
+  "ridge_rel": 9.96,
+  "ridge_abs": 222.85,
+  "eave_abs": 212.89,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 1.0
+ },
+ "42281000859860992": {
+  "ridge_rel": 28.3,
+  "ridge_abs": 239.01,
+  "eave_abs": 210.71,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 102,
+  "purity": 0.598
+ },
+ "42281000910192640": {
+  "ridge_rel": 27.77,
+  "ridge_abs": 239.01,
+  "eave_abs": 211.24,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 161,
+  "purity": 0.509
+ },
+ "42281000960524288": {
+  "ridge_rel": 28.3,
+  "ridge_abs": 239.01,
+  "eave_abs": 210.71,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 114,
+  "purity": 0.596
+ },
+ "42281001061187584": {
+  "ridge_rel": 26.92,
+  "ridge_abs": 235.71,
+  "eave_abs": 208.79,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 420,
+  "purity": 0.271
+ },
+ "42281001111519232": {
+  "ridge_rel": 3.87,
+  "ridge_abs": 210.04,
+  "eave_abs": 206.17,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "42281001161850880": {
+  "ridge_rel": 25.76,
+  "ridge_abs": 231.7,
+  "eave_abs": 205.94,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 267,
+  "purity": 0.367
+ },
+ "42281001212182528": {
+  "ridge_rel": 53.2,
+  "ridge_abs": 265.74,
+  "eave_abs": 212.54,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 169,
+  "purity": 0.408
+ },
+ "42281001262514176": {
+  "ridge_rel": 53.2,
+  "ridge_abs": 265.74,
+  "eave_abs": 212.54,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 575,
+  "purity": 0.395
+ },
+ "42281001312845824": {
+  "ridge_rel": 28.6,
+  "ridge_abs": 242.98,
+  "eave_abs": 214.38,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 83,
+  "purity": 1.0
+ },
+ "42281001363177472": {
+  "ridge_rel": 29.53,
+  "ridge_abs": 242.98,
+  "eave_abs": 213.45,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 369,
+  "purity": 0.648
+ },
+ "42281001463840768": {
+  "ridge_rel": 4.66,
+  "ridge_abs": 218.07,
+  "eave_abs": 213.41,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "42281001514172416": {
+  "ridge_rel": 25.65,
+  "ridge_abs": 234.38,
+  "eave_abs": 208.73,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 0.871
+ },
+ "42281001564504064": {
+  "ridge_rel": 25.65,
+  "ridge_abs": 234.38,
+  "eave_abs": 208.73,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 23,
+  "purity": 0.696
+ },
+ "42281001614835712": {
+  "ridge_rel": 53.82,
+  "ridge_abs": 265.26,
+  "eave_abs": 211.44,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 321,
+  "purity": 0.788
+ },
+ "42281001665167360": {
+  "ridge_rel": 37.09,
+  "ridge_abs": 248.96,
+  "eave_abs": 211.87,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 249,
+  "purity": 0.791
+ },
+ "42281001715499008": {
+  "ridge_rel": 28.27,
+  "ridge_abs": 235.62,
+  "eave_abs": 207.35,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 83,
+  "purity": 0.819
+ },
+ "42281001765830656": {
+  "ridge_rel": 27.45,
+  "ridge_abs": 233.68,
+  "eave_abs": 206.23,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 329,
+  "purity": 0.392
+ },
+ "42281001816162304": {
+  "ridge_rel": 5.84,
+  "ridge_abs": 211.95,
+  "eave_abs": 206.11,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "42281001866493952": {
+  "ridge_rel": 8.9,
+  "ridge_abs": 215.1,
+  "eave_abs": 206.2,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 30,
+  "purity": 1.0
+ },
+ "42281001916825600": {
+  "ridge_rel": 60.07,
+  "ridge_abs": 281.92,
+  "eave_abs": 221.85,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 208,
+  "purity": 0.577
+ },
+ "42281001967157248": {
+  "ridge_rel": 22.87,
+  "ridge_abs": 243.44,
+  "eave_abs": 220.57,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 462,
+  "purity": 0.519
+ },
+ "42281002017488896": {
+  "ridge_rel": 21.3,
+  "ridge_abs": 246.21,
+  "eave_abs": 224.91,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 82,
+  "purity": 0.963
+ },
+ "42281002118152192": {
+  "ridge_rel": 27.5,
+  "ridge_abs": 251.36,
+  "eave_abs": 223.86,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 450,
+  "purity": 0.522
+ },
+ "42281002168483840": {
+  "ridge_rel": 24.16,
+  "ridge_abs": 236.44,
+  "eave_abs": 212.28,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 70,
+  "purity": 0.429
+ },
+ "42281002789240832": {
+  "ridge_rel": 34.57,
+  "ridge_abs": 246.85,
+  "eave_abs": 212.28,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 929,
+  "purity": 0.559
+ },
+ "42281002839572480": {
+  "ridge_rel": 31.28,
+  "ridge_abs": 239.56,
+  "eave_abs": 208.28,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 650,
+  "purity": 0.525
+ },
+ "42281002889904128": {
+  "ridge_rel": 27.39,
+  "ridge_abs": 233.81,
+  "eave_abs": 206.42,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 177,
+  "purity": 0.661
+ },
+ "42281002940235776": {
+  "ridge_rel": 35.25,
+  "ridge_abs": 248.49,
+  "eave_abs": 213.24,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 1508,
+  "purity": 0.414
+ },
+ "42281003040899072": {
+  "ridge_rel": 31.18,
+  "ridge_abs": 246.81,
+  "eave_abs": 215.63,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 436,
+  "purity": 0.787
+ },
+ "42281003091230720": {
+  "ridge_rel": 56.26,
+  "ridge_abs": 265.26,
+  "eave_abs": 209.0,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 189,
+  "purity": 0.45
+ },
+ "42281003141562368": {
+  "ridge_rel": 38.14,
+  "ridge_abs": 248.96,
+  "eave_abs": 210.82,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 159,
+  "purity": 0.597
+ },
+ "42281003191894016": {
+  "ridge_rel": 19.71,
+  "ridge_abs": 241.51,
+  "eave_abs": 221.8,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 61,
+  "purity": 0.59
+ },
+ "42281003292557312": {
+  "ridge_rel": 27.5,
+  "ridge_abs": 251.36,
+  "eave_abs": 223.86,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 303,
+  "purity": 0.274
+ },
+ "42281003342888960": {
+  "ridge_rel": 31.62,
+  "ridge_abs": 248.76,
+  "eave_abs": 217.14,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 978,
+  "purity": 0.29
+ },
+ "42281004299190272": {
+  "ridge_rel": 4.72,
+  "ridge_abs": 211.24,
+  "eave_abs": 206.52,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "42281004399853568": {
+  "ridge_rel": 9.85,
+  "ridge_abs": 211.19,
+  "eave_abs": 201.34,
+  "roof_type": 2,
+  "strecha_kod": 5,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "42281004450185216": {
+  "ridge_rel": 12.83,
+  "ridge_abs": 213.86,
+  "eave_abs": 201.03,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 43,
+  "purity": 0.372
+ },
+ "42281004550848512": {
+  "ridge_rel": 30.55,
+  "ridge_abs": 236.29,
+  "eave_abs": 205.74,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 41,
+  "purity": 1.0
+ },
+ "42281004601180160": {
+  "ridge_rel": 29.59,
+  "ridge_abs": 243.0,
+  "eave_abs": 213.41,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 137,
+  "purity": 0.642
+ },
+ "42281004651511808": {
+  "ridge_rel": 30.18,
+  "ridge_abs": 243.0,
+  "eave_abs": 212.82,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 470,
+  "purity": 0.496
+ },
+ "42281004701843456": {
+  "ridge_rel": 26.29,
+  "ridge_abs": 245.01,
+  "eave_abs": 218.72,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 24,
+  "purity": 0.833
+ },
+ "42281004752175104": {
+  "ridge_rel": 20.13,
+  "ridge_abs": 240.7,
+  "eave_abs": 220.57,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 50,
+  "purity": 0.42
+ },
+ "42281004802506752": {
+  "ridge_rel": 26.31,
+  "ridge_abs": 245.01,
+  "eave_abs": 218.7,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 180,
+  "purity": 0.583
+ },
+ "42281004852838400": {
+  "ridge_rel": 7.12,
+  "ridge_abs": 213.1,
+  "eave_abs": 205.98,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 21,
+  "purity": 0.667
+ },
+ "42281004903170048": {
+  "ridge_rel": 3.36,
+  "ridge_abs": 209.73,
+  "eave_abs": 206.37,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "42281004953501696": {
+  "ridge_rel": 4.72,
+  "ridge_abs": 211.23,
+  "eave_abs": 206.51,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "42281005003833344": {
+  "ridge_rel": 15.61,
+  "ridge_abs": 248.46,
+  "eave_abs": 232.85,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 22,
+  "purity": 1.0
+ },
+ "42281005054164992": {
+  "ridge_rel": 5.59,
+  "ridge_abs": 211.77,
+  "eave_abs": 206.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "42281005104496640": {
+  "ridge_rel": 14.99,
+  "ridge_abs": 221.77,
+  "eave_abs": 206.78,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 19,
+  "purity": 1.0
+ },
+ "42281005154828288": {
+  "ridge_rel": 25.07,
+  "ridge_abs": 241.42,
+  "eave_abs": 216.35,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 95,
+  "purity": 0.684
+ },
+ "42281005205159936": {
+  "ridge_rel": 25.07,
+  "ridge_abs": 241.42,
+  "eave_abs": 216.35,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 0.842
+ },
+ "42281005356154880": {
+  "ridge_rel": 19.09,
+  "ridge_abs": 259.49,
+  "eave_abs": 240.4,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 1.0
+ },
+ "42281005406486528": {
+  "ridge_rel": 23.22,
+  "ridge_abs": 259.49,
+  "eave_abs": 236.27,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 0.889
+ },
+ "42281005607813120": {
+  "ridge_rel": 23.37,
+  "ridge_abs": 257.82,
+  "eave_abs": 234.45,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 34,
+  "purity": 0.588
+ },
+ "42281005658144768": {
+  "ridge_rel": 85.22,
+  "ridge_abs": 325.58,
+  "eave_abs": 240.36,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 613,
+  "purity": 0.405
+ },
+ "42281005708476416": {
+  "ridge_rel": 11.72,
+  "ridge_abs": 242.2,
+  "eave_abs": 230.48,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "42281005758808064": {
+  "ridge_rel": 23.9,
+  "ridge_abs": 249.02,
+  "eave_abs": 225.12,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 321,
+  "purity": 0.492
+ },
+ "42281005809139712": {
+  "ridge_rel": 19.15,
+  "ridge_abs": 220.11,
+  "eave_abs": 200.96,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 0.467
+ },
+ "42281005859471360": {
+  "ridge_rel": 13.01,
+  "ridge_abs": 213.65,
+  "eave_abs": 200.64,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 0.769
+ },
+ "42281005909803008": {
+  "ridge_rel": 12.25,
+  "ridge_abs": 212.88,
+  "eave_abs": 200.63,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "42281005960134656": {
+  "ridge_rel": 32.6,
+  "ridge_abs": 238.05,
+  "eave_abs": 205.45,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 97,
+  "purity": 0.918
+ },
+ "42281006161461248": {
+  "ridge_rel": 33.2,
+  "ridge_abs": 239.58,
+  "eave_abs": 206.38,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 469,
+  "purity": 0.531
+ },
+ "42281006211792896": {
+  "ridge_rel": 30.96,
+  "ridge_abs": 250.04,
+  "eave_abs": 219.08,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 217,
+  "purity": 0.76
+ },
+ "42281006262124544": {
+  "ridge_rel": 6.45,
+  "ridge_abs": 237.24,
+  "eave_abs": 230.79,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "42281006362787840": {
+  "ridge_rel": 30.8,
+  "ridge_abs": 240.19,
+  "eave_abs": 209.39,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 362,
+  "purity": 0.721
+ },
+ "42281006463451136": {
+  "ridge_rel": 25.87,
+  "ridge_abs": 259.49,
+  "eave_abs": 233.62,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 377,
+  "purity": 0.512
+ },
+ "42281006513782784": {
+  "ridge_rel": 24.66,
+  "ridge_abs": 252.28,
+  "eave_abs": 227.62,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 237,
+  "purity": 0.582
+ },
+ "42281007889514496": {
+  "ridge_rel": 11.75,
+  "ridge_abs": 214.92,
+  "eave_abs": 203.17,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 53,
+  "purity": 0.755
+ },
+ "42281007939846144": {
+  "ridge_rel": 13.05,
+  "ridge_abs": 219.47,
+  "eave_abs": 206.42,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 1.0
+ },
+ "42281008040509440": {
+  "ridge_rel": 5.21,
+  "ridge_abs": 207.11,
+  "eave_abs": 201.9,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "50188545695940608": {
+  "ridge_rel": 24.5,
+  "ridge_abs": 231.07,
+  "eave_abs": 206.57,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 273,
+  "purity": 0.879
+ },
+ "52935803289993216": {
+  "ridge_rel": 33.7,
+  "ridge_abs": 251.91,
+  "eave_abs": 218.21,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1478,
+  "purity": 0.312
+ },
+ "52935817483517952": {
+  "ridge_rel": 25.7,
+  "ridge_abs": 226.09,
+  "eave_abs": 200.39,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 780,
+  "purity": 0.622
+ },
+ "52935833958744064": {
+  "ridge_rel": 10.84,
+  "ridge_abs": 211.54,
+  "eave_abs": 200.7,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "53006709911715840": {
+  "ridge_rel": 27.38,
+  "ridge_abs": 231.3,
+  "eave_abs": 203.92,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 201,
+  "purity": 0.463
+ },
+ "53006712545738752": {
+  "ridge_rel": 24.75,
+  "ridge_abs": 229.56,
+  "eave_abs": 204.81,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 346,
+  "purity": 0.543
+ },
+ "53006713149718528": {
+  "ridge_rel": 5.6,
+  "ridge_abs": 208.26,
+  "eave_abs": 202.66,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 30,
+  "purity": 1.0
+ },
+ "53006713250381824": {
+  "ridge_rel": 18.73,
+  "ridge_abs": 221.77,
+  "eave_abs": 203.04,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 105,
+  "purity": 0.4
+ },
+ "53006713451708416": {
+  "ridge_rel": 18.13,
+  "ridge_abs": 218.99,
+  "eave_abs": 200.86,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 335,
+  "purity": 0.585
+ },
+ "53006714357678080": {
+  "ridge_rel": 22.95,
+  "ridge_abs": 227.52,
+  "eave_abs": 204.57,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1273,
+  "purity": 0.406
+ },
+ "53006714508673024": {
+  "ridge_rel": 14.02,
+  "ridge_abs": 213.55,
+  "eave_abs": 199.53,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 80,
+  "purity": 0.688
+ },
+ "53006715062321152": {
+  "ridge_rel": 24.46,
+  "ridge_abs": 226.85,
+  "eave_abs": 202.39,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 919,
+  "purity": 0.461
+ },
+ "53006715766964224": {
+  "ridge_rel": 32.16,
+  "ridge_abs": 236.38,
+  "eave_abs": 204.22,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 300,
+  "purity": 0.64
+ },
+ "53006715817295872": {
+  "ridge_rel": 18.03,
+  "ridge_abs": 222.74,
+  "eave_abs": 204.71,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 34,
+  "purity": 0.912
+ },
+ "53006722159083520": {
+  "ridge_rel": 22.25,
+  "ridge_abs": 224.01,
+  "eave_abs": 201.76,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 410,
+  "purity": 0.771
+ },
+ "53006722360410112": {
+  "ridge_rel": 3.05,
+  "ridge_abs": 208.7,
+  "eave_abs": 205.65,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 46,
+  "purity": 1.0
+ },
+ "53006755981950976": {
+  "ridge_rel": 2.73,
+  "ridge_abs": 208.95,
+  "eave_abs": 206.22,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "53006759471611904": {
+  "ridge_rel": 12.27,
+  "ridge_abs": 214.64,
+  "eave_abs": 202.37,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 0.774
+ },
+ "53006759840710656": {
+  "ridge_rel": 5.44,
+  "ridge_abs": 207.61,
+  "eave_abs": 202.17,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "53006760545353728": {
+  "ridge_rel": 18.25,
+  "ridge_abs": 220.45,
+  "eave_abs": 202.2,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 192,
+  "purity": 0.422
+ },
+ "53006760897675264": {
+  "ridge_rel": 4.09,
+  "ridge_abs": 206.5,
+  "eave_abs": 202.41,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 16,
+  "purity": 0.562
+ },
+ "53006760948006912": {
+  "ridge_rel": 21.99,
+  "ridge_abs": 223.86,
+  "eave_abs": 201.87,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 129,
+  "purity": 0.411
+ },
+ "53006762692837376": {
+  "ridge_rel": 24.43,
+  "ridge_abs": 225.22,
+  "eave_abs": 200.79,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 424,
+  "purity": 0.656
+ },
+ "53006762894163968": {
+  "ridge_rel": 16.62,
+  "ridge_abs": 216.91,
+  "eave_abs": 200.29,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 88,
+  "purity": 0.432
+ },
+ "53006763212931072": {
+  "ridge_rel": 2.26,
+  "ridge_abs": 204.5,
+  "eave_abs": 202.24,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 0.769
+ },
+ "53006765930840064": {
+  "ridge_rel": 101.32,
+  "ridge_abs": 302.2,
+  "eave_abs": 200.88,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 1577,
+  "purity": 0.59
+ },
+ "53110533364121600": {
+  "ridge_rel": 30.95,
+  "ridge_abs": 233.12,
+  "eave_abs": 202.17,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 113,
+  "purity": 0.788
+ },
+ "53110533414453248": {
+  "ridge_rel": 29.91,
+  "ridge_abs": 230.75,
+  "eave_abs": 200.84,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 896,
+  "purity": 0.339
+ },
+ "53110533615779840": {
+  "ridge_rel": 14.24,
+  "ridge_abs": 218.76,
+  "eave_abs": 204.52,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 35,
+  "purity": 0.771
+ },
+ "53110533917769728": {
+  "ridge_rel": 26.42,
+  "ridge_abs": 226.89,
+  "eave_abs": 200.47,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 546,
+  "purity": 0.429
+ },
+ "53110534018433024": {
+  "ridge_rel": 22.22,
+  "ridge_abs": 229.31,
+  "eave_abs": 207.09,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 27,
+  "purity": 0.667
+ },
+ "53110534102319104": {
+  "ridge_rel": 27.42,
+  "ridge_abs": 232.71,
+  "eave_abs": 205.29,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 648,
+  "purity": 0.412
+ },
+ "53110534152650752": {
+  "ridge_rel": 28.06,
+  "ridge_abs": 235.13,
+  "eave_abs": 207.07,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 692,
+  "purity": 0.597
+ },
+ "53110534202982400": {
+  "ridge_rel": 20.04,
+  "ridge_abs": 230.36,
+  "eave_abs": 210.32,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 175,
+  "purity": 0.537
+ },
+ "53110534353977344": {
+  "ridge_rel": 25.78,
+  "ridge_abs": 236.41,
+  "eave_abs": 210.63,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 222,
+  "purity": 0.761
+ },
+ "53110534404308992": {
+  "ridge_rel": 30.86,
+  "ridge_abs": 243.69,
+  "eave_abs": 212.83,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 2244,
+  "purity": 0.367
+ },
+ "53110534504972288": {
+  "ridge_rel": 26.52,
+  "ridge_abs": 230.69,
+  "eave_abs": 204.17,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 107,
+  "purity": 0.692
+ },
+ "53110535310278656": {
+  "ridge_rel": 24.69,
+  "ridge_abs": 227.4,
+  "eave_abs": 202.71,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 179,
+  "purity": 0.732
+ },
+ "53110539085152256": {
+  "ridge_rel": 14.2,
+  "ridge_abs": 216.19,
+  "eave_abs": 201.99,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 118,
+  "purity": 0.703
+ },
+ "53110539135483904": {
+  "ridge_rel": 16.16,
+  "ridge_abs": 218.69,
+  "eave_abs": 202.53,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 26,
+  "purity": 1.0
+ },
+ "53110558546722816": {
+  "ridge_rel": 27.63,
+  "ridge_abs": 230.67,
+  "eave_abs": 203.04,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 254,
+  "purity": 0.697
+ },
+ "53110558949376000": {
+  "ridge_rel": 21.11,
+  "ridge_abs": 230.48,
+  "eave_abs": 209.37,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 123,
+  "purity": 0.455
+ },
+ "53110562908798976": {
+  "ridge_rel": 12.27,
+  "ridge_abs": 212.5,
+  "eave_abs": 200.23,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 1056,
+  "purity": 0.875
+ },
+ "53110563059793920": {
+  "ridge_rel": 7.7,
+  "ridge_abs": 210.29,
+  "eave_abs": 202.59,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 41,
+  "purity": 0.829
+ },
+ "53110582101934080": {
+  "ridge_rel": 28.2,
+  "ridge_abs": 232.08,
+  "eave_abs": 203.88,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 234,
+  "purity": 0.765
+ },
+ "53110582152265728": {
+  "ridge_rel": 9.72,
+  "ridge_abs": 212.83,
+  "eave_abs": 203.11,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 52,
+  "purity": 0.288
+ },
+ "53110714826489856": {
+  "ridge_rel": 20.7,
+  "ridge_abs": 249.54,
+  "eave_abs": 228.84,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 86,
+  "purity": 1.0
+ },
+ "53110714876821504": {
+  "ridge_rel": 16.55,
+  "ridge_abs": 246.6,
+  "eave_abs": 230.05,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 59,
+  "purity": 1.0
+ },
+ "53110714927153152": {
+  "ridge_rel": 16.8,
+  "ridge_abs": 247.34,
+  "eave_abs": 230.54,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "53110783881510912": {
+  "ridge_rel": 31.61,
+  "ridge_abs": 236.36,
+  "eave_abs": 204.75,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 217,
+  "purity": 0.728
+ },
+ "53182427190788096": {
+  "ridge_rel": 21.6,
+  "ridge_abs": 258.63,
+  "eave_abs": 237.03,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 112,
+  "purity": 0.768
+ },
+ "53182427241119744": {
+  "ridge_rel": 34.44,
+  "ridge_abs": 261.8,
+  "eave_abs": 227.36,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 1118,
+  "purity": 0.56
+ },
+ "53182427593441280": {
+  "ridge_rel": 22.74,
+  "ridge_abs": 244.23,
+  "eave_abs": 221.49,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 85,
+  "purity": 0.612
+ },
+ "53182427694104576": {
+  "ridge_rel": 23.72,
+  "ridge_abs": 244.23,
+  "eave_abs": 220.51,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 285,
+  "purity": 0.442
+ },
+ "53182428398747648": {
+  "ridge_rel": 30.08,
+  "ridge_abs": 232.05,
+  "eave_abs": 201.97,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 269,
+  "purity": 0.498
+ },
+ "53217011139870720": {
+  "ridge_rel": 14.73,
+  "ridge_abs": 260.03,
+  "eave_abs": 245.3,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 1.0
+ },
+ "53217011190202368": {
+  "ridge_rel": 12.31,
+  "ridge_abs": 252.96,
+  "eave_abs": 240.65,
+  "roof_type": 2,
+  "strecha_kod": 5,
+  "rok": 2020,
+  "n_seg": 17,
+  "purity": 1.0
+ },
+ "53217011240534016": {
+  "ridge_rel": 29.93,
+  "ridge_abs": 258.38,
+  "eave_abs": 228.45,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 153,
+  "purity": 1.0
+ },
+ "53217011290865664": {
+  "ridge_rel": 35.47,
+  "ridge_abs": 258.18,
+  "eave_abs": 222.71,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 0.947
+ },
+ "53217011391528960": {
+  "ridge_rel": 28.61,
+  "ridge_abs": 256.8,
+  "eave_abs": 228.19,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 74,
+  "purity": 0.865
+ },
+ "53217011441860608": {
+  "ridge_rel": 35.47,
+  "ridge_abs": 258.18,
+  "eave_abs": 222.71,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 284,
+  "purity": 0.514
+ },
+ "53217011492192256": {
+  "ridge_rel": 26.35,
+  "ridge_abs": 249.1,
+  "eave_abs": 222.75,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 87,
+  "purity": 0.655
+ },
+ "53217011542523904": {
+  "ridge_rel": 22.12,
+  "ridge_abs": 249.26,
+  "eave_abs": 227.14,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 450,
+  "purity": 0.344
+ },
+ "53217011693518848": {
+  "ridge_rel": 4.03,
+  "ridge_abs": 239.55,
+  "eave_abs": 235.52,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "53217011743850496": {
+  "ridge_rel": 4.84,
+  "ridge_abs": 232.34,
+  "eave_abs": 227.5,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "53217011794182144": {
+  "ridge_rel": 5.18,
+  "ridge_abs": 232.19,
+  "eave_abs": 227.01,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "53217011844513792": {
+  "ridge_rel": 23.28,
+  "ridge_abs": 249.69,
+  "eave_abs": 226.41,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 39,
+  "purity": 1.0
+ },
+ "53217011894845440": {
+  "ridge_rel": 5.66,
+  "ridge_abs": 232.66,
+  "eave_abs": 227.0,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "53217012096172032": {
+  "ridge_rel": 34.04,
+  "ridge_abs": 251.75,
+  "eave_abs": 217.71,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 313,
+  "purity": 0.875
+ },
+ "53217012247166976": {
+  "ridge_rel": 25.43,
+  "ridge_abs": 260.62,
+  "eave_abs": 235.19,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 347,
+  "purity": 0.571
+ },
+ "53217012297498624": {
+  "ridge_rel": 31.13,
+  "ridge_abs": 259.32,
+  "eave_abs": 228.19,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 186,
+  "purity": 0.468
+ },
+ "53217012347830272": {
+  "ridge_rel": 36.61,
+  "ridge_abs": 259.32,
+  "eave_abs": 222.71,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 529,
+  "purity": 0.406
+ },
+ "53217012448493568": {
+  "ridge_rel": 21.3,
+  "ridge_abs": 247.9,
+  "eave_abs": 226.6,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 81,
+  "purity": 0.765
+ },
+ "53462508735823872": {
+  "ridge_rel": 3.93,
+  "ridge_abs": 216.0,
+  "eave_abs": 212.07,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 0.933
+ },
+ "53462537659744256": {
+  "ridge_rel": 38.18,
+  "ridge_abs": 251.82,
+  "eave_abs": 213.64,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3075,
+  "purity": 0.509
+ },
+ "53462537710075904": {
+  "ridge_rel": 35.91,
+  "ridge_abs": 253.15,
+  "eave_abs": 217.24,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 1073,
+  "purity": 0.437
+ },
+ "53462537760407552": {
+  "ridge_rel": 30.87,
+  "ridge_abs": 246.83,
+  "eave_abs": 215.96,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 445,
+  "purity": 0.492
+ },
+ "53901583611592704": {
+  "ridge_rel": 29.17,
+  "ridge_abs": 232.86,
+  "eave_abs": 203.69,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 588,
+  "purity": 0.434
+ },
+ "53901595674411008": {
+  "ridge_rel": 22.0,
+  "ridge_abs": 222.97,
+  "eave_abs": 200.97,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 432,
+  "purity": 0.468
+ },
+ "53901595724742656": {
+  "ridge_rel": 20.4,
+  "ridge_abs": 221.75,
+  "eave_abs": 201.35,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 250,
+  "purity": 0.652
+ },
+ "53901600523026432": {
+  "ridge_rel": 22.42,
+  "ridge_abs": 226.05,
+  "eave_abs": 203.63,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 167,
+  "purity": 0.467
+ },
+ "53901605690408960": {
+  "ridge_rel": 28.24,
+  "ridge_abs": 229.63,
+  "eave_abs": 201.39,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1186,
+  "purity": 0.441
+ },
+ "53936417943846912": {
+  "ridge_rel": 8.23,
+  "ridge_abs": 208.79,
+  "eave_abs": 200.56,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 111,
+  "purity": 0.856
+ },
+ "53936475221262336": {
+  "ridge_rel": 23.02,
+  "ridge_abs": 223.54,
+  "eave_abs": 200.52,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 190,
+  "purity": 0.579
+ },
+ "53936483727310848": {
+  "ridge_rel": 19.88,
+  "ridge_abs": 220.37,
+  "eave_abs": 200.49,
+  "roof_type": 2,
+  "strecha_kod": 5,
+  "rok": 2021,
+  "n_seg": 439,
+  "purity": 0.301
+ },
+ "53936489599336448": {
+  "ridge_rel": 3.4,
+  "ridge_abs": 204.69,
+  "eave_abs": 201.29,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 19,
+  "purity": 1.0
+ },
+ "53936489649668096": {
+  "ridge_rel": 27.75,
+  "ridge_abs": 228.5,
+  "eave_abs": 200.75,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 75,
+  "purity": 0.96
+ },
+ "53936518456147968": {
+  "ridge_rel": 28.38,
+  "ridge_abs": 227.15,
+  "eave_abs": 198.77,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 438,
+  "purity": 0.966
+ },
+ "53971615955812352": {
+  "ridge_rel": 25.95,
+  "ridge_abs": 226.54,
+  "eave_abs": 200.59,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 564,
+  "purity": 0.404
+ },
+ "54180600323506176": {
+  "ridge_rel": 2.92,
+  "ridge_abs": 203.3,
+  "eave_abs": 200.38,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "54180600373837824": {
+  "ridge_rel": 19.01,
+  "ridge_abs": 219.41,
+  "eave_abs": 200.4,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 62,
+  "purity": 0.613
+ },
+ "54589099226431488": {
+  "ridge_rel": 16.07,
+  "ridge_abs": 219.76,
+  "eave_abs": 203.69,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 164,
+  "purity": 0.488
+ },
+ "54589099276763136": {
+  "ridge_rel": 15.38,
+  "ridge_abs": 219.3,
+  "eave_abs": 203.92,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 45,
+  "purity": 0.756
+ },
+ "55049219358064640": {
+  "ridge_rel": 15.33,
+  "ridge_abs": 247.93,
+  "eave_abs": 232.6,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 54,
+  "purity": 0.981
+ },
+ "55049222713507840": {
+  "ridge_rel": 17.23,
+  "ridge_abs": 251.4,
+  "eave_abs": 234.17,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 77,
+  "purity": 1.0
+ },
+ "55049222763839488": {
+  "ridge_rel": 3.4,
+  "ridge_abs": 238.9,
+  "eave_abs": 235.5,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "55049222814171136": {
+  "ridge_rel": 13.81,
+  "ridge_abs": 249.9,
+  "eave_abs": 236.09,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 49,
+  "purity": 0.612
+ },
+ "55505530105364480": {
+  "ridge_rel": 31.47,
+  "ridge_abs": 248.95,
+  "eave_abs": 217.48,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 437,
+  "purity": 0.43
+ },
+ "61049232718561280": {
+  "ridge_rel": 15.93,
+  "ridge_abs": 228.34,
+  "eave_abs": 212.41,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "61049233205100544": {
+  "ridge_rel": 6.08,
+  "ridge_abs": 218.5,
+  "eave_abs": 212.42,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 0.75
+ },
+ "61049302931210240": {
+  "ridge_rel": 3.65,
+  "ridge_abs": 223.28,
+  "eave_abs": 219.63,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 50,
+  "purity": 1.0
+ },
+ "61271628322963456": {
+  "ridge_rel": 9.91,
+  "ridge_abs": 216.09,
+  "eave_abs": 206.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 47,
+  "purity": 1.0
+ },
+ "61271632701816832": {
+  "ridge_rel": 9.49,
+  "ridge_abs": 209.68,
+  "eave_abs": 200.19,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 11,
+  "purity": 0.818
+ },
+ "61271632752148480": {
+  "ridge_rel": 29.37,
+  "ridge_abs": 229.56,
+  "eave_abs": 200.19,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 1083,
+  "purity": 0.608
+ },
+ "61271636225032192": {
+  "ridge_rel": 8.57,
+  "ridge_abs": 224.38,
+  "eave_abs": 215.81,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 0.9
+ },
+ "61271636275363840": {
+  "ridge_rel": 29.33,
+  "ridge_abs": 243.71,
+  "eave_abs": 214.38,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 498,
+  "purity": 0.47
+ },
+ "61271642533265408": {
+  "ridge_rel": 4.44,
+  "ridge_abs": 206.45,
+  "eave_abs": 202.01,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "61271642633928704": {
+  "ridge_rel": 4.44,
+  "ridge_abs": 206.45,
+  "eave_abs": 202.01,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "61271643942551552": {
+  "ridge_rel": 22.3,
+  "ridge_abs": 223.99,
+  "eave_abs": 201.69,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 40,
+  "purity": 0.775
+ },
+ "61271645855154176": {
+  "ridge_rel": 4.04,
+  "ridge_abs": 209.95,
+  "eave_abs": 205.91,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "61271646761123840": {
+  "ridge_rel": 7.35,
+  "ridge_abs": 211.43,
+  "eave_abs": 204.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "61271646811455488": {
+  "ridge_rel": 7.34,
+  "ridge_abs": 211.43,
+  "eave_abs": 204.09,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "61271647214108672": {
+  "ridge_rel": 5.06,
+  "ridge_abs": 213.28,
+  "eave_abs": 208.22,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 22,
+  "purity": 1.0
+ },
+ "61271661860618240": {
+  "ridge_rel": 4.66,
+  "ridge_abs": 230.02,
+  "eave_abs": 225.36,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "62032655624962048": {
+  "ridge_rel": 31.36,
+  "ridge_abs": 241.77,
+  "eave_abs": 210.41,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1010,
+  "purity": 0.739
+ },
+ "63410448921264128": {
+  "ridge_rel": 30.78,
+  "ridge_abs": 239.01,
+  "eave_abs": 208.23,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 781,
+  "purity": 0.667
+ },
+ "63410463232229376": {
+  "ridge_rel": 33.78,
+  "ridge_abs": 244.47,
+  "eave_abs": 210.69,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1774,
+  "purity": 0.446
+ },
+ "67566251878121472": {
+  "ridge_rel": 29.34,
+  "ridge_abs": 232.02,
+  "eave_abs": 202.68,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 1719,
+  "purity": 0.474
+ },
+ "67566252129779712": {
+  "ridge_rel": 18.13,
+  "ridge_abs": 221.67,
+  "eave_abs": 203.54,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 37,
+  "purity": 0.595
+ },
+ "7327870682660864": {
+  "ridge_rel": 3.51,
+  "ridge_abs": 206.55,
+  "eave_abs": 203.04,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7327870699438080": {
+  "ridge_rel": 2.15,
+  "ridge_abs": 203.26,
+  "eave_abs": 201.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327870732992512": {
+  "ridge_rel": 22.38,
+  "ridge_abs": 223.1,
+  "eave_abs": 200.72,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 247,
+  "purity": 1.0
+ },
+ "7327870766546944": {
+  "ridge_rel": 3.38,
+  "ridge_abs": 205.11,
+  "eave_abs": 201.73,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 12,
+  "purity": 0.5
+ },
+ "7327870783324160": {
+  "ridge_rel": 3.84,
+  "ridge_abs": 205.11,
+  "eave_abs": 201.27,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327870800101376": {
+  "ridge_rel": 5.21,
+  "ridge_abs": 206.01,
+  "eave_abs": 200.8,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 15,
+  "purity": 0.733
+ },
+ "7327870816878592": {
+  "ridge_rel": 9.61,
+  "ridge_abs": 210.26,
+  "eave_abs": 200.65,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 144,
+  "purity": 0.646
+ },
+ "7327870850433024": {
+  "ridge_rel": 5.63,
+  "ridge_abs": 206.79,
+  "eave_abs": 201.16,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327870867210240": {
+  "ridge_rel": 25.96,
+  "ridge_abs": 226.71,
+  "eave_abs": 200.75,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 198,
+  "purity": 0.616
+ },
+ "7327870883987456": {
+  "ridge_rel": 2.81,
+  "ridge_abs": 204.83,
+  "eave_abs": 202.02,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7327870900764672": {
+  "ridge_rel": 8.42,
+  "ridge_abs": 209.68,
+  "eave_abs": 201.26,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 11,
+  "purity": 0.636
+ },
+ "7327870917541888": {
+  "ridge_rel": 21.12,
+  "ridge_abs": 222.05,
+  "eave_abs": 200.93,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 841,
+  "purity": 0.723
+ },
+ "7327870967873536": {
+  "ridge_rel": 10.91,
+  "ridge_abs": 212.35,
+  "eave_abs": 201.44,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 20,
+  "purity": 1.0
+ },
+ "7327870984650752": {
+  "ridge_rel": 15.6,
+  "ridge_abs": 217.01,
+  "eave_abs": 201.41,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 39,
+  "purity": 0.897
+ },
+ "7327871001427968": {
+  "ridge_rel": 25.22,
+  "ridge_abs": 226.73,
+  "eave_abs": 201.51,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 16,
+  "purity": 1.0
+ },
+ "7327873501233152": {
+  "ridge_rel": 22.66,
+  "ridge_abs": 223.63,
+  "eave_abs": 200.97,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 30,
+  "purity": 0.567
+ },
+ "7327873601896448": {
+  "ridge_rel": 4.76,
+  "ridge_abs": 205.84,
+  "eave_abs": 201.08,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 15,
+  "purity": 0.6
+ },
+ "7327873618673664": {
+  "ridge_rel": 11.88,
+  "ridge_abs": 213.03,
+  "eave_abs": 201.15,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 39,
+  "purity": 0.59
+ },
+ "7327873635450880": {
+  "ridge_rel": 12.33,
+  "ridge_abs": 211.82,
+  "eave_abs": 199.49,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 477,
+  "purity": 0.637
+ },
+ "7327873652228096": {
+  "ridge_rel": 3.05,
+  "ridge_abs": 204.52,
+  "eave_abs": 201.47,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7327873987772416": {
+  "ridge_rel": 2.73,
+  "ridge_abs": 203.6,
+  "eave_abs": 200.87,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 0.6
+ },
+ "7327874004549632": {
+  "ridge_rel": 4.04,
+  "ridge_abs": 204.25,
+  "eave_abs": 200.21,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7327874038104064": {
+  "ridge_rel": 2.94,
+  "ridge_abs": 204.32,
+  "eave_abs": 201.38,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327874172321792": {
+  "ridge_rel": 8.82,
+  "ridge_abs": 209.71,
+  "eave_abs": 200.89,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "7327874239430656": {
+  "ridge_rel": 18.96,
+  "ridge_abs": 219.5,
+  "eave_abs": 200.54,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 29,
+  "purity": 1.0
+ },
+ "7327874289762304": {
+  "ridge_rel": 22.61,
+  "ridge_abs": 223.32,
+  "eave_abs": 200.71,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 45,
+  "purity": 1.0
+ },
+ "7327874306539520": {
+  "ridge_rel": 31.26,
+  "ridge_abs": 231.74,
+  "eave_abs": 200.48,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 67,
+  "purity": 0.925
+ },
+ "7327874457534464": {
+  "ridge_rel": 5.33,
+  "ridge_abs": 206.47,
+  "eave_abs": 201.14,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7327874474311680": {
+  "ridge_rel": 2.98,
+  "ridge_abs": 203.79,
+  "eave_abs": 200.81,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 18,
+  "purity": 1.0
+ },
+ "7327874524643328": {
+  "ridge_rel": 3.01,
+  "ridge_abs": 203.73,
+  "eave_abs": 200.72,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327874574974976": {
+  "ridge_rel": 2.65,
+  "ridge_abs": 203.26,
+  "eave_abs": 200.61,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327874625306624": {
+  "ridge_rel": 17.49,
+  "ridge_abs": 218.04,
+  "eave_abs": 200.55,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 30,
+  "purity": 0.633
+ },
+ "7327874642083840": {
+  "ridge_rel": 3.9,
+  "ridge_abs": 204.66,
+  "eave_abs": 200.76,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7327874658861056": {
+  "ridge_rel": 3.82,
+  "ridge_abs": 204.51,
+  "eave_abs": 200.69,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 9,
+  "purity": 0.556
+ },
+ "7327874675638272": {
+  "ridge_rel": 18.06,
+  "ridge_abs": 219.24,
+  "eave_abs": 201.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 23,
+  "purity": 0.565
+ },
+ "7327874692415488": {
+  "ridge_rel": 25.31,
+  "ridge_abs": 226.77,
+  "eave_abs": 201.46,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 82,
+  "purity": 1.0
+ },
+ "7327875011182592": {
+  "ridge_rel": 11.74,
+  "ridge_abs": 212.2,
+  "eave_abs": 200.46,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 105,
+  "purity": 0.562
+ },
+ "7327875027959808": {
+  "ridge_rel": 11.18,
+  "ridge_abs": 211.58,
+  "eave_abs": 200.4,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 25,
+  "purity": 0.8
+ },
+ "7327875128623104": {
+  "ridge_rel": 14.18,
+  "ridge_abs": 214.13,
+  "eave_abs": 199.95,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 415,
+  "purity": 0.422
+ },
+ "7327875145400320": {
+  "ridge_rel": 22.85,
+  "ridge_abs": 222.92,
+  "eave_abs": 200.07,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 80,
+  "purity": 1.0
+ },
+ "7327875162177536": {
+  "ridge_rel": 5.99,
+  "ridge_abs": 206.66,
+  "eave_abs": 200.67,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7327875195731968": {
+  "ridge_rel": 2.5,
+  "ridge_abs": 203.16,
+  "eave_abs": 200.66,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7327875229286400": {
+  "ridge_rel": 23.68,
+  "ridge_abs": 223.92,
+  "eave_abs": 200.24,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327875246063616": {
+  "ridge_rel": 16.32,
+  "ridge_abs": 216.4,
+  "eave_abs": 200.08,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 0.733
+ },
+ "7327875850043392": {
+  "ridge_rel": 11.19,
+  "ridge_abs": 211.77,
+  "eave_abs": 200.58,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7327875866820608": {
+  "ridge_rel": 16.5,
+  "ridge_abs": 216.76,
+  "eave_abs": 200.26,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 48,
+  "purity": 0.688
+ },
+ "7327875900375040": {
+  "ridge_rel": 22.43,
+  "ridge_abs": 223.89,
+  "eave_abs": 201.46,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 20,
+  "purity": 0.75
+ },
+ "7327875917152256": {
+  "ridge_rel": 22.37,
+  "ridge_abs": 223.89,
+  "eave_abs": 201.52,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 19,
+  "purity": 0.842
+ },
+ "7327875950706688": {
+  "ridge_rel": 21.27,
+  "ridge_abs": 222.17,
+  "eave_abs": 200.9,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 65,
+  "purity": 0.646
+ },
+ "7327875967483904": {
+  "ridge_rel": 22.9,
+  "ridge_abs": 223.04,
+  "eave_abs": 200.14,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 55,
+  "purity": 0.982
+ },
+ "7327876001038336": {
+  "ridge_rel": 22.9,
+  "ridge_abs": 223.04,
+  "eave_abs": 200.14,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 56,
+  "purity": 1.0
+ },
+ "7327876017815552": {
+  "ridge_rel": 7.55,
+  "ridge_abs": 208.14,
+  "eave_abs": 200.59,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327876034592768": {
+  "ridge_rel": 24.67,
+  "ridge_abs": 225.1,
+  "eave_abs": 200.43,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 53,
+  "purity": 0.774
+ },
+ "7327876051369984": {
+  "ridge_rel": 24.69,
+  "ridge_abs": 225.1,
+  "eave_abs": 200.41,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 115,
+  "purity": 0.757
+ },
+ "7327876068147200": {
+  "ridge_rel": 24.56,
+  "ridge_abs": 225.1,
+  "eave_abs": 200.54,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 277,
+  "purity": 0.877
+ },
+ "7327876084924416": {
+  "ridge_rel": 20.22,
+  "ridge_abs": 220.6,
+  "eave_abs": 200.38,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 226,
+  "purity": 0.478
+ },
+ "7327876118478848": {
+  "ridge_rel": 5.42,
+  "ridge_abs": 206.07,
+  "eave_abs": 200.65,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7327876168810496": {
+  "ridge_rel": 4.05,
+  "ridge_abs": 205.35,
+  "eave_abs": 201.3,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7327876219142144": {
+  "ridge_rel": 7.41,
+  "ridge_abs": 208.02,
+  "eave_abs": 200.61,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 41,
+  "purity": 0.463
+ },
+ "7327876235919360": {
+  "ridge_rel": 4.28,
+  "ridge_abs": 204.94,
+  "eave_abs": 200.66,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7327876252696576": {
+  "ridge_rel": 4.22,
+  "ridge_abs": 204.88,
+  "eave_abs": 200.66,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327876269473792": {
+  "ridge_rel": 9.94,
+  "ridge_abs": 209.39,
+  "eave_abs": 199.45,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 11,
+  "purity": 1.0
+ },
+ "7327876303028224": {
+  "ridge_rel": 27.35,
+  "ridge_abs": 227.47,
+  "eave_abs": 200.12,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 145,
+  "purity": 0.662
+ },
+ "7327876336582656": {
+  "ridge_rel": 16.68,
+  "ridge_abs": 217.32,
+  "eave_abs": 200.64,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 10,
+  "purity": 1.0
+ },
+ "7327876353359872": {
+  "ridge_rel": 16.73,
+  "ridge_abs": 217.32,
+  "eave_abs": 200.59,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 84,
+  "purity": 0.536
+ },
+ "7327876370137088": {
+  "ridge_rel": 24.09,
+  "ridge_abs": 223.54,
+  "eave_abs": 199.45,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 28,
+  "purity": 0.536
+ },
+ "7327876420468736": {
+  "ridge_rel": 4.49,
+  "ridge_abs": 205.71,
+  "eave_abs": 201.22,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7327876454023168": {
+  "ridge_rel": 10.24,
+  "ridge_abs": 213.76,
+  "eave_abs": 203.52,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 26,
+  "purity": 1.0
+ },
+ "7327876470800384": {
+  "ridge_rel": 20.35,
+  "ridge_abs": 220.48,
+  "eave_abs": 200.13,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "7327876487577600": {
+  "ridge_rel": 18.01,
+  "ridge_abs": 220.36,
+  "eave_abs": 202.35,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 13,
+  "purity": 1.0
+ },
+ "7327876504354816": {
+  "ridge_rel": 14.95,
+  "ridge_abs": 218.16,
+  "eave_abs": 203.21,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7327876537909248": {
+  "ridge_rel": 10.7,
+  "ridge_abs": 211.64,
+  "eave_abs": 200.94,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7327876554686464": {
+  "ridge_rel": 22.31,
+  "ridge_abs": 223.24,
+  "eave_abs": 200.93,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 110,
+  "purity": 0.582
+ },
+ "7327876621795328": {
+  "ridge_rel": 2.57,
+  "ridge_abs": 203.68,
+  "eave_abs": 201.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7327876638572544": {
+  "ridge_rel": 10.42,
+  "ridge_abs": 209.73,
+  "eave_abs": 199.31,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 20,
+  "purity": 0.4
+ },
+ "7327876672126976": {
+  "ridge_rel": 11.57,
+  "ridge_abs": 212.29,
+  "eave_abs": 200.72,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7327876688904192": {
+  "ridge_rel": 13.05,
+  "ridge_abs": 212.35,
+  "eave_abs": 199.3,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 808,
+  "purity": 0.97
+ },
+ "7327876705681408": {
+  "ridge_rel": 12.35,
+  "ridge_abs": 213.56,
+  "eave_abs": 201.21,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "7327876722458624": {
+  "ridge_rel": 25.52,
+  "ridge_abs": 226.34,
+  "eave_abs": 200.82,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 191,
+  "purity": 0.429
+ },
+ "7327876739235840": {
+  "ridge_rel": 20.3,
+  "ridge_abs": 221.24,
+  "eave_abs": 200.94,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 159,
+  "purity": 0.686
+ },
+ "7327876772790272": {
+  "ridge_rel": 15.82,
+  "ridge_abs": 216.72,
+  "eave_abs": 200.9,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 27,
+  "purity": 1.0
+ },
+ "7327878635061248": {
+  "ridge_rel": 5.36,
+  "ridge_abs": 206.46,
+  "eave_abs": 201.1,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7327878651838464": {
+  "ridge_rel": 2.77,
+  "ridge_abs": 204.06,
+  "eave_abs": 201.29,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 34,
+  "purity": 1.0
+ },
+ "7327878668615680": {
+  "ridge_rel": 5.84,
+  "ridge_abs": 206.74,
+  "eave_abs": 200.9,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7327878685392896": {
+  "ridge_rel": 8.85,
+  "ridge_abs": 209.44,
+  "eave_abs": 200.59,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7340592711335936": {
+  "ridge_rel": 20.5,
+  "ridge_abs": 220.72,
+  "eave_abs": 200.22,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 68,
+  "purity": 1.0
+ },
+ "7340593147543552": {
+  "ridge_rel": 19.06,
+  "ridge_abs": 224.33,
+  "eave_abs": 205.27,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 108,
+  "purity": 0.62
+ },
+ "7340593181097984": {
+  "ridge_rel": 20.97,
+  "ridge_abs": 222.58,
+  "eave_abs": 201.61,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7340593248206848": {
+  "ridge_rel": 19.49,
+  "ridge_abs": 221.77,
+  "eave_abs": 202.28,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 72,
+  "purity": 0.514
+ },
+ "7340593432756224": {
+  "ridge_rel": 10.64,
+  "ridge_abs": 214.81,
+  "eave_abs": 204.17,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7340593449533440": {
+  "ridge_rel": 22.99,
+  "ridge_abs": 229.4,
+  "eave_abs": 206.41,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "7340593634082816": {
+  "ridge_rel": 11.27,
+  "ridge_abs": 218.92,
+  "eave_abs": 207.65,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 0.625
+ },
+ "7340593684414464": {
+  "ridge_rel": 21.75,
+  "ridge_abs": 227.48,
+  "eave_abs": 205.73,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 114,
+  "purity": 0.333
+ },
+ "7340594003181568": {
+  "ridge_rel": 24.69,
+  "ridge_abs": 241.12,
+  "eave_abs": 216.43,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 17,
+  "purity": 1.0
+ },
+ "7340594019958784": {
+  "ridge_rel": 26.98,
+  "ridge_abs": 248.78,
+  "eave_abs": 221.8,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 483,
+  "purity": 0.46
+ },
+ "7340594405834752": {
+  "ridge_rel": 20.38,
+  "ridge_abs": 220.61,
+  "eave_abs": 200.23,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 23,
+  "purity": 1.0
+ },
+ "7340594674270208": {
+  "ridge_rel": 24.71,
+  "ridge_abs": 228.56,
+  "eave_abs": 203.85,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 1.0
+ },
+ "7343370665984000": {
+  "ridge_rel": 22.88,
+  "ridge_abs": 223.52,
+  "eave_abs": 200.64,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 29,
+  "purity": 1.0
+ },
+ "7350763495882752": {
+  "ridge_rel": 7.37,
+  "ridge_abs": 210.35,
+  "eave_abs": 202.98,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7350765844692992": {
+  "ridge_rel": 18.26,
+  "ridge_abs": 218.92,
+  "eave_abs": 200.66,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 160,
+  "purity": 0.631
+ },
+ "7350765928579072": {
+  "ridge_rel": 16.56,
+  "ridge_abs": 218.94,
+  "eave_abs": 202.38,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 296,
+  "purity": 0.564
+ },
+ "7350765962133504": {
+  "ridge_rel": 12.4,
+  "ridge_abs": 215.48,
+  "eave_abs": 203.08,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2021,
+  "n_seg": 78,
+  "purity": 0.462
+ },
+ "7357492703002624": {
+  "ridge_rel": 27.88,
+  "ridge_abs": 252.24,
+  "eave_abs": 224.36,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 60,
+  "purity": 0.967
+ },
+ "7357492753334272": {
+  "ridge_rel": 28.55,
+  "ridge_abs": 252.91,
+  "eave_abs": 224.36,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 85,
+  "purity": 0.718
+ },
+ "7360624858234880": {
+  "ridge_rel": 23.94,
+  "ridge_abs": 224.74,
+  "eave_abs": 200.8,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 303,
+  "purity": 0.726
+ },
+ "7361394143920128": {
+  "ridge_rel": 16.79,
+  "ridge_abs": 216.44,
+  "eave_abs": 199.65,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 56,
+  "purity": 0.446
+ },
+ "7361394244583424": {
+  "ridge_rel": 20.33,
+  "ridge_abs": 220.35,
+  "eave_abs": 200.02,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 13,
+  "purity": 0.769
+ },
+ "7361421390118912": {
+  "ridge_rel": 22.76,
+  "ridge_abs": 223.56,
+  "eave_abs": 200.8,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 47,
+  "purity": 0.617
+ },
+ "7361421490782208": {
+  "ridge_rel": 22.98,
+  "ridge_abs": 223.78,
+  "eave_abs": 200.8,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 57,
+  "purity": 0.912
+ },
+ "7361456018292736": {
+  "ridge_rel": 23.08,
+  "ridge_abs": 226.92,
+  "eave_abs": 203.84,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 271,
+  "purity": 0.72
+ },
+ "7361457981227008": {
+  "ridge_rel": 21.75,
+  "ridge_abs": 225.61,
+  "eave_abs": 203.86,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 22,
+  "purity": 0.909
+ },
+ "7371889668259840": {
+  "ridge_rel": 29.01,
+  "ridge_abs": 229.48,
+  "eave_abs": 200.47,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 1088,
+  "purity": 0.46
+ },
+ "7373117928243200": {
+  "ridge_rel": 14.76,
+  "ridge_abs": 214.35,
+  "eave_abs": 199.59,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 33,
+  "purity": 1.0
+ },
+ "7507084954304512": {
+  "ridge_rel": 2.6,
+  "ridge_abs": 205.51,
+  "eave_abs": 202.91,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507084971081728": {
+  "ridge_rel": 2.34,
+  "ridge_abs": 205.4,
+  "eave_abs": 203.06,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507084987858944": {
+  "ridge_rel": 5.55,
+  "ridge_abs": 208.81,
+  "eave_abs": 203.26,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7507085054967808": {
+  "ridge_rel": 3.39,
+  "ridge_abs": 208.06,
+  "eave_abs": 204.67,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507085071745024": {
+  "ridge_rel": 3.45,
+  "ridge_abs": 207.63,
+  "eave_abs": 204.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507085088522240": {
+  "ridge_rel": 28.46,
+  "ridge_abs": 233.01,
+  "eave_abs": 204.55,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 23,
+  "purity": 1.0
+ },
+ "7507085105299456": {
+  "ridge_rel": 27.2,
+  "ridge_abs": 231.97,
+  "eave_abs": 204.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 94,
+  "purity": 0.457
+ },
+ "7507086179041280": {
+  "ridge_rel": 18.33,
+  "ridge_abs": 221.77,
+  "eave_abs": 203.44,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 19,
+  "purity": 0.842
+ },
+ "7507086246150144": {
+  "ridge_rel": 13.32,
+  "ridge_abs": 231.37,
+  "eave_abs": 218.05,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 46,
+  "purity": 0.87
+ },
+ "7507086262927360": {
+  "ridge_rel": 3.57,
+  "ridge_abs": 224.15,
+  "eave_abs": 220.58,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507086279704576": {
+  "ridge_rel": 21.36,
+  "ridge_abs": 239.88,
+  "eave_abs": 218.52,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 108,
+  "purity": 0.5
+ },
+ "7507086296481792": {
+  "ridge_rel": 4.07,
+  "ridge_abs": 208.04,
+  "eave_abs": 203.97,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 22,
+  "purity": 1.0
+ },
+ "7507086313259008": {
+  "ridge_rel": 18.04,
+  "ridge_abs": 228.46,
+  "eave_abs": 210.42,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 51,
+  "purity": 0.98
+ },
+ "7507086346813440": {
+  "ridge_rel": 3.55,
+  "ridge_abs": 212.73,
+  "eave_abs": 209.18,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 0.6
+ },
+ "7507086380367872": {
+  "ridge_rel": 3.17,
+  "ridge_abs": 216.15,
+  "eave_abs": 212.98,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507086397145088": {
+  "ridge_rel": 22.7,
+  "ridge_abs": 231.95,
+  "eave_abs": 209.25,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 0.8
+ },
+ "7507086413922304": {
+  "ridge_rel": 7.45,
+  "ridge_abs": 213.8,
+  "eave_abs": 206.35,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507086430699520": {
+  "ridge_rel": 13.98,
+  "ridge_abs": 220.85,
+  "eave_abs": 206.87,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 20,
+  "purity": 0.6
+ },
+ "7507086447476736": {
+  "ridge_rel": 2.5,
+  "ridge_abs": 210.84,
+  "eave_abs": 208.34,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7507086464253952": {
+  "ridge_rel": 2.9,
+  "ridge_abs": 214.38,
+  "eave_abs": 211.48,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 1.0
+ },
+ "7507086481031168": {
+  "ridge_rel": 6.46,
+  "ridge_abs": 226.94,
+  "eave_abs": 220.48,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7507086648803328": {
+  "ridge_rel": 4.64,
+  "ridge_abs": 223.96,
+  "eave_abs": 219.32,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 0.6
+ },
+ "7507086665580544": {
+  "ridge_rel": 4.74,
+  "ridge_abs": 216.5,
+  "eave_abs": 211.76,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507086699134976": {
+  "ridge_rel": 4.07,
+  "ridge_abs": 223.47,
+  "eave_abs": 219.4,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507086766243840": {
+  "ridge_rel": 8.87,
+  "ridge_abs": 224.11,
+  "eave_abs": 215.24,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507086799798272": {
+  "ridge_rel": 7.36,
+  "ridge_abs": 218.2,
+  "eave_abs": 210.84,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 0.917
+ },
+ "7507086816575488": {
+  "ridge_rel": 15.06,
+  "ridge_abs": 226.95,
+  "eave_abs": 211.89,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 88,
+  "purity": 0.534
+ },
+ "7507086833352704": {
+  "ridge_rel": 11.63,
+  "ridge_abs": 222.47,
+  "eave_abs": 210.84,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 47,
+  "purity": 0.596
+ },
+ "7507086883684352": {
+  "ridge_rel": 10.75,
+  "ridge_abs": 225.45,
+  "eave_abs": 214.7,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 23,
+  "purity": 0.522
+ },
+ "7507086917238784": {
+  "ridge_rel": 22.82,
+  "ridge_abs": 227.03,
+  "eave_abs": 204.21,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 22,
+  "purity": 1.0
+ },
+ "7507086934016000": {
+  "ridge_rel": 19.87,
+  "ridge_abs": 223.57,
+  "eave_abs": 203.7,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 16,
+  "purity": 1.0
+ },
+ "7507086950793216": {
+  "ridge_rel": 19.05,
+  "ridge_abs": 222.5,
+  "eave_abs": 203.45,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 20,
+  "purity": 1.0
+ },
+ "7507086967570432": {
+  "ridge_rel": 19.13,
+  "ridge_abs": 222.79,
+  "eave_abs": 203.66,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 18,
+  "purity": 1.0
+ },
+ "7507086984347648": {
+  "ridge_rel": 2.6,
+  "ridge_abs": 206.59,
+  "eave_abs": 203.99,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507087001124864": {
+  "ridge_rel": 3.62,
+  "ridge_abs": 206.7,
+  "eave_abs": 203.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507087051456512": {
+  "ridge_rel": 4.33,
+  "ridge_abs": 206.95,
+  "eave_abs": 202.62,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 0.583
+ },
+ "7507087135342592": {
+  "ridge_rel": 1.89,
+  "ridge_abs": 225.85,
+  "eave_abs": 223.96,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507087185674240": {
+  "ridge_rel": 11.66,
+  "ridge_abs": 231.39,
+  "eave_abs": 219.73,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 16,
+  "purity": 1.0
+ },
+ "7507087236005888": {
+  "ridge_rel": 5.21,
+  "ridge_abs": 227.7,
+  "eave_abs": 222.49,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507087252783104": {
+  "ridge_rel": 13.84,
+  "ridge_abs": 229.7,
+  "eave_abs": 215.86,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 0.692
+ },
+ "7507087303114752": {
+  "ridge_rel": 2.65,
+  "ridge_abs": 222.55,
+  "eave_abs": 219.9,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507087319891968": {
+  "ridge_rel": 16.08,
+  "ridge_abs": 235.98,
+  "eave_abs": 219.9,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 42,
+  "purity": 1.0
+ },
+ "7507087336669184": {
+  "ridge_rel": 3.29,
+  "ridge_abs": 222.16,
+  "eave_abs": 218.87,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 20,
+  "purity": 1.0
+ },
+ "7507087353446400": {
+  "ridge_rel": 3.04,
+  "ridge_abs": 221.8,
+  "eave_abs": 218.76,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 19,
+  "purity": 1.0
+ },
+ "7507087387000832": {
+  "ridge_rel": 1.98,
+  "ridge_abs": 205.48,
+  "eave_abs": 203.5,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507087403778048": {
+  "ridge_rel": 15.58,
+  "ridge_abs": 218.26,
+  "eave_abs": 202.68,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 53,
+  "purity": 1.0
+ },
+ "7507087420555264": {
+  "ridge_rel": 2.43,
+  "ridge_abs": 205.65,
+  "eave_abs": 203.22,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 29,
+  "purity": 1.0
+ },
+ "7507087437332480": {
+  "ridge_rel": 2.44,
+  "ridge_abs": 205.87,
+  "eave_abs": 203.43,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507087454109696": {
+  "ridge_rel": 3.78,
+  "ridge_abs": 207.51,
+  "eave_abs": 203.73,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507087554772992": {
+  "ridge_rel": 3.51,
+  "ridge_abs": 206.96,
+  "eave_abs": 203.45,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507087571550208": {
+  "ridge_rel": 3.38,
+  "ridge_abs": 206.73,
+  "eave_abs": 203.35,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507087605104640": {
+  "ridge_rel": 4.93,
+  "ridge_abs": 207.68,
+  "eave_abs": 202.75,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507087621881856": {
+  "ridge_rel": 7.3,
+  "ridge_abs": 210.39,
+  "eave_abs": 203.09,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 82,
+  "purity": 0.78
+ },
+ "7507087638659072": {
+  "ridge_rel": 4.48,
+  "ridge_abs": 208.41,
+  "eave_abs": 203.93,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 20,
+  "purity": 1.0
+ },
+ "7507087655436288": {
+  "ridge_rel": 3.08,
+  "ridge_abs": 208.33,
+  "eave_abs": 205.25,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507087672213504": {
+  "ridge_rel": 6.5,
+  "ridge_abs": 211.15,
+  "eave_abs": 204.65,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 38,
+  "purity": 0.421
+ },
+ "7507087772876800": {
+  "ridge_rel": 4.77,
+  "ridge_abs": 208.15,
+  "eave_abs": 203.38,
+  "roof_type": 2,
+  "strecha_kod": 5,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507087789654016": {
+  "ridge_rel": 7.11,
+  "ridge_abs": 210.49,
+  "eave_abs": 203.38,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 41,
+  "purity": 0.902
+ },
+ "7507087839985664": {
+  "ridge_rel": 3.76,
+  "ridge_abs": 207.38,
+  "eave_abs": 203.62,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507087856762880": {
+  "ridge_rel": 4.55,
+  "ridge_abs": 209.04,
+  "eave_abs": 204.49,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 13,
+  "purity": 1.0
+ },
+ "7507087890317312": {
+  "ridge_rel": 3.01,
+  "ridge_abs": 206.92,
+  "eave_abs": 203.91,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507087923871744": {
+  "ridge_rel": 8.07,
+  "ridge_abs": 210.99,
+  "eave_abs": 202.92,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 16,
+  "purity": 1.0
+ },
+ "7507087940648960": {
+  "ridge_rel": 17.62,
+  "ridge_abs": 220.2,
+  "eave_abs": 202.58,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 171,
+  "purity": 0.462
+ },
+ "7507088074866688": {
+  "ridge_rel": 2.98,
+  "ridge_abs": 208.82,
+  "eave_abs": 205.84,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507088091643904": {
+  "ridge_rel": 2.81,
+  "ridge_abs": 207.66,
+  "eave_abs": 204.85,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507088192307200": {
+  "ridge_rel": 6.06,
+  "ridge_abs": 210.36,
+  "eave_abs": 204.3,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507088225861632": {
+  "ridge_rel": 11.26,
+  "ridge_abs": 212.41,
+  "eave_abs": 201.15,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 96,
+  "purity": 0.948
+ },
+ "7507088242638848": {
+  "ridge_rel": 8.66,
+  "ridge_abs": 209.81,
+  "eave_abs": 201.15,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 9,
+  "purity": 0.667
+ },
+ "7507088276193280": {
+  "ridge_rel": 5.74,
+  "ridge_abs": 206.44,
+  "eave_abs": 200.7,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507088292970496": {
+  "ridge_rel": 39.06,
+  "ridge_abs": 239.6,
+  "eave_abs": 200.54,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 138,
+  "purity": 0.594
+ },
+ "7507088309747712": {
+  "ridge_rel": 4.93,
+  "ridge_abs": 205.93,
+  "eave_abs": 201.0,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507088326524928": {
+  "ridge_rel": 5.19,
+  "ridge_abs": 206.44,
+  "eave_abs": 201.25,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 15,
+  "purity": 0.533
+ },
+ "7507088343302144": {
+  "ridge_rel": 2.42,
+  "ridge_abs": 203.4,
+  "eave_abs": 200.98,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507088376856576": {
+  "ridge_rel": 38.53,
+  "ridge_abs": 241.69,
+  "eave_abs": 203.16,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 233,
+  "purity": 1.0
+ },
+ "7507088393633792": {
+  "ridge_rel": 5.51,
+  "ridge_abs": 206.83,
+  "eave_abs": 201.32,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 37,
+  "purity": 0.865
+ },
+ "7507088410411008": {
+  "ridge_rel": 19.26,
+  "ridge_abs": 220.28,
+  "eave_abs": 201.02,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 96,
+  "purity": 0.417
+ },
+ "7507088427188224": {
+  "ridge_rel": 4.45,
+  "ridge_abs": 205.15,
+  "eave_abs": 200.7,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507088443965440": {
+  "ridge_rel": 7.84,
+  "ridge_abs": 208.11,
+  "eave_abs": 200.27,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507088460742656": {
+  "ridge_rel": 7.93,
+  "ridge_abs": 209.04,
+  "eave_abs": 201.11,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507088477519872": {
+  "ridge_rel": 7.05,
+  "ridge_abs": 208.09,
+  "eave_abs": 201.04,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 31,
+  "purity": 0.516
+ },
+ "7507088511074304": {
+  "ridge_rel": 3.41,
+  "ridge_abs": 207.23,
+  "eave_abs": 203.82,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507088527851520": {
+  "ridge_rel": 26.7,
+  "ridge_abs": 228.67,
+  "eave_abs": 201.97,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507088544628736": {
+  "ridge_rel": 4.94,
+  "ridge_abs": 207.56,
+  "eave_abs": 202.62,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507088578183168": {
+  "ridge_rel": 12.34,
+  "ridge_abs": 215.5,
+  "eave_abs": 203.16,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 14,
+  "purity": 0.571
+ },
+ "7507088628514816": {
+  "ridge_rel": 4.08,
+  "ridge_abs": 205.6,
+  "eave_abs": 201.52,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507088645292032": {
+  "ridge_rel": 7.15,
+  "ridge_abs": 208.54,
+  "eave_abs": 201.39,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 20,
+  "purity": 1.0
+ },
+ "7507088678846464": {
+  "ridge_rel": 27.42,
+  "ridge_abs": 228.26,
+  "eave_abs": 200.84,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 68,
+  "purity": 0.279
+ },
+ "7507088729178112": {
+  "ridge_rel": 26.81,
+  "ridge_abs": 227.05,
+  "eave_abs": 200.24,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 743,
+  "purity": 0.471
+ },
+ "7507088745955328": {
+  "ridge_rel": 4.08,
+  "ridge_abs": 207.89,
+  "eave_abs": 203.81,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507088796286976": {
+  "ridge_rel": 4.56,
+  "ridge_abs": 205.55,
+  "eave_abs": 200.99,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507088813064192": {
+  "ridge_rel": 6.9,
+  "ridge_abs": 207.83,
+  "eave_abs": 200.93,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 49,
+  "purity": 0.694
+ },
+ "7507088829841408": {
+  "ridge_rel": 12.91,
+  "ridge_abs": 214.64,
+  "eave_abs": 201.73,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 17,
+  "purity": 1.0
+ },
+ "7507088846618624": {
+  "ridge_rel": 8.3,
+  "ridge_abs": 210.14,
+  "eave_abs": 201.84,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "7507088880173056": {
+  "ridge_rel": 9.84,
+  "ridge_abs": 213.3,
+  "eave_abs": 203.46,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 19,
+  "purity": 1.0
+ },
+ "7507088896950272": {
+  "ridge_rel": 24.7,
+  "ridge_abs": 227.67,
+  "eave_abs": 202.97,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2021,
+  "n_seg": 177,
+  "purity": 0.52
+ },
+ "7507088913727488": {
+  "ridge_rel": 4.26,
+  "ridge_abs": 206.85,
+  "eave_abs": 202.59,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 22,
+  "purity": 1.0
+ },
+ "7507089198940160": {
+  "ridge_rel": 29.21,
+  "ridge_abs": 232.24,
+  "eave_abs": 203.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 165,
+  "purity": 0.824
+ },
+ "7507089215717376": {
+  "ridge_rel": 29.35,
+  "ridge_abs": 232.24,
+  "eave_abs": 202.89,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 129,
+  "purity": 0.845
+ },
+ "7507089232494592": {
+  "ridge_rel": 26.91,
+  "ridge_abs": 229.71,
+  "eave_abs": 202.8,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2021,
+  "n_seg": 341,
+  "purity": 0.906
+ },
+ "7507089249271808": {
+  "ridge_rel": 38.56,
+  "ridge_abs": 241.31,
+  "eave_abs": 202.75,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2021,
+  "n_seg": 815,
+  "purity": 0.324
+ },
+ "7507089266049024": {
+  "ridge_rel": 2.92,
+  "ridge_abs": 204.71,
+  "eave_abs": 201.79,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507089282826240": {
+  "ridge_rel": 3.34,
+  "ridge_abs": 205.14,
+  "eave_abs": 201.8,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507089366712320": {
+  "ridge_rel": 7.71,
+  "ridge_abs": 209.6,
+  "eave_abs": 201.89,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 30,
+  "purity": 1.0
+ },
+ "7507089433821184": {
+  "ridge_rel": 3.55,
+  "ridge_abs": 204.64,
+  "eave_abs": 201.09,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507089450598400": {
+  "ridge_rel": 13.96,
+  "ridge_abs": 214.99,
+  "eave_abs": 201.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 80,
+  "purity": 0.537
+ },
+ "7507089467375616": {
+  "ridge_rel": 16.44,
+  "ridge_abs": 217.38,
+  "eave_abs": 200.94,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 346,
+  "purity": 0.772
+ },
+ "7507089484152832": {
+  "ridge_rel": 5.36,
+  "ridge_abs": 207.28,
+  "eave_abs": 201.92,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 0.5
+ },
+ "7507089517707264": {
+  "ridge_rel": 7.74,
+  "ridge_abs": 209.82,
+  "eave_abs": 202.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 76,
+  "purity": 1.0
+ },
+ "7507089584816128": {
+  "ridge_rel": 2.83,
+  "ridge_abs": 204.72,
+  "eave_abs": 201.89,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507089601593344": {
+  "ridge_rel": 4.04,
+  "ridge_abs": 206.01,
+  "eave_abs": 201.97,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 21,
+  "purity": 1.0
+ },
+ "7507089618370560": {
+  "ridge_rel": 8.74,
+  "ridge_abs": 210.96,
+  "eave_abs": 202.22,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 11,
+  "purity": 0.545
+ },
+ "7507089651924992": {
+  "ridge_rel": 8.41,
+  "ridge_abs": 210.87,
+  "eave_abs": 202.46,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7507089668702208": {
+  "ridge_rel": 3.54,
+  "ridge_abs": 206.0,
+  "eave_abs": 202.46,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507089685479424": {
+  "ridge_rel": 20.11,
+  "ridge_abs": 222.39,
+  "eave_abs": 202.28,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 59,
+  "purity": 0.542
+ },
+ "7507089786142720": {
+  "ridge_rel": 13.55,
+  "ridge_abs": 215.15,
+  "eave_abs": 201.6,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 220,
+  "purity": 0.386
+ },
+ "7507089802919936": {
+  "ridge_rel": 8.12,
+  "ridge_abs": 208.4,
+  "eave_abs": 200.28,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 22,
+  "purity": 0.5
+ },
+ "7507089819697152": {
+  "ridge_rel": 4.09,
+  "ridge_abs": 205.6,
+  "eave_abs": 201.51,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7507089836474368": {
+  "ridge_rel": 19.93,
+  "ridge_abs": 222.39,
+  "eave_abs": 202.46,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 34,
+  "purity": 1.0
+ },
+ "7507089853251584": {
+  "ridge_rel": 5.2,
+  "ridge_abs": 205.2,
+  "eave_abs": 200.0,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "7507089870028800": {
+  "ridge_rel": 13.73,
+  "ridge_abs": 215.73,
+  "eave_abs": 202.0,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 94,
+  "purity": 0.585
+ },
+ "7507089886806016": {
+  "ridge_rel": 8.46,
+  "ridge_abs": 209.78,
+  "eave_abs": 201.32,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 96,
+  "purity": 0.781
+ },
+ "7507089903583232": {
+  "ridge_rel": 2.78,
+  "ridge_abs": 207.0,
+  "eave_abs": 204.22,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 23,
+  "purity": 1.0
+ },
+ "7507090021023744": {
+  "ridge_rel": 21.41,
+  "ridge_abs": 226.01,
+  "eave_abs": 204.6,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7507090088132608": {
+  "ridge_rel": 3.57,
+  "ridge_abs": 208.46,
+  "eave_abs": 204.89,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507090188795904": {
+  "ridge_rel": 2.48,
+  "ridge_abs": 207.25,
+  "eave_abs": 204.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7507090205573120": {
+  "ridge_rel": 22.17,
+  "ridge_abs": 226.98,
+  "eave_abs": 204.81,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 26,
+  "purity": 1.0
+ },
+ "7507090222350336": {
+  "ridge_rel": 21.84,
+  "ridge_abs": 228.43,
+  "eave_abs": 206.59,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 66,
+  "purity": 0.53
+ },
+ "7507090239127552": {
+  "ridge_rel": 23.09,
+  "ridge_abs": 228.43,
+  "eave_abs": 205.34,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 127,
+  "purity": 0.701
+ },
+ "7507090356568064": {
+  "ridge_rel": 10.96,
+  "ridge_abs": 212.4,
+  "eave_abs": 201.44,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 25,
+  "purity": 1.0
+ },
+ "7507090373345280": {
+  "ridge_rel": 11.75,
+  "ridge_abs": 213.79,
+  "eave_abs": 202.04,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 204,
+  "purity": 0.931
+ },
+ "7507090406899712": {
+  "ridge_rel": 18.64,
+  "ridge_abs": 220.68,
+  "eave_abs": 202.04,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 37,
+  "purity": 1.0
+ },
+ "7507090423676928": {
+  "ridge_rel": 6.4,
+  "ridge_abs": 208.3,
+  "eave_abs": 201.9,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507090457231360": {
+  "ridge_rel": 11.16,
+  "ridge_abs": 213.31,
+  "eave_abs": 202.15,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507090474008576": {
+  "ridge_rel": 17.65,
+  "ridge_abs": 219.06,
+  "eave_abs": 201.41,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 23,
+  "purity": 0.696
+ },
+ "7507090507563008": {
+  "ridge_rel": 4.49,
+  "ridge_abs": 206.77,
+  "eave_abs": 202.28,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507090557894656": {
+  "ridge_rel": 8.33,
+  "ridge_abs": 210.72,
+  "eave_abs": 202.39,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 21,
+  "purity": 1.0
+ },
+ "7507090591449088": {
+  "ridge_rel": 22.56,
+  "ridge_abs": 224.72,
+  "eave_abs": 202.16,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 29,
+  "purity": 0.724
+ },
+ "7507090608226304": {
+  "ridge_rel": 15.27,
+  "ridge_abs": 217.18,
+  "eave_abs": 201.91,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 0.733
+ },
+ "7507090625003520": {
+  "ridge_rel": 22.3,
+  "ridge_abs": 223.99,
+  "eave_abs": 201.69,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 11,
+  "purity": 0.636
+ },
+ "7507090641780736": {
+  "ridge_rel": 8.89,
+  "ridge_abs": 210.78,
+  "eave_abs": 201.89,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 33,
+  "purity": 0.848
+ },
+ "7507090692112384": {
+  "ridge_rel": 5.71,
+  "ridge_abs": 207.91,
+  "eave_abs": 202.2,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507090708889600": {
+  "ridge_rel": 15.83,
+  "ridge_abs": 218.07,
+  "eave_abs": 202.24,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 110,
+  "purity": 0.955
+ },
+ "7507090725666816": {
+  "ridge_rel": 5.57,
+  "ridge_abs": 206.68,
+  "eave_abs": 201.11,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 12,
+  "purity": 0.667
+ },
+ "7507090742444032": {
+  "ridge_rel": 4.71,
+  "ridge_abs": 205.75,
+  "eave_abs": 201.04,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507090759221248": {
+  "ridge_rel": 10.9,
+  "ridge_abs": 212.7,
+  "eave_abs": 201.8,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507090775998464": {
+  "ridge_rel": 5.6,
+  "ridge_abs": 206.68,
+  "eave_abs": 201.08,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507090792775680": {
+  "ridge_rel": 5.59,
+  "ridge_abs": 205.78,
+  "eave_abs": 200.19,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507090809552896": {
+  "ridge_rel": 2.33,
+  "ridge_abs": 203.41,
+  "eave_abs": 201.08,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7507090826330112": {
+  "ridge_rel": 8.1,
+  "ridge_abs": 207.87,
+  "eave_abs": 199.77,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 13,
+  "purity": 1.0
+ },
+ "7507090843107328": {
+  "ridge_rel": 4.58,
+  "ridge_abs": 205.75,
+  "eave_abs": 201.17,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507090893438976": {
+  "ridge_rel": 14.0,
+  "ridge_abs": 213.3,
+  "eave_abs": 199.3,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 40,
+  "purity": 1.0
+ },
+ "7507090943770624": {
+  "ridge_rel": 5.23,
+  "ridge_abs": 206.68,
+  "eave_abs": 201.45,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7507090960547840": {
+  "ridge_rel": 15.09,
+  "ridge_abs": 216.74,
+  "eave_abs": 201.65,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 1.0
+ },
+ "7507090994102272": {
+  "ridge_rel": 27.75,
+  "ridge_abs": 229.52,
+  "eave_abs": 201.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 87,
+  "purity": 1.0
+ },
+ "7507091061211136": {
+  "ridge_rel": 14.04,
+  "ridge_abs": 214.93,
+  "eave_abs": 200.89,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 94,
+  "purity": 0.532
+ },
+ "7507091077988352": {
+  "ridge_rel": 9.2,
+  "ridge_abs": 209.18,
+  "eave_abs": 199.98,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507091094765568": {
+  "ridge_rel": 5.65,
+  "ridge_abs": 206.56,
+  "eave_abs": 200.91,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 13,
+  "purity": 0.692
+ },
+ "7507091111542784": {
+  "ridge_rel": 7.59,
+  "ridge_abs": 209.6,
+  "eave_abs": 202.01,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 64,
+  "purity": 1.0
+ },
+ "7507091145097216": {
+  "ridge_rel": 4.49,
+  "ridge_abs": 206.6,
+  "eave_abs": 202.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507091178651648": {
+  "ridge_rel": 13.48,
+  "ridge_abs": 215.25,
+  "eave_abs": 201.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 55,
+  "purity": 1.0
+ },
+ "7507091195428864": {
+  "ridge_rel": 13.51,
+  "ridge_abs": 215.28,
+  "eave_abs": 201.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 55,
+  "purity": 1.0
+ },
+ "7507091245760512": {
+  "ridge_rel": 6.3,
+  "ridge_abs": 215.05,
+  "eave_abs": 208.75,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 214,
+  "purity": 0.827
+ },
+ "7507091363201024": {
+  "ridge_rel": 5.83,
+  "ridge_abs": 212.97,
+  "eave_abs": 207.14,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7507091379978240": {
+  "ridge_rel": 8.23,
+  "ridge_abs": 217.82,
+  "eave_abs": 209.59,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 0.625
+ },
+ "7507091413532672": {
+  "ridge_rel": 6.43,
+  "ridge_abs": 208.77,
+  "eave_abs": 202.34,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507091430309888": {
+  "ridge_rel": 15.45,
+  "ridge_abs": 217.81,
+  "eave_abs": 202.36,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 71,
+  "purity": 0.577
+ },
+ "7507091497418752": {
+  "ridge_rel": 6.11,
+  "ridge_abs": 208.78,
+  "eave_abs": 202.67,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507091598082048": {
+  "ridge_rel": 26.55,
+  "ridge_abs": 230.14,
+  "eave_abs": 203.59,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 63,
+  "purity": 0.762
+ },
+ "7507092034289664": {
+  "ridge_rel": 2.59,
+  "ridge_abs": 205.59,
+  "eave_abs": 203.0,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507092168507392": {
+  "ridge_rel": 10.84,
+  "ridge_abs": 215.24,
+  "eave_abs": 204.4,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7507092336279552": {
+  "ridge_rel": 5.15,
+  "ridge_abs": 209.94,
+  "eave_abs": 204.79,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507092386611200": {
+  "ridge_rel": 5.58,
+  "ridge_abs": 210.28,
+  "eave_abs": 204.7,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 0.7
+ },
+ "7507092403388416": {
+  "ridge_rel": 4.15,
+  "ridge_abs": 207.75,
+  "eave_abs": 203.6,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507092420165632": {
+  "ridge_rel": 26.3,
+  "ridge_abs": 229.04,
+  "eave_abs": 202.74,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 35,
+  "purity": 0.914
+ },
+ "7507092453720064": {
+  "ridge_rel": 23.71,
+  "ridge_abs": 227.92,
+  "eave_abs": 204.21,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 1.0
+ },
+ "7507092470497280": {
+  "ridge_rel": 20.47,
+  "ridge_abs": 224.32,
+  "eave_abs": 203.85,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 29,
+  "purity": 0.724
+ },
+ "7507092504051712": {
+  "ridge_rel": 19.08,
+  "ridge_abs": 223.08,
+  "eave_abs": 204.0,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 0.935
+ },
+ "7507092554383360": {
+  "ridge_rel": 7.13,
+  "ridge_abs": 211.83,
+  "eave_abs": 204.7,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 17,
+  "purity": 1.0
+ },
+ "7507092571160576": {
+  "ridge_rel": 12.61,
+  "ridge_abs": 224.18,
+  "eave_abs": 211.57,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 22,
+  "purity": 0.682
+ },
+ "7507092587937792": {
+  "ridge_rel": 2.76,
+  "ridge_abs": 211.49,
+  "eave_abs": 208.73,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507092604715008": {
+  "ridge_rel": 2.96,
+  "ridge_abs": 208.75,
+  "eave_abs": 205.79,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507092638269440": {
+  "ridge_rel": 8.58,
+  "ridge_abs": 215.3,
+  "eave_abs": 206.72,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 18,
+  "purity": 0.5
+ },
+ "7507092655046656": {
+  "ridge_rel": 3.63,
+  "ridge_abs": 209.9,
+  "eave_abs": 206.27,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507092688601088": {
+  "ridge_rel": 4.78,
+  "ridge_abs": 206.71,
+  "eave_abs": 201.93,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 11,
+  "purity": 1.0
+ },
+ "7507092856373248": {
+  "ridge_rel": 3.07,
+  "ridge_abs": 205.46,
+  "eave_abs": 202.39,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507276533334016": {
+  "ridge_rel": 4.42,
+  "ridge_abs": 230.68,
+  "eave_abs": 226.26,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507276550111232": {
+  "ridge_rel": 20.47,
+  "ridge_abs": 246.69,
+  "eave_abs": 226.22,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 392,
+  "purity": 1.0
+ },
+ "7507276566888448": {
+  "ridge_rel": 7.33,
+  "ridge_abs": 235.61,
+  "eave_abs": 228.28,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 40,
+  "purity": 0.875
+ },
+ "7507276583665664": {
+  "ridge_rel": 17.51,
+  "ridge_abs": 245.79,
+  "eave_abs": 228.28,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 93,
+  "purity": 0.677
+ },
+ "7507276701106176": {
+  "ridge_rel": 3.35,
+  "ridge_abs": 221.84,
+  "eave_abs": 218.49,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507276734660608": {
+  "ridge_rel": 3.42,
+  "ridge_abs": 221.86,
+  "eave_abs": 218.44,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507276751437824": {
+  "ridge_rel": 3.76,
+  "ridge_abs": 223.08,
+  "eave_abs": 219.32,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7507276818546688": {
+  "ridge_rel": 18.34,
+  "ridge_abs": 240.45,
+  "eave_abs": 222.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 65,
+  "purity": 1.0
+ },
+ "7507277640630272": {
+  "ridge_rel": 3.88,
+  "ridge_abs": 227.0,
+  "eave_abs": 223.12,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7507277707739136": {
+  "ridge_rel": 2.88,
+  "ridge_abs": 224.84,
+  "eave_abs": 221.96,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7507278311718912": {
+  "ridge_rel": 5.92,
+  "ridge_abs": 225.57,
+  "eave_abs": 219.65,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 39,
+  "purity": 1.0
+ },
+ "7507278362050560": {
+  "ridge_rel": 2.86,
+  "ridge_abs": 223.77,
+  "eave_abs": 220.91,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 25,
+  "purity": 1.0
+ },
+ "7507278395604992": {
+  "ridge_rel": 2.81,
+  "ridge_abs": 229.07,
+  "eave_abs": 226.26,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7518867425329152": {
+  "ridge_rel": 32.79,
+  "ridge_abs": 249.98,
+  "eave_abs": 217.19,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 510,
+  "purity": 0.694
+ },
+ "7530208219365376": {
+  "ridge_rel": 30.37,
+  "ridge_abs": 252.93,
+  "eave_abs": 222.56,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 46,
+  "purity": 1.0
+ },
+ "7581597838606336": {
+  "ridge_rel": 22.91,
+  "ridge_abs": 242.02,
+  "eave_abs": 219.11,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 139,
+  "purity": 0.849
+ },
+ "7592415636488192": {
+  "ridge_rel": 3.16,
+  "ridge_abs": 207.44,
+  "eave_abs": 204.28,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7608801691697152": {
+  "ridge_rel": 12.88,
+  "ridge_abs": 219.5,
+  "eave_abs": 206.62,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 19,
+  "purity": 1.0
+ },
+ "7608810097082368": {
+  "ridge_rel": 16.68,
+  "ridge_abs": 218.69,
+  "eave_abs": 202.01,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 126,
+  "purity": 0.865
+ },
+ "7610667284561920": {
+  "ridge_rel": 4.24,
+  "ridge_abs": 213.4,
+  "eave_abs": 209.16,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610667351670784": {
+  "ridge_rel": 4.38,
+  "ridge_abs": 211.4,
+  "eave_abs": 207.02,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 18,
+  "purity": 1.0
+ },
+ "7610667368448000": {
+  "ridge_rel": 17.31,
+  "ridge_abs": 223.8,
+  "eave_abs": 206.49,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 0.923
+ },
+ "7610667536220160": {
+  "ridge_rel": 26.22,
+  "ridge_abs": 234.05,
+  "eave_abs": 207.83,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 70,
+  "purity": 0.914
+ },
+ "7610667905318912": {
+  "ridge_rel": 2.85,
+  "ridge_abs": 215.9,
+  "eave_abs": 213.05,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7610667955650560": {
+  "ridge_rel": 26.66,
+  "ridge_abs": 233.39,
+  "eave_abs": 206.73,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 1.0
+ },
+ "7610667972427776": {
+  "ridge_rel": 26.78,
+  "ridge_abs": 233.59,
+  "eave_abs": 206.81,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 251,
+  "purity": 0.685
+ },
+ "7610667989204992": {
+  "ridge_rel": 24.23,
+  "ridge_abs": 230.17,
+  "eave_abs": 205.94,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 263,
+  "purity": 0.734
+ },
+ "7610670187020288": {
+  "ridge_rel": 27.27,
+  "ridge_abs": 243.89,
+  "eave_abs": 216.62,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 138,
+  "purity": 0.638
+ },
+ "7610670203797504": {
+  "ridge_rel": 23.91,
+  "ridge_abs": 244.96,
+  "eave_abs": 221.05,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 76,
+  "purity": 0.632
+ },
+ "7610671109767168": {
+  "ridge_rel": 3.08,
+  "ridge_abs": 223.85,
+  "eave_abs": 220.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 0.833
+ },
+ "7610671143321600": {
+  "ridge_rel": 2.78,
+  "ridge_abs": 219.44,
+  "eave_abs": 216.66,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610671160098816": {
+  "ridge_rel": 13.95,
+  "ridge_abs": 230.42,
+  "eave_abs": 216.47,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 22,
+  "purity": 0.636
+ },
+ "7610671176876032": {
+  "ridge_rel": 16.03,
+  "ridge_abs": 226.1,
+  "eave_abs": 210.07,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 130,
+  "purity": 0.715
+ },
+ "7610671193653248": {
+  "ridge_rel": 15.02,
+  "ridge_abs": 223.04,
+  "eave_abs": 208.02,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 105,
+  "purity": 0.581
+ },
+ "7610671210430464": {
+  "ridge_rel": 12.78,
+  "ridge_abs": 225.71,
+  "eave_abs": 212.93,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 113,
+  "purity": 0.558
+ },
+ "7610671243984896": {
+  "ridge_rel": 16.21,
+  "ridge_abs": 230.22,
+  "eave_abs": 214.01,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 35,
+  "purity": 1.0
+ },
+ "7610671260762112": {
+  "ridge_rel": 19.21,
+  "ridge_abs": 230.22,
+  "eave_abs": 211.01,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 53,
+  "purity": 0.66
+ },
+ "7610671277539328": {
+  "ridge_rel": 16.41,
+  "ridge_abs": 225.41,
+  "eave_abs": 209.0,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 104,
+  "purity": 0.615
+ },
+ "7610672200286208": {
+  "ridge_rel": 4.84,
+  "ridge_abs": 222.58,
+  "eave_abs": 217.74,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7610672267395072": {
+  "ridge_rel": 16.97,
+  "ridge_abs": 243.3,
+  "eave_abs": 226.33,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 70,
+  "purity": 0.586
+ },
+ "7610672284172288": {
+  "ridge_rel": 2.69,
+  "ridge_abs": 230.7,
+  "eave_abs": 228.01,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7610672300949504": {
+  "ridge_rel": 16.91,
+  "ridge_abs": 244.62,
+  "eave_abs": 227.71,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 113,
+  "purity": 0.469
+ },
+ "7610673022369792": {
+  "ridge_rel": 5.57,
+  "ridge_abs": 213.26,
+  "eave_abs": 207.69,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7610673055924224": {
+  "ridge_rel": 27.59,
+  "ridge_abs": 242.6,
+  "eave_abs": 215.01,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 364,
+  "purity": 0.527
+ },
+ "7610673089478656": {
+  "ridge_rel": 25.42,
+  "ridge_abs": 233.64,
+  "eave_abs": 208.22,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 130,
+  "purity": 0.685
+ },
+ "7610673106255872": {
+  "ridge_rel": 26.24,
+  "ridge_abs": 234.49,
+  "eave_abs": 208.25,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 233,
+  "purity": 0.451
+ },
+ "7610673123033088": {
+  "ridge_rel": 26.37,
+  "ridge_abs": 234.14,
+  "eave_abs": 207.77,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 108,
+  "purity": 0.796
+ },
+ "7610673139810304": {
+  "ridge_rel": 21.7,
+  "ridge_abs": 228.82,
+  "eave_abs": 207.12,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 278,
+  "purity": 0.899
+ },
+ "7610673173364736": {
+  "ridge_rel": 8.59,
+  "ridge_abs": 213.36,
+  "eave_abs": 204.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7610673190141952": {
+  "ridge_rel": 5.39,
+  "ridge_abs": 210.3,
+  "eave_abs": 204.91,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7610673240473600": {
+  "ridge_rel": 7.26,
+  "ridge_abs": 228.27,
+  "eave_abs": 221.01,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7610673257250816": {
+  "ridge_rel": 4.74,
+  "ridge_abs": 225.73,
+  "eave_abs": 220.99,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610673274028032": {
+  "ridge_rel": 3.77,
+  "ridge_abs": 226.77,
+  "eave_abs": 223.0,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7610673307582464": {
+  "ridge_rel": 11.86,
+  "ridge_abs": 235.5,
+  "eave_abs": 223.64,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7610673324359680": {
+  "ridge_rel": 11.27,
+  "ridge_abs": 243.03,
+  "eave_abs": 231.76,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610673341136896": {
+  "ridge_rel": 15.6,
+  "ridge_abs": 245.57,
+  "eave_abs": 229.97,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 21,
+  "purity": 0.857
+ },
+ "7610673357914112": {
+  "ridge_rel": 6.59,
+  "ridge_abs": 232.73,
+  "eave_abs": 226.14,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7610673391468544": {
+  "ridge_rel": 9.97,
+  "ridge_abs": 223.64,
+  "eave_abs": 213.67,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 29,
+  "purity": 0.655
+ },
+ "7610673441800192": {
+  "ridge_rel": 6.83,
+  "ridge_abs": 212.17,
+  "eave_abs": 205.34,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610673458577408": {
+  "ridge_rel": 5.34,
+  "ridge_abs": 210.54,
+  "eave_abs": 205.2,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610673475354624": {
+  "ridge_rel": 4.52,
+  "ridge_abs": 211.1,
+  "eave_abs": 206.58,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610673492131840": {
+  "ridge_rel": 3.65,
+  "ridge_abs": 213.0,
+  "eave_abs": 209.35,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610673508909056": {
+  "ridge_rel": 8.88,
+  "ridge_abs": 215.88,
+  "eave_abs": 207.0,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610673559240704": {
+  "ridge_rel": 12.51,
+  "ridge_abs": 247.96,
+  "eave_abs": 235.45,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 82,
+  "purity": 0.671
+ },
+ "7610673592795136": {
+  "ridge_rel": 5.82,
+  "ridge_abs": 240.82,
+  "eave_abs": 235.0,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 22,
+  "purity": 0.818
+ },
+ "7610673609572352": {
+  "ridge_rel": 16.09,
+  "ridge_abs": 246.73,
+  "eave_abs": 230.64,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 80,
+  "purity": 1.0
+ },
+ "7610673643126784": {
+  "ridge_rel": 14.25,
+  "ridge_abs": 248.86,
+  "eave_abs": 234.61,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 101,
+  "purity": 0.812
+ },
+ "7610673659904000": {
+  "ridge_rel": 6.72,
+  "ridge_abs": 241.06,
+  "eave_abs": 234.34,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 11,
+  "purity": 1.0
+ },
+ "7610673676681216": {
+  "ridge_rel": 12.11,
+  "ridge_abs": 246.01,
+  "eave_abs": 233.9,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 30,
+  "purity": 1.0
+ },
+ "7610673693458432": {
+  "ridge_rel": 14.69,
+  "ridge_abs": 244.76,
+  "eave_abs": 230.07,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 80,
+  "purity": 0.863
+ },
+ "7610673710235648": {
+  "ridge_rel": 16.41,
+  "ridge_abs": 246.67,
+  "eave_abs": 230.26,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 101,
+  "purity": 0.624
+ },
+ "7610673743790080": {
+  "ridge_rel": 16.5,
+  "ridge_abs": 247.65,
+  "eave_abs": 231.15,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 53,
+  "purity": 1.0
+ },
+ "7610673760567296": {
+  "ridge_rel": 16.53,
+  "ridge_abs": 248.17,
+  "eave_abs": 231.64,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 53,
+  "purity": 0.811
+ },
+ "7610673810898944": {
+  "ridge_rel": 14.54,
+  "ridge_abs": 246.73,
+  "eave_abs": 232.19,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 54,
+  "purity": 1.0
+ },
+ "7610673844453376": {
+  "ridge_rel": 3.4,
+  "ridge_abs": 240.65,
+  "eave_abs": 237.25,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7610673861230592": {
+  "ridge_rel": 3.14,
+  "ridge_abs": 240.0,
+  "eave_abs": 236.86,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610673878007808": {
+  "ridge_rel": 2.96,
+  "ridge_abs": 238.67,
+  "eave_abs": 235.71,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610673894785024": {
+  "ridge_rel": 14.54,
+  "ridge_abs": 250.59,
+  "eave_abs": 236.05,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 88,
+  "purity": 0.739
+ },
+ "7610673911562240": {
+  "ridge_rel": 15.28,
+  "ridge_abs": 250.23,
+  "eave_abs": 234.95,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 94,
+  "purity": 0.766
+ },
+ "7610673945116672": {
+  "ridge_rel": 17.61,
+  "ridge_abs": 254.56,
+  "eave_abs": 236.95,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 236,
+  "purity": 0.979
+ },
+ "7610674079334400": {
+  "ridge_rel": 8.83,
+  "ridge_abs": 235.4,
+  "eave_abs": 226.57,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 29,
+  "purity": 1.0
+ },
+ "7610674096111616": {
+  "ridge_rel": 21.89,
+  "ridge_abs": 228.53,
+  "eave_abs": 206.64,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 435,
+  "purity": 0.52
+ },
+ "7610674112888832": {
+  "ridge_rel": 23.08,
+  "ridge_abs": 229.72,
+  "eave_abs": 206.64,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 67,
+  "purity": 0.985
+ },
+ "7610674179997696": {
+  "ridge_rel": 3.43,
+  "ridge_abs": 230.89,
+  "eave_abs": 227.46,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7610674196774912": {
+  "ridge_rel": 5.36,
+  "ridge_abs": 232.64,
+  "eave_abs": 227.28,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 10,
+  "purity": 0.6
+ },
+ "7610674213552128": {
+  "ridge_rel": 2.96,
+  "ridge_abs": 230.89,
+  "eave_abs": 227.93,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610674230329344": {
+  "ridge_rel": 3.71,
+  "ridge_abs": 231.52,
+  "eave_abs": 227.81,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 0.75
+ },
+ "7610674297438208": {
+  "ridge_rel": 3.68,
+  "ridge_abs": 211.3,
+  "eave_abs": 207.62,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "7610674330992640": {
+  "ridge_rel": 11.08,
+  "ridge_abs": 239.25,
+  "eave_abs": 228.17,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 16,
+  "purity": 1.0
+ },
+ "7610674381324288": {
+  "ridge_rel": 7.32,
+  "ridge_abs": 214.09,
+  "eave_abs": 206.77,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610674431655936": {
+  "ridge_rel": 5.93,
+  "ridge_abs": 215.61,
+  "eave_abs": 209.68,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 43,
+  "purity": 0.674
+ },
+ "7610674465210368": {
+  "ridge_rel": 24.27,
+  "ridge_abs": 230.84,
+  "eave_abs": 206.57,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 43,
+  "purity": 1.0
+ },
+ "7610674532319232": {
+  "ridge_rel": 10.86,
+  "ridge_abs": 221.87,
+  "eave_abs": 211.01,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 17,
+  "purity": 1.0
+ },
+ "7610674549096448": {
+  "ridge_rel": 3.66,
+  "ridge_abs": 211.63,
+  "eave_abs": 207.97,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 1.0
+ },
+ "7610674565873664": {
+  "ridge_rel": 24.95,
+  "ridge_abs": 232.39,
+  "eave_abs": 207.44,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 87,
+  "purity": 0.69
+ },
+ "7610674582650880": {
+  "ridge_rel": 23.71,
+  "ridge_abs": 231.15,
+  "eave_abs": 207.44,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 137,
+  "purity": 1.0
+ },
+ "7610674599428096": {
+  "ridge_rel": 29.76,
+  "ridge_abs": 239.37,
+  "eave_abs": 209.61,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 42,
+  "purity": 1.0
+ },
+ "7610674616205312": {
+  "ridge_rel": 26.48,
+  "ridge_abs": 233.1,
+  "eave_abs": 206.62,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 525,
+  "purity": 0.989
+ },
+ "7610674649759744": {
+  "ridge_rel": 9.78,
+  "ridge_abs": 222.37,
+  "eave_abs": 212.59,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610674716868608": {
+  "ridge_rel": 33.77,
+  "ridge_abs": 251.39,
+  "eave_abs": 217.62,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 325,
+  "purity": 0.483
+ },
+ "7610674733645824": {
+  "ridge_rel": 9.18,
+  "ridge_abs": 236.77,
+  "eave_abs": 227.59,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 18,
+  "purity": 0.833
+ },
+ "7610674750423040": {
+  "ridge_rel": 24.23,
+  "ridge_abs": 230.35,
+  "eave_abs": 206.12,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 366,
+  "purity": 0.866
+ },
+ "7610674767200256": {
+  "ridge_rel": 11.12,
+  "ridge_abs": 223.07,
+  "eave_abs": 211.95,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610674783977472": {
+  "ridge_rel": 10.86,
+  "ridge_abs": 222.34,
+  "eave_abs": 211.48,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 17,
+  "purity": 1.0
+ },
+ "7610674800754688": {
+  "ridge_rel": 2.36,
+  "ridge_abs": 212.87,
+  "eave_abs": 210.51,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 18,
+  "purity": 1.0
+ },
+ "7610674817531904": {
+  "ridge_rel": 4.5,
+  "ridge_abs": 236.79,
+  "eave_abs": 232.29,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7610674834309120": {
+  "ridge_rel": 10.94,
+  "ridge_abs": 242.48,
+  "eave_abs": 231.54,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 39,
+  "purity": 1.0
+ },
+ "7610674851086336": {
+  "ridge_rel": 12.86,
+  "ridge_abs": 243.07,
+  "eave_abs": 230.21,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 79,
+  "purity": 0.861
+ },
+ "7610674867863552": {
+  "ridge_rel": 3.22,
+  "ridge_abs": 235.67,
+  "eave_abs": 232.45,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 0.8
+ },
+ "7610674884640768": {
+  "ridge_rel": 13.51,
+  "ridge_abs": 246.04,
+  "eave_abs": 232.53,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 117,
+  "purity": 0.949
+ },
+ "7610674901417984": {
+  "ridge_rel": 13.88,
+  "ridge_abs": 246.73,
+  "eave_abs": 232.85,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 81,
+  "purity": 0.469
+ },
+ "7610675119521792": {
+  "ridge_rel": 2.68,
+  "ridge_abs": 240.2,
+  "eave_abs": 237.52,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1,
+  "purity": 1.0
+ },
+ "7610675136299008": {
+  "ridge_rel": 2.68,
+  "ridge_abs": 240.2,
+  "eave_abs": 237.52,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7610675153076224": {
+  "ridge_rel": 15.2,
+  "ridge_abs": 250.83,
+  "eave_abs": 235.63,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 104,
+  "purity": 0.933
+ },
+ "7610675169853440": {
+  "ridge_rel": 8.34,
+  "ridge_abs": 246.6,
+  "eave_abs": 238.26,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 59,
+  "purity": 0.627
+ },
+ "7610675186630656": {
+  "ridge_rel": 2.95,
+  "ridge_abs": 241.5,
+  "eave_abs": 238.55,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7610675203407872": {
+  "ridge_rel": 11.72,
+  "ridge_abs": 250.9,
+  "eave_abs": 239.18,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 41,
+  "purity": 0.488
+ },
+ "7610675220185088": {
+  "ridge_rel": 10.67,
+  "ridge_abs": 248.04,
+  "eave_abs": 237.37,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 40,
+  "purity": 1.0
+ },
+ "7610675236962304": {
+  "ridge_rel": 12.24,
+  "ridge_abs": 248.29,
+  "eave_abs": 236.05,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 17,
+  "purity": 0.824
+ },
+ "7610675253739520": {
+  "ridge_rel": 12.35,
+  "ridge_abs": 250.66,
+  "eave_abs": 238.31,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 42,
+  "purity": 0.5
+ },
+ "7610675270516736": {
+  "ridge_rel": 8.25,
+  "ridge_abs": 246.04,
+  "eave_abs": 237.79,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 41,
+  "purity": 0.878
+ },
+ "7610675287293952": {
+  "ridge_rel": 12.77,
+  "ridge_abs": 250.9,
+  "eave_abs": 238.13,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 33,
+  "purity": 0.606
+ },
+ "7610675304071168": {
+  "ridge_rel": 3.03,
+  "ridge_abs": 239.5,
+  "eave_abs": 236.47,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7610675337625600": {
+  "ridge_rel": 2.85,
+  "ridge_abs": 216.75,
+  "eave_abs": 213.9,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "7610675740278784": {
+  "ridge_rel": 2.52,
+  "ridge_abs": 224.21,
+  "eave_abs": 221.69,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7610675757056000": {
+  "ridge_rel": 14.55,
+  "ridge_abs": 242.6,
+  "eave_abs": 228.05,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 31,
+  "purity": 0.742
+ },
+ "7610675773833216": {
+  "ridge_rel": 15.61,
+  "ridge_abs": 244.6,
+  "eave_abs": 228.99,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 66,
+  "purity": 0.742
+ },
+ "7610675790610432": {
+  "ridge_rel": 7.86,
+  "ridge_abs": 238.04,
+  "eave_abs": 230.18,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7610675857719296": {
+  "ridge_rel": 5.75,
+  "ridge_abs": 238.45,
+  "eave_abs": 232.7,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 1.0
+ },
+ "7610675874496512": {
+  "ridge_rel": 15.57,
+  "ridge_abs": 247.57,
+  "eave_abs": 232.0,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 60,
+  "purity": 0.583
+ },
+ "7610675891273728": {
+  "ridge_rel": 14.78,
+  "ridge_abs": 247.88,
+  "eave_abs": 233.1,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 46,
+  "purity": 0.587
+ },
+ "7610675908050944": {
+  "ridge_rel": 20.41,
+  "ridge_abs": 243.97,
+  "eave_abs": 223.56,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 94,
+  "purity": 0.67
+ },
+ "7610675958382592": {
+  "ridge_rel": 15.65,
+  "ridge_abs": 246.34,
+  "eave_abs": 230.69,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 34,
+  "purity": 1.0
+ },
+ "7610675975159808": {
+  "ridge_rel": 18.1,
+  "ridge_abs": 244.75,
+  "eave_abs": 226.65,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 252,
+  "purity": 0.742
+ },
+ "7610676008714240": {
+  "ridge_rel": 19.72,
+  "ridge_abs": 249.75,
+  "eave_abs": 230.03,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 249,
+  "purity": 0.984
+ },
+ "7610676528807936": {
+  "ridge_rel": 12.23,
+  "ridge_abs": 248.78,
+  "eave_abs": 236.55,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 44,
+  "purity": 0.591
+ },
+ "7610676545585152": {
+  "ridge_rel": 13.58,
+  "ridge_abs": 250.67,
+  "eave_abs": 237.09,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 168,
+  "purity": 0.524
+ },
+ "7610676562362368": {
+  "ridge_rel": 3.13,
+  "ridge_abs": 240.35,
+  "eave_abs": 237.22,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7610676579139584": {
+  "ridge_rel": 11.24,
+  "ridge_abs": 248.28,
+  "eave_abs": 237.04,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 18,
+  "purity": 1.0
+ },
+ "7610676595916800": {
+  "ridge_rel": 12.21,
+  "ridge_abs": 249.89,
+  "eave_abs": 237.68,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 89,
+  "purity": 0.461
+ },
+ "7610676612694016": {
+  "ridge_rel": 3.43,
+  "ridge_abs": 241.06,
+  "eave_abs": 237.63,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610676629471232": {
+  "ridge_rel": 10.22,
+  "ridge_abs": 249.39,
+  "eave_abs": 239.17,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 0.556
+ },
+ "7610676663025664": {
+  "ridge_rel": 8.92,
+  "ridge_abs": 247.59,
+  "eave_abs": 238.67,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 0.533
+ },
+ "7610676679802880": {
+  "ridge_rel": 12.53,
+  "ridge_abs": 251.21,
+  "eave_abs": 238.68,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 0.789
+ },
+ "7610676696580096": {
+  "ridge_rel": 9.94,
+  "ridge_abs": 247.56,
+  "eave_abs": 237.62,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 0.923
+ },
+ "7610676730134528": {
+  "ridge_rel": 2.92,
+  "ridge_abs": 237.7,
+  "eave_abs": 234.78,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7610676746911744": {
+  "ridge_rel": 14.37,
+  "ridge_abs": 250.1,
+  "eave_abs": 235.73,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 49,
+  "purity": 1.0
+ },
+ "7610676763688960": {
+  "ridge_rel": 13.97,
+  "ridge_abs": 246.34,
+  "eave_abs": 232.37,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 101,
+  "purity": 0.426
+ },
+ "7610676780466176": {
+  "ridge_rel": 2.89,
+  "ridge_abs": 239.0,
+  "eave_abs": 236.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 1.0
+ },
+ "7610676830797824": {
+  "ridge_rel": 13.03,
+  "ridge_abs": 247.42,
+  "eave_abs": 234.39,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 57,
+  "purity": 0.439
+ },
+ "7610676847575040": {
+  "ridge_rel": 16.72,
+  "ridge_abs": 251.63,
+  "eave_abs": 234.91,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 206,
+  "purity": 0.422
+ },
+ "7610676864352256": {
+  "ridge_rel": 13.5,
+  "ridge_abs": 246.76,
+  "eave_abs": 233.26,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 11,
+  "purity": 1.0
+ },
+ "7610676881129472": {
+  "ridge_rel": 15.26,
+  "ridge_abs": 250.55,
+  "eave_abs": 235.29,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 132,
+  "purity": 0.674
+ },
+ "7610676914683904": {
+  "ridge_rel": 22.7,
+  "ridge_abs": 245.35,
+  "eave_abs": 222.65,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 191,
+  "purity": 0.534
+ },
+ "7610676931461120": {
+  "ridge_rel": 3.15,
+  "ridge_abs": 228.59,
+  "eave_abs": 225.44,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 4,
+  "purity": 1.0
+ },
+ "7611817027174400": {
+  "ridge_rel": 2.7,
+  "ridge_abs": 221.62,
+  "eave_abs": 218.92,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7612723231719424": {
+  "ridge_rel": 21.23,
+  "ridge_abs": 226.57,
+  "eave_abs": 205.34,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 7,
+  "purity": 0.857
+ },
+ "7612723282051072": {
+  "ridge_rel": 23.14,
+  "ridge_abs": 227.97,
+  "eave_abs": 204.83,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 102,
+  "purity": 0.706
+ },
+ "7612726503276544": {
+  "ridge_rel": 26.57,
+  "ridge_abs": 238.13,
+  "eave_abs": 211.56,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 557,
+  "purity": 0.399
+ },
+ "7616303657385984": {
+  "ridge_rel": 25.11,
+  "ridge_abs": 225.89,
+  "eave_abs": 200.78,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 2920,
+  "purity": 0.601
+ },
+ "7616306425626624": {
+  "ridge_rel": 7.28,
+  "ridge_abs": 208.34,
+  "eave_abs": 201.06,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 59,
+  "purity": 1.0
+ },
+ "7616325853642752": {
+  "ridge_rel": 4.66,
+  "ridge_abs": 206.07,
+  "eave_abs": 201.41,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 8,
+  "purity": 1.0
+ },
+ "7616326105300992": {
+  "ridge_rel": 4.14,
+  "ridge_abs": 205.41,
+  "eave_abs": 201.27,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 21,
+  "purity": 1.0
+ },
+ "7616326356959232": {
+  "ridge_rel": 2.3,
+  "ridge_abs": 204.16,
+  "eave_abs": 201.86,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 28,
+  "purity": 1.0
+ },
+ "7617101682442240": {
+  "ridge_rel": 21.59,
+  "ridge_abs": 222.37,
+  "eave_abs": 200.78,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 58,
+  "purity": 0.569
+ },
+ "7617101732773888": {
+  "ridge_rel": 22.18,
+  "ridge_abs": 222.37,
+  "eave_abs": 200.19,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 266,
+  "purity": 0.917
+ },
+ "7617101783105536": {
+  "ridge_rel": 2.84,
+  "ridge_abs": 203.65,
+  "eave_abs": 200.81,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 39,
+  "purity": 1.0
+ },
+ "7617101833437184": {
+  "ridge_rel": 4.49,
+  "ridge_abs": 205.1,
+  "eave_abs": 200.61,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 43,
+  "purity": 1.0
+ },
+ "7617148943859712": {
+  "ridge_rel": 26.98,
+  "ridge_abs": 228.1,
+  "eave_abs": 201.12,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 868,
+  "purity": 0.366
+ },
+ "7618501724340224": {
+  "ridge_rel": 24.46,
+  "ridge_abs": 232.17,
+  "eave_abs": 207.71,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 566,
+  "purity": 0.588
+ },
+ "7618700786008064": {
+  "ridge_rel": 19.8,
+  "ridge_abs": 222.96,
+  "eave_abs": 203.16,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 28,
+  "purity": 0.429
+ },
+ "7618752325615616": {
+  "ridge_rel": 3.56,
+  "ridge_abs": 236.08,
+  "eave_abs": 232.52,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 11,
+  "purity": 1.0
+ },
+ "7618756201152512": {
+  "ridge_rel": 2.84,
+  "ridge_abs": 234.17,
+  "eave_abs": 231.33,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7620022629302272": {
+  "ridge_rel": 3.7,
+  "ridge_abs": 207.53,
+  "eave_abs": 203.83,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7620022662856704": {
+  "ridge_rel": 12.34,
+  "ridge_abs": 214.87,
+  "eave_abs": 202.53,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 12,
+  "purity": 0.5
+ },
+ "7620022729965568": {
+  "ridge_rel": 10.58,
+  "ridge_abs": 211.07,
+  "eave_abs": 200.49,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 503,
+  "purity": 0.99
+ },
+ "7620022746742784": {
+  "ridge_rel": 16.17,
+  "ridge_abs": 218.6,
+  "eave_abs": 202.43,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 115,
+  "purity": 0.8
+ },
+ "7620022830628864": {
+  "ridge_rel": 7.48,
+  "ridge_abs": 211.25,
+  "eave_abs": 203.77,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7620022847406080": {
+  "ridge_rel": 23.71,
+  "ridge_abs": 225.91,
+  "eave_abs": 202.2,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 959,
+  "purity": 0.94
+ },
+ "7620024474796032": {
+  "ridge_rel": 13.83,
+  "ridge_abs": 216.03,
+  "eave_abs": 202.2,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7620024491573248": {
+  "ridge_rel": 5.76,
+  "ridge_abs": 208.62,
+  "eave_abs": 202.86,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7620024508350464": {
+  "ridge_rel": 5.1,
+  "ridge_abs": 207.33,
+  "eave_abs": 202.23,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "7620024793563136": {
+  "ridge_rel": 5.41,
+  "ridge_abs": 207.44,
+  "eave_abs": 202.03,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 12,
+  "purity": 0.5
+ },
+ "7620024827117568": {
+  "ridge_rel": 11.55,
+  "ridge_abs": 213.62,
+  "eave_abs": 202.07,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 14,
+  "purity": 0.571
+ },
+ "7620054707339264": {
+  "ridge_rel": 13.09,
+  "ridge_abs": 216.07,
+  "eave_abs": 202.98,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2021,
+  "n_seg": 375,
+  "purity": 0.763
+ },
+ "7621182236917760": {
+  "ridge_rel": 14.05,
+  "ridge_abs": 248.21,
+  "eave_abs": 234.16,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 74,
+  "purity": 0.595
+ },
+ "7621182337581056": {
+  "ridge_rel": 3.27,
+  "ridge_abs": 237.78,
+  "eave_abs": 234.51,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 1.0
+ },
+ "7621182488576000": {
+  "ridge_rel": 11.77,
+  "ridge_abs": 245.39,
+  "eave_abs": 233.62,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 25,
+  "purity": 1.0
+ },
+ "7621183444877312": {
+  "ridge_rel": 19.08,
+  "ridge_abs": 249.32,
+  "eave_abs": 230.24,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 196,
+  "purity": 0.551
+ },
+ "7624310264954880": {
+  "ridge_rel": 19.81,
+  "ridge_abs": 224.39,
+  "eave_abs": 204.58,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 129,
+  "purity": 0.62
+ },
+ "7624564657881088": {
+  "ridge_rel": 2.56,
+  "ridge_abs": 225.54,
+  "eave_abs": 222.98,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 67,
+  "purity": 1.0
+ },
+ "7624869466341376": {
+  "ridge_rel": 26.55,
+  "ridge_abs": 234.77,
+  "eave_abs": 208.22,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 13,
+  "purity": 0.846
+ },
+ "7626185722822656": {
+  "ridge_rel": 12.33,
+  "ridge_abs": 241.11,
+  "eave_abs": 228.78,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 23,
+  "purity": 0.783
+ },
+ "7626193624891392": {
+  "ridge_rel": 13.47,
+  "ridge_abs": 241.11,
+  "eave_abs": 227.64,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 17,
+  "purity": 0.941
+ },
+ "7626741954641920": {
+  "ridge_rel": 22.22,
+  "ridge_abs": 244.46,
+  "eave_abs": 222.24,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 136,
+  "purity": 0.706
+ },
+ "7626839245717504": {
+  "ridge_rel": 16.73,
+  "ridge_abs": 224.57,
+  "eave_abs": 207.84,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 0.789
+ },
+ "7626843121254400": {
+  "ridge_rel": 26.51,
+  "ridge_abs": 234.05,
+  "eave_abs": 207.54,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 250,
+  "purity": 0.356
+ },
+ "7626870585556992": {
+  "ridge_rel": 23.98,
+  "ridge_abs": 252.9,
+  "eave_abs": 228.92,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 129,
+  "purity": 0.535
+ },
+ "7627338921541632": {
+  "ridge_rel": 46.06,
+  "ridge_abs": 252.83,
+  "eave_abs": 206.77,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 1652,
+  "purity": 0.614
+ },
+ "7633399338500096": {
+  "ridge_rel": 26.53,
+  "ridge_abs": 226.64,
+  "eave_abs": 200.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 13,
+  "purity": 1.0
+ },
+ "7633399439163392": {
+  "ridge_rel": 26.53,
+  "ridge_abs": 226.64,
+  "eave_abs": 200.11,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 51,
+  "purity": 1.0
+ },
+ "7656845934067712": {
+  "ridge_rel": 4.8,
+  "ridge_abs": 206.29,
+  "eave_abs": 201.49,
+  "roof_type": 2,
+  "strecha_kod": 6,
+  "rok": 2020,
+  "n_seg": 6,
+  "purity": 1.0
+ },
+ "7666194366595072": {
+  "ridge_rel": 27.91,
+  "ridge_abs": 250.13,
+  "eave_abs": 222.22,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 12,
+  "purity": 0.917
+ },
+ "7666194416926720": {
+  "ridge_rel": 26.23,
+  "ridge_abs": 248.45,
+  "eave_abs": 222.22,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7667147127914496": {
+  "ridge_rel": 24.37,
+  "ridge_abs": 245.63,
+  "eave_abs": 221.26,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 1,
+  "purity": 1.0
+ },
+ "7667147228577792": {
+  "ridge_rel": 27.19,
+  "ridge_abs": 252.67,
+  "eave_abs": 225.48,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 15,
+  "purity": 0.933
+ },
+ "7667147278909440": {
+  "ridge_rel": 30.3,
+  "ridge_abs": 252.67,
+  "eave_abs": 222.37,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 546,
+  "purity": 0.685
+ },
+ "7667147480236032": {
+  "ridge_rel": 53.88,
+  "ridge_abs": 275.17,
+  "eave_abs": 221.29,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 176,
+  "purity": 0.665
+ },
+ "7667236147822592": {
+  "ridge_rel": 4.5,
+  "ridge_abs": 234.87,
+  "eave_abs": 230.37,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "7667236198154240": {
+  "ridge_rel": 4.26,
+  "ridge_abs": 235.25,
+  "eave_abs": 230.99,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7667236298817536": {
+  "ridge_rel": 5.56,
+  "ridge_abs": 230.7,
+  "eave_abs": 225.14,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 2,
+  "purity": 1.0
+ },
+ "7667236449812480": {
+  "ridge_rel": 16.55,
+  "ridge_abs": 239.33,
+  "eave_abs": 222.78,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 61,
+  "purity": 0.738
+ },
+ "7667236701470720": {
+  "ridge_rel": 4.98,
+  "ridge_abs": 235.38,
+  "eave_abs": 230.4,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 5,
+  "purity": 1.0
+ },
+ "7667237758435328": {
+  "ridge_rel": 6.43,
+  "ridge_abs": 232.41,
+  "eave_abs": 225.98,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2020,
+  "n_seg": 59,
+  "purity": 1.0
+ },
+ "7667523457646592": {
+  "ridge_rel": 26.08,
+  "ridge_abs": 246.89,
+  "eave_abs": 220.81,
+  "roof_type": 2,
+  "strecha_kod": 2,
+  "rok": 2020,
+  "n_seg": 51,
+  "purity": 0.804
+ },
+ "7667523558309888": {
+  "ridge_rel": 26.08,
+  "ridge_abs": 246.89,
+  "eave_abs": 220.81,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 38,
+  "purity": 0.868
+ },
+ "7673660361932800": {
+  "ridge_rel": 19.74,
+  "ridge_abs": 224.25,
+  "eave_abs": 204.51,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 20,
+  "purity": 0.95
+ },
+ "7673661469229056": {
+  "ridge_rel": 2.94,
+  "ridge_abs": 206.29,
+  "eave_abs": 203.35,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 3,
+  "purity": 1.0
+ },
+ "7673661720887296": {
+  "ridge_rel": 2.86,
+  "ridge_abs": 207.6,
+  "eave_abs": 204.74,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7674182401785856": {
+  "ridge_rel": 49.73,
+  "ridge_abs": 266.7,
+  "eave_abs": 216.97,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7674182452117504": {
+  "ridge_rel": 2.43,
+  "ridge_abs": 219.0,
+  "eave_abs": 216.57,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 9,
+  "purity": 1.0
+ },
+ "7674182502449152": {
+  "ridge_rel": 41.05,
+  "ridge_abs": 258.8,
+  "eave_abs": 217.75,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 96,
+  "purity": 1.0
+ },
+ "7682870113992704": {
+  "ridge_rel": 16.21,
+  "ridge_abs": 220.26,
+  "eave_abs": 204.05,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 23,
+  "purity": 0.435
+ },
+ "7685308363571200": {
+  "ridge_rel": 22.92,
+  "ridge_abs": 226.88,
+  "eave_abs": 203.96,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 38,
+  "purity": 1.0
+ },
+ "7685308514566144": {
+  "ridge_rel": 5.81,
+  "ridge_abs": 211.2,
+  "eave_abs": 205.39,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 14,
+  "purity": 1.0
+ },
+ "7685308564897792": {
+  "ridge_rel": 31.56,
+  "ridge_abs": 236.36,
+  "eave_abs": 204.8,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2021,
+  "n_seg": 178,
+  "purity": 0.758
+ },
+ "7685308715892736": {
+  "ridge_rel": 3.99,
+  "ridge_abs": 207.65,
+  "eave_abs": 203.66,
+  "roof_type": 1,
+  "strecha_kod": 4,
+  "rok": 2021,
+  "n_seg": 10,
+  "purity": 1.0
+ },
+ "7685308766224384": {
+  "ridge_rel": 28.85,
+  "ridge_abs": 233.11,
+  "eave_abs": 204.26,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 129,
+  "purity": 0.628
+ },
+ "7685308816556032": {
+  "ridge_rel": 31.74,
+  "ridge_abs": 236.36,
+  "eave_abs": 204.62,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2021,
+  "n_seg": 165,
+  "purity": 0.576
+ },
+ "7685729387806720": {
+  "ridge_rel": 32.46,
+  "ridge_abs": 250.67,
+  "eave_abs": 218.21,
+  "roof_type": 2,
+  "strecha_kod": 7,
+  "rok": 2020,
+  "n_seg": 254,
+  "purity": 0.953
+ },
+ "7931332898324480": {
+  "ridge_rel": 16.1,
+  "ridge_abs": 221.23,
+  "eave_abs": 205.13,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 306,
+  "purity": 0.34
+ },
+ "7931346001330176": {
+  "ridge_rel": 26.71,
+  "ridge_abs": 231.63,
+  "eave_abs": 204.92,
+  "roof_type": 1,
+  "strecha_kod": 1,
+  "rok": 2020,
+  "n_seg": 223,
+  "purity": 0.717
+ },
+ "7931346152325120": {
+  "ridge_rel": 4.04,
+  "ridge_abs": 209.95,
+  "eave_abs": 205.91,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 1,
+  "purity": 1.0
+ },
+ "7931346202656768": {
+  "ridge_rel": 26.72,
+  "ridge_abs": 231.63,
+  "eave_abs": 204.91,
+  "roof_type": 0,
+  "strecha_kod": 3,
+  "rok": 2020,
+  "n_seg": 50,
+  "purity": 0.56
+ }
+}
