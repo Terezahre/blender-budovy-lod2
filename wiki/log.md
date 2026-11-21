@@ -159,3 +159,7 @@
 - Hausdorff gate (symetricky, numpy): uz ratio 0.8 hybe o 60 cm -> zadny kolaps neprojde 5 cm. Planar dissolve = konecna pri 5 cm.
 - Zjisteni: smart/ultralehke verze ztratily zdi (smart: jen strecha 119-129 m, Hmax 17 m). Slepa decimace (light24, 24 tri, plny rozsah 110-129) lepsi nez chranena.
 - Pouziti: ultra-lehke jen kde staci silueta; pro tvar drzet planar 140 tri.
+
+## [2026-11-22] PL | Ortofoto Varsavy + pozor na poradi os EPSG:2180
+- GUGiK ORTO WMS (StandardResolution, layer Raster) chodi pres curl.exe; WMS 1.3.0 vyzaduje BBOX v poradi os (Y,X) vuci LAZ (prvni dotaz vratil les).
+- render/warszawa_orto.jpg: budova potvrzena vizualne.
