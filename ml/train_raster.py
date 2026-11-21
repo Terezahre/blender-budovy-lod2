@@ -51,8 +51,9 @@ def load_all(patch_dir=PATCH_DIR, labels_path=None):
         small = downsample8(ndsm).ravel()  # 64 feat
         frac = float(valid.mean())  # podil validnich pixelu
         x_full = np.concatenate([stats, small, [frac]])  # 71 feat
-        if bid in gt and gt[bid].get("roof_type_gt") is not None:
-            y = int(gt[bid]["roof_type_gt"])
+        if bid in gt and (gt[bid].get("roof_type_gt") is not None
+                          or gt[bid].get("roof_type") is not None):
+            y = int(gt[bid].get("roof_type_gt", gt[bid].get("roof_type")))
             z_r = float(gt[bid].get("ridge_rel") or d["z_ridge"])
             src = "GT"
         else:

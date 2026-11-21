@@ -68,3 +68,18 @@
 - Trenink s GT: ml/train_raster.py --labels ml/gt_krav59.json (8 vzorku, 7:1 gable) LOO 7/8 trivialne; MAE ridge 3.83 m (outlier panelak), eave 0.31 m. Ceka na Brno GT.
 - SceneServer query vraci prazdne (overeno GET+POST); pudorys FeatureServer = interiery, ne GT. GT cesta = rucni Polygon-Z SHP (ml/pair_brno.py --mode brno pripraven, schema STRECHA_KOD overeno).
 - Dalsi: rucni download Polygon-Z SHP Brno-stred -> ml/gt_brno.json -> retrain na stovkach vzorku.
+
+## [2026-11-22] ml | Prvni trening na Brno GT: baseline 46 %, hip selhava
+- Disposition: New
+- N=914 (947 GT - 33 bez patchu; 957 patchu - 43 bez GT). Tridy: 360 flat / 372 gable / 182 hip.
+- train_raster.py LOO: S-RUIAN 46.1 % vs BEZ-RUIAN 46.6 % (sance 33 %); hip recall ~5 % (9/182) - model hip temer nepredikuje.
+- Regrese: MAE hrebene 5.63 m (spatne), okapu 1.20 m (OK). Top feature: area_RUIAN 0.159, zstd jen 0.033 (konec leakage).
+- Zaver: GBM na rucnich priznacich = referencni cara, ne finalni model. RUIAN area zatim nepomaha (v ramci sumu).
+- Bezi: ml/exp2_balanced.py (HGB balanced + hierarchie flat|gable-vs-hip, stratifikovany 5-fold).
+- Dalsi: lepsi priznaky (pocet rovin RANSAC-lite, symetrie), pripadne maly MLP; U-Net az po vycerpani CPU moznosti.
+
+## [2026-11-22] ml | Experiment 2: balanced modely, hip porad tezky
+- HGB balanced: acc 0.44-0.47, hip recall 0.18-0.20 (3x lepsi nez base 0.07, za cenu celkove acc).
+- Hierarchie flat|gable-vs-hip: hip recall az 0.23 (BEZ-RUIAN), acc 0.46.
+- BEZ-RUIAN >= S-RUIAN ve vsech variantach -> RUIAN area jako samotny priznak nepomaha.
+- Bezi exp3: priznaky poctu rovin (rmse1/rmse2/ratio, RANSAC-lite) + HGB balanced.

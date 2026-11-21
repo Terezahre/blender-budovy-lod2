@@ -121,56 +121,51 @@ ROOFFORM_MAP = {"flat": 0, "plocha": 0, "gable": 1, "sedlova": 1, "pultova": 1,
 
 
 def mode_brno():
-    """Parser lokalniho Brno Polygon-Z SHP (rucni download, viz FETCH_LOG.md).
-    Ocekavane sloupce (realne schema sluzby): RUIAN_IBO, PATA_VYSKA, HREBEN_VYSKA,
-    ABS_VYSKA, STRECHA_KOD, ROK_POROZENI. Toleruje i SHP s ROOFFORM/BLDGHEIGHT.
-    Vystup: ml/gt_brno.json {ruian_ibo: {ridge, eave, roof_type, rok}}.
+    """GT z lokalniho Brno Polygon-Z GDB (FileGDB, EPSG:5514).
+    Zdroj: ml/data_brno/brno_lod2/PolygonZ_S_JTSK/PolygonZ_S_JTSK.gdb
+    (stazeno ze SharePointu data.brno.cz, CC BY).
+    Join: segmenty (RUIAN_IBO) -> ZABAGED footprinty (fid_zbg) pres centroid v polygonu.
+    Agregace na budovu: ridge=max(HREBEN_VYSKA), eave=min(PATA_VYSKA),
+    roof_type=modus(STRECHA_KOD), rok=modus(ROK_POROZENI).
+    Vystup: ml/gt_brno.json {fid_zbg: {ridge_rel, ridge_abs, eave_abs, roof_type, ...}} -
+    klice sedi se jmeny souboru v ml/patches_brno/.
     """
     import geopandas as gpd
-    ddir = os.path.join("ml", "data_brno")
-    shp_cands = glob.glob(os.path.join(ddir, "brno_lod2", "**", "*.shp"), recursive=True)
-    if not shp_cands:
-        print("Brno LOD2 SHP chybi. Manualni kroky (viz ml/data_brno/FETCH_LOG.md):")
-        print("  1) data.brno.cz -> 3D model budov -> Polygon Z S-JTSK (cele Brno / MC Brno-stred)")
-        print("     nebo aplikace Teren_A_Budovy_Ke_Stazeni (ctverce 1x1 km v bboxu).")
-        print("  2) Rozbalit do ml/data_brno/brno_lod2/ a spustit znovu.")
-        print("  Mezitím: DSM raster jde stahnout automaticky: python scripts/fetch_brno_dsm.py")
+    gdb = os.path.join("ml", "data_brno", "brno_lod2", "PolygonZ_S_JTSK",
+                       "PolygonZ_S_JTSK.gdb")
+    if not os.path.exists(gdb):
+        print("GDB chybi. Stahni PolygonZ_S_JTSK.zip dle ml/data_brno/FETCH_LOG.md")
         return
-    gdf = gpd.read_file(shp_cands[0])
-    print(f"SHP: {shp_cands[0]} | objektu: {len(gdf)} | CRS: {gdf.crs}")
-    print(f"sloupce: {list(gdf.columns)}")
-    cols = {c.lower(): c for c in gdf.columns}
-
-    def pick(*names):
-        for n in names:
-            if n.lower() in cols:
-                return cols[n.lower()]
-        return None
-
-    c_ruian = pick("RUIAN_IBO", "KOD_RUIAN", "ruian")
-    c_ridge = pick("HREBEN_VYSKA", "BLDGHEIGHT", "ridge")
-    c_eave = pick("PATA_VYSKA", "EAVEHEIGHT", "eave", "okap")
-    c_roof = pick("STRECHA_KOD", "ROOFFORM", "typ_strechy")
-    c_rok = pick("ROK_POROZENI", "ROK_PORIZENI", "rok", "year")
+    import pyogrio
+    x0, y0 = -598500.0, -1161500.0
+    segs = pyogrio.read_dataframe(
+        gdb, layer="pz_2020_2023_s_jtsk",
+        bbox=(x0, y0, x0 + 2000, y0 + 2000))
+    print(f"segmentu v bboxu: {len(segs)}")
+    fp = gpd.read_file(os.path.join("ml", "data_brno", "footprints.geojson"))
+    print(f"footprintu ZABAGED: {len(fp)}")
+    segs = gpd.GeoDataFrame(segs, crs="EPSG:5514")
+    from shapely.geometry import Point
+    cent = segs.copy()
+    cent["geometry"] = [Point(x, y) for x, y in
+                        zip(segs.geometry.centroid.x, segs.geometry.centroid.y)]
+    joined = gpd.sjoin(cent, fp, how="left", predicate="within")
+    hit = joined[joined["fid_zbg"].notna()]
+    print(f"segmentu s footprintem: {len(hit)} / {len(segs)}")
     gt = {}
-    for i, r in gdf.iterrows():
-        key = str(r[c_ruian]) if c_ruian else str(i)
-        if c_roof and str(r[c_roof]).strip().isdigit():
-            rt = STRECHA_MAP.get(int(r[c_roof]), 2)
-        elif c_roof:
-            rt = ROOFFORM_MAP.get(str(r[c_roof]).strip().lower(), 2)
-        else:
-            rt = None
-        gt[key] = dict(
-            ridge=float(r[c_ridge]) if c_ridge and r[c_ridge] == r[c_ridge] else None,
-            eave=float(r[c_eave]) if c_eave and r[c_eave] == r[c_eave] else None,
-            roof_type=rt,
-            rok=int(r[c_rok]) if c_rok and r[c_rok] == r[c_rok] else None,
-        )
+    for fid, g in hit.groupby("fid_zbg"):
+        ridge = float(g["HREBEN_VYSKA"].max())
+        eave = float(g["PATA_VYSKA"].min())
+        kod = int(g["STRECHA_KOD"].mode().iloc[0])
+        rok = int(g["ROK_POROZENI"].mode().iloc[0])
+        gt[str(fid)] = dict(ridge_rel=round(ridge - eave, 2),
+                            ridge_abs=ridge, eave_abs=eave,
+                            roof_type=STRECHA_MAP.get(kod, 2),
+                            strecha_kod=kod, rok=rok, n_seg=int(len(g)))
     json.dump(gt, open(os.path.join("ml", "gt_brno.json"), "w", encoding="utf-8"), indent=1)
-    roofs = [v["roof_type"] for v in gt.values() if v["roof_type"] is not None]
+    roofs = [v["roof_type"] for v in gt.values()]
     from collections import Counter
-    print(f"GT zaznamu: {len(gt)} | typy {dict(Counter(roofs))} (0=flat 1=gable 2=hip/complex)")
+    print(f"GT budov: {len(gt)} | typy {dict(Counter(roofs))} (0=flat 1=gable 2=hip/complex)")
     print("-> ml/gt_brno.json")
 
 
