@@ -129,3 +129,11 @@
 - ML vs MANUAL profily daji BITOVE STEJNE meshe (dense data konverguji) - profil je druhorady; vyjimka: 23bodova nizka pristroavba (SIMPLE_FLAT selhal, COMPLEX_HIP prosel).
 - Zaver: pro Brno pridat krok split_levels pred Geoflow; gap 3.0->2.0 (sedlovka ma spicku +2.6 m).
 - Opravy: r_* globaly v TOML (prazdne behy), jitter proti degeneraci DetectLines, nm eval.
+
+## [2026-11-22] ml | (a) HOTOVO: Geoflow na Brne funguje, zaver pro hybrid
+- 3 budovy (flat/gable/hip, SV kvadrant) -> pseudo-LAS z DSM (1 m + jitter, pf1): vsech 10+ behu OK, manifold 0, pokryti 1.00.
+- RMSE po splitu hladin: 1.25+0.79 / 3.27 / 2.04+0.81 m (pred splitem 20.1/5.7/1.9).
+- ML vs MANUAL profily: bitove stejne meshe (i FLAT vs HIP na 227 bodech). Profil na outputu pri hustych datech nezalezi.
+- Sedlovka 3.27 m: horni body (kominy/nastavby z DSM 2025) netvori rovinu; ani COMPLEX_HIP (9.0/800) nepomuze. LOD2 z fotogrametrie vidi vic nez lidar-hustota unese.
+- Nove poznatky pro pipeline: r_* globaly (prazdne behy bez warningu), jitter nutny (grid degenerace), SIMPLE_FLAT pada na <25 bodech.
+- Zaver (a): hybridni smycka uzavrena - predict_params doporucuje, Geoflow stavi, Blender validuje. Dalsi rezerva: vzorkovani 0.5 m pro male nastavby.

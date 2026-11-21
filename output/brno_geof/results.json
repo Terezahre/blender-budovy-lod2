@@ -1,0 +1,74 @@
+{
+ "53006722360410112a_ml": {
+  "profile": "STANDARD_GABLE",
+  "rmse": 1.253,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 10,
+  "faces": 16
+ },
+ "53006722360410112a_manual": {
+  "profile": "SIMPLE_FLAT",
+  "rmse": 1.253,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 10,
+  "faces": 16
+ },
+ "53006722360410112b_ml": {
+  "profile": "STANDARD_GABLE",
+  "rmse": 0.786,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 12,
+  "faces": 20
+ },
+ "53006722360410112b_manual": {
+  "profile": "STANDARD_GABLE",
+  "rmse": 0.786,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 12,
+  "faces": 20
+ },
+ "53006713149718528_ml": {
+  "profile": "STANDARD_GABLE",
+  "rmse": 3.274,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 16,
+  "faces": 28
+ },
+ "53006713149718528_manual": {
+  "profile": "STANDARD_GABLE",
+  "rmse": 3.274,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 16,
+  "faces": 28
+ },
+ "27822445704511488a_ml": {
+  "profile": "COMPLEX_HIP",
+  "rmse": 2.042,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 12,
+  "faces": 20
+ },
+ "27822445704511488b_ml": {
+  "profile": "COMPLEX_HIP",
+  "rmse": 0.358,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 22,
+  "faces": 40
+ },
+ "27822445704511488b_manual": {
+  "profile": "SIMPLE_FLAT",
+  "rmse": 0.358,
+  "coverage": 1.0,
+  "nonmanifold": 0,
+  "verts": 22,
+  "faces": 40
+ }
+}
