@@ -167,3 +167,10 @@
 ## [2026-11-22] PL | Overen preklop ortofoto-GT-LiDAR (mapovani C)
 - GUGiK ORTO WMS vraci snimek severem DOLU (radek 0 = jih); spravne mapovani: u=vychod, v=sever odspodu (varianta C ze 4 testu).
 - GT footprint sedi na budove v ortofotu (potvrzeno vizualne). Pripraveno pro korekci vikýru.
+
+## [2026-11-22] PL | Automaticka oprava vikýřů hotova (orto+LiDAR+boolean)
+- Neni true-orto: TrueOrtho WMS pro okno vraci prazdno (oba smery os); pouzito klasicke orto 10 cm/px, stejny vyrez jako JPG (NCC 0.9926, dx=dy=0). Zastin ~2-4 m -> orto jen relativne.
+- GML GT svahy (rmse 0.001) jsou ~5 m mimo mracno 2025 (1538/8803 do 1 m) = jina epocha; prior zamitnut. K-planes na 2025 datech (3574+2508 inlieru); K=4 kryje jen 75 % -> puvodni mesh zustava, meni se jen vikýře.
+- 5 vikýřů: snap na okap -41.3 deg + prave uhly; svah 0 (2, 126.25) / svah 1: velky 126.83 + 2 male 128.06 (deleni mezerou 1.23 m). Orto kontrola: 3+2 peaky vs 2+3 LiDAR (zbytek = flush okna).
+- Blender 5.3 boolean (cutter DIFFERENCE + hranol UNION, 5/5): model_bool.obj 465v/713f, nm=1 (1 vnitrni prekryv, vnejsi povrch cisty); bias/hranol <=0.25 m; RMSE jadra 0.522->0.564 (neutralni, zisk = regularita).
+- Skripty pl_orto_fix/pl_dormers_fix/pl_boolean/pl_bool_check (+pl_gt_slopes, pl_kplanes_test, pl_debug_resid); rendery render/pl_*.png; clanek wiki/pl/vikyre-orto.md + raw/pl/2026-11-22-vikyre.md.

@@ -28,6 +28,14 @@ PolyFit fallback pro složité budovy.
 |---------|---------|---------|
 | [PolyFit fallback](polyfit/fallback.md) | Kdy nastupuje + proč na řídkých datech SCIP vrací 0 faces | 2026-11-20 |
 
+## pl
+
+Varšavský pilot (husté mračno + GUGiK otevřená data).
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [Oprava vikýřů z ortofota](pl/vikyre-orto.md) | Orto+LiDAR fúze, per-svah mediany, Blender boolean; ID-1465 | 2026-11-22 |
+
 ## blender
 
 Blender validace a S-JTSK workflow.
