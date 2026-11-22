@@ -174,3 +174,9 @@
 - 5 vikýřů: snap na okap -41.3 deg + prave uhly; svah 0 (2, 126.25) / svah 1: velky 126.83 + 2 male 128.06 (deleni mezerou 1.23 m). Orto kontrola: 3+2 peaky vs 2+3 LiDAR (zbytek = flush okna).
 - Blender 5.3 boolean (cutter DIFFERENCE + hranol UNION, 5/5): model_bool.obj 465v/713f, nm=1 (1 vnitrni prekryv, vnejsi povrch cisty); bias/hranol <=0.25 m; RMSE jadra 0.522->0.564 (neutralni, zisk = regularita).
 - Skripty pl_orto_fix/pl_dormers_fix/pl_boolean/pl_bool_check (+pl_gt_slopes, pl_kplanes_test, pl_debug_resid); rendery render/pl_*.png; clanek wiki/pl/vikyre-orto.md + raw/pl/2026-11-22-vikyre.md.
+
+## [2026-11-22] PL | Oprava mapovani ortofota: radek 0 = sever (mela jsi pravdu)
+- render/pl_dormers_overlay.png byl zrcadlene (prekryv mimo vikýře): predpoklad 'radek 0 = jih' byl spatne.
+- Dukaz: vegetace z LiDARu (tr. 3/4/5, tisice bodu) sedi na zelenou v ortu jen pri v=(N1-N)/SP*H (stromy +14.5 vs -0.6). WMS vraci standardne radek 0 = sever.
+- Druhe vlakno melo stejnou chybu, ale extent+origin jim patch zrcadlil zpet (dve zrcadla), takze jejich overlay sedel. Po oprave sedi i nas (footprint presne na segmentu, vikýře na vikýřích).
+- Opraveno: scripts/pl_orto_fix.py (sever-up + .tfw), scripts/pl_dormers_fix.py (profil i overlay), rendery pre generovany; geometrie modelu (EPSG) se nezmenila.

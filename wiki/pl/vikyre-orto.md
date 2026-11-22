@@ -14,9 +14,11 @@ hranoly misto 'jehel'. Overeno na budove ID-1465 (Varšava).
 ## Co plati pro tento dum
 
 - Neni true-orto: TrueOrtho WMS pro okno vraci prazdno; pouzito klasicke orto
-  10 cm/px (WMS BBOX v poradi N,E; radek 0 = jih; NCC s puvodnim JPG 0.9926).
-- Klasicke orto ma zástin ~2-4 m (strecha ~19 m nad terenem): detekce z orta
-  se pouziva jen relativne, kotveni z LiDARu.
+  10 cm/px (WMS BBOX v poradi N,E; radek 0 = sever, overeno vegetaci).
+- Klasicke orto ma mirny zastin; detekce z orta se pouziva prevazne relativne
+  (rada/roztec/pocet), kotveni a vysky z LiDARu.
+- Prekryv render/pl_dormers_overlay.png sedi presne na vikýřích (opraveno
+  22.11. vecer: radek 0 = sever, ne jih).
 - GML GT svahy jsou ~5 m mimo mracno 2025 (jina epocha) — jako prior zamitnuty.
 - Vysledek: 5 vikýřů (2+3 po svazich, z toho 1 velky podtyp), bias <=0.25 m,
   RMSE jadra 0.52->0.56 m (strom venezmenen, regularita je zisk), nm=1 (vnitrni).

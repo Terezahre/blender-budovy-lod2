@@ -25,7 +25,8 @@ from shapely import wkt
 from shapely.geometry import Point
 
 FID = "ID-1465-38F62225-F3F5-F520-E053-CA2BA8C0BE14"
-E0, N0, SP = 636999.0, 488162.0, 200.0  # okno TIFF/JPG, mapovani C
+E0, N0, E1, N1, SP = 636999.0, 488162.0, 637199.0, 488362.0, 200.0  # okno TIFF
+# WMS vraci radek 0 = SEVER (overeno vegetaci): v = (N1-N)/SP*H
 RNG = np.random.default_rng(7)
 
 
@@ -220,7 +221,7 @@ for s in (0, 1):
     for off in (-2.0, 0.0, 2.0):  # pas 4 m kolmo na okap = odolnost vuci zástinu
         pts = cc + np.outer(t, ex) + (s - 0.5) * 6.0 * perp + off * perp
         u = (pts[:, 0] - E0) / SP * W
-        v = (pts[:, 1] - N0) / SP * H
+        v = (N1 - pts[:, 1]) / SP * H  # radek 0 = sever
         m = (u >= 0) & (u < W) & (v >= 0) & (v < H)
         pr = np.full_like(t, np.nan)
         pr[m] = gray[v[m].astype(int).clip(0, H - 1), u[m].astype(int).clip(0, W - 1)]
@@ -343,18 +344,18 @@ for tag, (VV, FF) in {"lod22": (Vold, Fold), "fixed": (V2, faces)}.items():
         tag, rmse, rmsec, rmsed, cov.mean(), ("nm=%d" % nm) if tag == "fixed" else ""))
 print("zapsano", OUT, "verts=%d faces=%d" % (len(V2), len(faces)))
 
-# --- 5. Overlay: puvodni vs sjednocene --------------------------------------
+# --- 5. Overlay: puvodni vs sjednocene (sever nahore) ----------------------
 u0 = (minx - 12 - E0) / SP * W
-v0 = (miny - 12 - N0) / SP * H
 u1 = (maxx + 12 - E0) / SP * W
-v1 = (maxy + 12 - N0) / SP * H
+v0 = (N1 - (maxy + 12)) / SP * H  # severni okraj = horni radek
+v1 = (N1 - (miny - 12)) / SP * H
 crop = ort[int(v0):int(v1), int(u0):int(u1)].astype(np.uint8)
 fig, a = plt.subplots(figsize=(10, 10))
 a.imshow(crop, origin="upper")
 sx = (maxx + 12 - minx + 12) / crop.shape[1]
 sy = (maxy + 12 - miny + 12) / crop.shape[0]
 def P(E, N):
-    return (np.asarray(E) - minx + 12) / sx, (np.asarray(N) - miny + 12) / sy
+    return (np.asarray(E) - minx + 12) / sx, (maxy + 12 - np.asarray(N)) / sy
 x, y = poly.exterior.coords.xy
 a.plot(*P(np.array(x), np.array(y)), "w-", lw=1.5, label="footprint")
 for d in ds:
