@@ -105,23 +105,3 @@ bpy.context.scene.render.filepath = os.path.abspath(
     os.path.join(RENDER_DIR, "pl_west15_after.png"))
 bpy.ops.render.render(write_still=True)
 print("OK after")
-
-# --- detail pasu vikýru: stejna kamera, blizsi cil na pas + kratsi vzdalenost
-dcx, dcy, dcz = (21.0, 8.5, 17.2)
-co.location = (mathutils.Vector((dcx, dcy, dcz)) + direction * maxdim * 0.55).to_tuple()
-d = mathutils.Vector((dcx, dcy, dcz)) - co.location
-co.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
-bpy.data.objects.remove(ob2, do_unlink=True)
-ob = load_centered(L22)
-setup_scene(ob, "before")
-bpy.context.scene.render.filepath = os.path.abspath(
-    os.path.join(RENDER_DIR, "pl_west15_before_detail.png"))
-bpy.ops.render.render(write_still=True)
-print("OK before detail")
-bpy.data.objects.remove(ob, do_unlink=True)
-ob2 = load_centered(FIN)
-setup_scene(ob2, "after")
-bpy.context.scene.render.filepath = os.path.abspath(
-    os.path.join(RENDER_DIR, "pl_west15_after_detail.png"))
-bpy.ops.render.render(write_still=True)
-print("OK after detail")
