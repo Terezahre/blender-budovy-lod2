@@ -32,6 +32,7 @@ top = q95 LiDARu v jeho místě (vlastní výška), graft + boolean v Blenderu.
 - Výstupy (gitignored, reprodukovatelné): `model_west15_graft.obj`,
   `model_west15_bool.obj`, `west15_layout.json`, `west15_metrics.json`.
 - Rendery (verzované): `render/pl_west15_{overlay,compare,band,before,after}.png`.
+- Prohlížečka: `viewer_pl_west15.html` (three.js, LOD22 / graft / bool + metriky).
 
 ## See Also
 
