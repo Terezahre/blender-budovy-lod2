@@ -5,8 +5,9 @@
 - Raw: raw/pl/2026-11-23-vikyre15.md
 - Updated: wiki/pl/vikyre-15.md, wiki/index.md
 - 15 obdélníků (horní 5 + dolní 2+8), top=q95 LiDARu, boolean 15/15 (Blender 5.3),
-  nm=0 (37 jehel v prstencích srovnáno na rovinu před booleanem),
-  RMSE jádra 0.522->0.529, pásy 0.898->0.843, rendery před/po.
+  nm=0 (89 vrcholů pasu s res>0.15 srovnáno na rovinu: pryč i stromový trn
+  u dvojshluku a vlny kolem horních vikýřů),
+  RMSE jádra 0.522->0.547, pásy 0.898->0.843, rendery před/po.
 - Ponaučení: SZ boule = koruna stromu (ne vikýře); přímý mapping LiDAR<->orto sedí;
   Geoflow jehly přesahují topy -> boolean nutný.
 

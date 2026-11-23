@@ -110,22 +110,18 @@ def load_obj(p):
 
 Vold, Fold = load_obj(f"output/pl_geof/{FID}/model_lod22.obj")
 
-# --- 5b. srovnani jehel v okoli: vrcholy s res>0.3 v prstenci (1.6x minus rect)
-# se polozi na zapadni rovinu. Jinak po booleanu zustavaji 2m jehly vedle hranolu.
+# --- 5b. srovnani celeho pasu: vsechny vrcholy s res>0.15 v pasu
+# (t -12..19.5, s -6.2..-0.2) se polozi na zapadni rovinu. Uzky prstenec ani
+# prah 0.25 nestacily: zbyvaly stromovy trn u dvojshluku (t~-10.8, z 128.1)
+# a vlny 0.15-0.25 kolem hornich vikýru. Komin je na vychode (s~+3), mimo pas.
 Vold = np.array(Vold, dtype=float)
-n_flat = 0
-for d in doms:
-    cc_ = np.array([d["cx"], d["cy"]])
-    base_rect = np.array(d["rect"])
-    big = cc_ + (base_rect - cc_) * 1.6
-    in_big = MplPath(big).contains_points(Vold[:, :2])
-    in_rect = MplPath(base_rect).contains_points(Vold[:, :2])
-    ring = in_big & ~in_rect
-    resv = Vold[:, 2] - (pw[0] * Vold[:, 0] + pw[1] * Vold[:, 1] + pw[2])
-    tall = ring & (resv > 0.3)
-    Vold[tall, 2] = (pw[0] * Vold[tall, 0] + pw[1] * Vold[tall, 1] + pw[2])
-    n_flat += int(tall.sum())
-print("srovnano jehel v prstencich: %d vrcholu" % n_flat)
+tV = (Vold[:, :2] - cc) @ eave
+sV = (Vold[:, :2] - cc) @ perp
+band = (tV > -12.0) & (tV < 19.5) & (sV > -6.2) & (sV < -0.2)
+resv = Vold[:, 2] - (pw[0] * Vold[:, 0] + pw[1] * Vold[:, 1] + pw[2])
+tall = band & (resv > 0.15)
+Vold[tall, 2] = (pw[0] * Vold[tall, 0] + pw[1] * Vold[tall, 1] + pw[2])
+print("srovnano jehel v pasu: %d vrcholu" % int(tall.sum()))
 FLAT = f"output/pl_geof/{FID}/model_west15_flat.obj"
 with open(FLAT, "w", encoding="utf-8") as f:
     f.write("# Geoflow LOD22 + srovnane okoli 15 vikýru (rezerva pro boolean)\n")
