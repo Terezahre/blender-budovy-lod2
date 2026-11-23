@@ -11,10 +11,11 @@
 - Ponaučení: SZ boule = koruna stromu (ne vikýře); přímý mapping LiDAR<->orto sedí;
   Geoflow jehly přesahují topy -> boolean nutný.
 
-## [2026-11-23] fix | Srovnán východní okap (curl u hrany pryč)
-- 28 vrcholů (s 4.0..6.3, res>0.15) na východní rovinu; XY beze změny ->
-  pokrytí 1.0, nm=0 (watertight); řez v t=2 max +0.11 m; RMSE vše 3.234->2.985.
-- Příčina curlu: žlabové body + Geoflow přehnutí na hraně footprintu.
+## [2026-11-23] fix | Srovnán východní okap + sever (curly a trny pryč)
+- 128 vrcholů (západ 93 + východ 35, s-pasy, res>0.15) na roviny svahů;
+  XY beze změny -> pokrytí 1.0, nm=0 (watertight); řez okapem max +0.11 m;
+  RMSE vše 3.231->2.938. Sever: 4 trny koruny (t~-10) + SV curl (t -13..-18).
+- Příčina curlů: žlabové body + Geoflow přehnutí na hraně footprintu.
 
 ## [2026-11-21] ingest | Skutečný Geoflow běh 0.3.6 + srovnání
 - Disposition: New

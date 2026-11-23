@@ -111,23 +111,21 @@ def load_obj(p):
 Vold, Fold = load_obj(f"output/pl_geof/{FID}/model_lod22.obj")
 
 # --- 5b. srovnani celeho pasu: vsechny vrcholy s res>0.15 v pasu
-# (t -12..19.5, s -6.2..-0.2) se polozi na zapadni rovinu. Uzky prstenec ani
-# prah 0.25 nestacily: zbyvaly stromovy trn u dvojshluku (t~-10.8, z 128.1)
-# a vlny 0.15-0.25 kolem hornich vikýru. Komin je na vychode (s~+3), mimo pas.
-# 5c. vychodni okap: zvednuty curl u hrany (s +4.0..+6.3, zlab + Geoflow
-# prehnuti, 28 vrcholu) se polozi na VYCHODNI rovinu. XY se nemeni ->
-# pokryti footprintu zustava (cov=1.0), watertight nm=0. Rez v t=2 sedi na
-# rovine (max +0.11 m). Viz render/pl_west15_okap.png.
+# (t -19..19.5, s -6.2..-0.2) se polozi na zapadni rovinu: jehly kolem vikýru,
+# stromovy trn u dvojshluku (t~-10.8) i koruna v SZ rohu (t -16..-17, class-6
+# chyba nad parkovistem - GT polygon tam zasahuje, strecha zustava).
+# 5c. vychodni okap vcetne SV rohu (s +4.0..+6.3) + cela severni cast (t az -19):
+# curl u hrany a trny koruny (93+35 vrcholu, res>0.15) na prislusne roviny.
 Vold = np.array(Vold, dtype=float)
 tV = (Vold[:, :2] - cc) @ eave
 sV = (Vold[:, :2] - cc) @ perp
 pe = np.array(info["planes"][0])
-band = (tV > -12.0) & (tV < 19.5) & (sV > -6.2) & (sV < -0.2)
+band = (tV > -19.0) & (tV < 19.5) & (sV > -6.2) & (sV < -0.2)
 resv = Vold[:, 2] - (pw[0] * Vold[:, 0] + pw[1] * Vold[:, 1] + pw[2])
 tall = band & (resv > 0.15)
 Vold[tall, 2] = (pw[0] * Vold[tall, 0] + pw[1] * Vold[tall, 1] + pw[2])
 print("srovnano jehel v zapadnim pasu: %d vrcholu" % int(tall.sum()))
-bande = (tV > -12.0) & (tV < 19.5) & (sV > 4.0) & (sV < 6.3)
+bande = (tV > -19.0) & (tV < 19.5) & (sV > 4.0) & (sV < 6.3)
 rese = Vold[:, 2] - (pe[0] * Vold[:, 0] + pe[1] * Vold[:, 1] + pe[2])
 talle = bande & (rese > 0.15)
 Vold[talle, 2] = (pe[0] * Vold[talle, 0] + pe[1] * Vold[talle, 1] + pe[2])
