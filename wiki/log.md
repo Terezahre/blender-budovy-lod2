@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-11-23] build | 15 vikýřů západního svahu ID-1465 (5+2+8)
+- Disposition: New
+- Raw: raw/pl/2026-11-23-vikyre15.md
+- Updated: wiki/pl/vikyre-15.md, wiki/index.md
+- 15 obdélníků (horní 5 + dolní 2+8), top=q95 LiDARu, boolean 15/15 (Blender 5.3),
+  nm=1 skrytá, RMSE jádra 0.522->0.521, pásy 0.898->0.858, rendery před/po.
+- Ponaučení: SZ boule = koruna stromu (ne vikýře); přímý mapping LiDAR<->orto sedí;
+  Geoflow jehly přesahují topy -> boolean nutný.
+
 ## [2026-11-21] ingest | Skutečný Geoflow běh 0.3.6 + srovnání
 - Disposition: New
 - Raw: raw/geoflow/2026-11-21-geof-run.md

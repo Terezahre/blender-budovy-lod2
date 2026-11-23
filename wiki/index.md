@@ -46,3 +46,12 @@ Celkový přehled a výsledky.
 | [Sedlovky ze scanu](pipeline/sedlovky.md) | Celomapový scan KRAV59 + Geoflow-only rozhodnutí | 2026-11-21 |
 | [CityJSON výstup](pipeline/cityjson.md) | CityJSON 2.0 formát + cjio most do Blenderu (roundtrip 1:1) | 2026-11-21 |
 | [Katastrální footprinty](pipeline/zabaged.md) | ZABAGED místo blobů: Z3 RMSE 0.104, pravidlo footprintů | 2026-11-21 |
+
+## pl
+
+Varšavský pilot (EPSG:2180, GUGiK data).
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [Oprava vikýřů z ortofota](pl/vikyre-orto.md) | Auto-fix 5 vikýřů fúzí orto+LiDAR + boolean (předchůdce) | 2026-11-22 |
+| [15 vikýřů západního svahu](pl/vikyre-15.md) | Kompletních 15 (5+2+8), vlastní LiDAR výšky, boolean, RMSE | 2026-11-23 |
