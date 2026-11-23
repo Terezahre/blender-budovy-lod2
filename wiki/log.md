@@ -7,9 +7,14 @@
 - 15 obdélníků (horní 5 + dolní 2+8), top=q95 LiDARu, boolean 15/15 (Blender 5.3),
   nm=0 (89 vrcholů pasu s res>0.15 srovnáno na rovinu: pryč i stromový trn
   u dvojshluku a vlny kolem horních vikýřů),
-  RMSE jádra 0.522->0.547, pásy 0.898->0.843, rendery před/po.
+  RMSE jádra 0.522->0.546, pásy 0.898->0.843, rendery před/po.
 - Ponaučení: SZ boule = koruna stromu (ne vikýře); přímý mapping LiDAR<->orto sedí;
   Geoflow jehly přesahují topy -> boolean nutný.
+
+## [2026-11-23] fix | Srovnán východní okap (curl u hrany pryč)
+- 28 vrcholů (s 4.0..6.3, res>0.15) na východní rovinu; XY beze změny ->
+  pokrytí 1.0, nm=0 (watertight); řez v t=2 max +0.11 m; RMSE vše 3.234->2.985.
+- Příčina curlu: žlabové body + Geoflow přehnutí na hraně footprintu.
 
 ## [2026-11-21] ingest | Skutečný Geoflow běh 0.3.6 + srovnání
 - Disposition: New

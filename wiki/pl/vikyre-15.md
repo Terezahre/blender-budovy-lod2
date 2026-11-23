@@ -18,8 +18,9 @@ top = q95 LiDARu v jeho místě (vlastní výška), graft + boolean v Blenderu.
 - SZ konec segmentu (t < −14): LiDAR boule = koruna stromu nad parkovištěm
   (class 6 chyby), NEJSOU vikýře — GT polygon tam přesahuje přes parkoviště.
 - Geoflow jehly (až 128.9) přesahují skutečné topy → boolean nutný, graft nestačí.
-- Výsledek: `model_west15_bool.obj` (760 verts / 821 faces, nm=0),
-  RMSE jádra 0.522 → 0.547, pásy vikýřů 0.898 → 0.843.
+- Výsledek: `model_west15_bool.obj` (756 verts / 813 faces, nm=0),
+  RMSE 2.985 (jádro 0.546, pásy vikýřů 0.843); srovnán i východní
+  okap (28 vrcholů na rovinu, řez sedí max +0.11 m).
 - Předchůdce (jen 5 vikýřů, viz [oprava vikýřů z ortofota](vikyre-orto.md))
   slučoval prostřední řadu do 1 velkého a konce bral ze stromu/stínu.
 
