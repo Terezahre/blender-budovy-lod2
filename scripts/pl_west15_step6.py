@@ -95,7 +95,7 @@ for d in doms:
     print("%s %s: E=%.2f N=%.2f W=%.2fx%.2f top=%.2f base=%.2f n=%d" % (
         d["id"], d["row"], d["cx"], d["cy"], d["W"], d["D"], d["ztop"], d["base_z"], d["n"]))
 json.dump(doms, open("data_pl/west15_layout.json", "w", encoding="utf-8"), indent=1)
-print("vikýru: %d -> data_pl/west15_layout.json" % len(doms))
+print("vikyru: %d -> data_pl/west15_layout.json" % len(doms))
 
 
 def load_obj(p):
@@ -109,6 +109,31 @@ def load_obj(p):
 
 
 Vold, Fold = load_obj(f"output/pl_geof/{FID}/model_lod22.obj")
+
+# --- 5b. srovnani jehel v okoli: vrcholy s res>0.3 v prstenci (1.6x minus rect)
+# se polozi na zapadni rovinu. Jinak po booleanu zustavaji 2m jehly vedle hranolu.
+Vold = np.array(Vold, dtype=float)
+n_flat = 0
+for d in doms:
+    cc_ = np.array([d["cx"], d["cy"]])
+    base_rect = np.array(d["rect"])
+    big = cc_ + (base_rect - cc_) * 1.6
+    in_big = MplPath(big).contains_points(Vold[:, :2])
+    in_rect = MplPath(base_rect).contains_points(Vold[:, :2])
+    ring = in_big & ~in_rect
+    resv = Vold[:, 2] - (pw[0] * Vold[:, 0] + pw[1] * Vold[:, 1] + pw[2])
+    tall = ring & (resv > 0.3)
+    Vold[tall, 2] = (pw[0] * Vold[tall, 0] + pw[1] * Vold[tall, 1] + pw[2])
+    n_flat += int(tall.sum())
+print("srovnano jehel v prstencich: %d vrcholu" % n_flat)
+FLAT = f"output/pl_geof/{FID}/model_west15_flat.obj"
+with open(FLAT, "w", encoding="utf-8") as f:
+    f.write("# Geoflow LOD22 + srovnane okoli 15 vikýru (rezerva pro boolean)\n")
+    for v in Vold:
+        f.write("v %.3f %.3f %.3f\n" % tuple(v))
+    for fa in Fold:
+        f.write("f " + " ".join(str(i + 1) for i in fa) + "\n")
+print("zapsano", FLAT)
 
 
 def mesh_z_at(V, F, xy):

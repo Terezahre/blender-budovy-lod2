@@ -144,7 +144,7 @@ def main():
         print(tag, data[tag]["nverts"], "v/", data[tag]["nfaces"], "f")
     m = json.load(open(f"{D}/west15_metrics.json", encoding="utf-8"))
     s_lod = "RMSE 3.231 (jadro %.3f, pasy %.3f), nm=0" % (m["lod22"]["core"], m["lod22"]["dorm"])
-    s_fin = "RMSE %.3f (jadro %.3f, pasy %.3f), nm=1 skryta" % (
+    s_fin = "RMSE %.3f (jadro %.3f, pasy %.3f), nm=0" % (
         m["west15_bool"]["rmse"], m["west15_bool"]["core"], m["west15_bool"]["dorm"])
     meta = {"LOD22": s_lod,
             "WEST15_GRAFT": "mezikrok graftu (jehly presahuji, nm=0)",
