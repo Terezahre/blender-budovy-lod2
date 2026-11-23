@@ -24,9 +24,9 @@ top = q95 LiDARu v jeho místě (vlastní výška), graft + boolean v Blenderu.
   Solver MANIFOLD (EXACT mazal celé tělo u U0 na koplanárním podkladu).
 - Stejné okapy Z/V: východ rigidně otočen kolem 3D hřebene (−8.76°),
   okap 124.53 → 125.38 (= západní). Komin v meshi není.
-- Výsledek: `model_west15_bool.obj` (776 verts / 814 faces, nm=0),
-  RMSE 3.337 (jádro 0.732 — východní svah mimo data rozhodnutím,
-  pásy vikýřů 0.825).
+- Výsledek: `model_west15_bool.obj` (782 verts / 804 faces, nm=0),
+  RMSE 3.378 (jádro 0.732 — východní svah mimo data rozhodnutím,
+  pásy vikýřů 0.825); oba okapy přesně 125.38 po celé délce.
 - Předchůdce (jen 5 vikýřů, viz [oprava vikýřů z ortofota](vikyre-orto.md))
   slučoval prostřední řadu do 1 velkého a konce bral ze stromu/stínu.
 

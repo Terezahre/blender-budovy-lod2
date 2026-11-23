@@ -21,9 +21,10 @@
 - U0 (E 637085.08, N 488271.97, top 128.13, n=51): 98 % bílých orto-pixelů,
   zstd 0.10 m — správný vikýř, vrácen (16/16 boolean OK, bias +0.21).
 - Okapy: východ rigidně otočen kolem 3D hřebene (−8.76°), okap 124.53->125.38
-  = západní; nm=0, pokrytí 1.0. Cena: jádro 0.550->0.732 (východ mimo data).
+  = západní; hrany pak přesně do 125.38 (34 vrcholů do 1 m od hranice);
+  nm=0, pokrytí 1.0. Cena: jádro 0.522->0.732 (východ mimo data).
 - Solver MANIFOLD (EXACT na koplanárním podkladu u U0 smazal celé tělo).
-- Výsledek: 776 verts / 814 faces, RMSE 3.337 (pásy 0.825).
+- Výsledek: 782 verts / 804 faces, RMSE 3.378 (pásy 0.825).
 
 ## [2026-11-21] ingest | Skutečný Geoflow běh 0.3.6 + srovnání
 - Disposition: New
