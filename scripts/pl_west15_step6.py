@@ -69,15 +69,16 @@ for i, t0 in enumerate([3.2, 5.0, 6.8, 8.5, 10.3, 12.1, 14.0, 15.8], start=3):
     zt = float(np.quantile(zr[idx], 0.95))
     doms.append(dict(id="L%d" % i, row="lower", cx=round(float(Em), 2), cy=round(float(Nm), 2),
                       W=Wm, D=Dm, ztop=round(zt, 2), n=int(len(idx))))
-# --- horni 5 ---
-for i, t0 in enumerate([-3.5, 3.5, 7.5, 12.5, 17.3], start=1):
+# --- horni 5+1 (U0 pribyl: chybejici vikýř na SZ, 98 % bily v ortu) ---
+for i, t0 in enumerate([-16.5, -3.5, 3.5, 7.5, 12.5, 17.3]):
+    tag = "U0" if i == 0 else "U%d" % i
     dt = 0.9 if t0 == 17.3 else 1.2
     idx = bump_center(t0, -3.0, -0.5, 0.35, 1.35, dt=dt)
     Em, Nm, te, se, idx = rect_of(idx)
     Wm = round(float(min(max(te.max() - te.min() + 0.2, 1.0), 2.0)), 2)
     Dm = 1.5
     zt = float(np.quantile(zr[idx], 0.95))
-    doms.append(dict(id="U%d" % i, row="upper", cx=round(float(Em), 2), cy=round(float(Nm), 2),
+    doms.append(dict(id=tag, row="upper", cx=round(float(Em), 2), cy=round(float(Nm), 2),
                       W=Wm, D=Dm, ztop=round(zt, 2), n=int(len(idx))))
 
 # obdelniky: stred + uhel okapu + prave uhly
@@ -114,8 +115,7 @@ Vold, Fold = load_obj(f"output/pl_geof/{FID}/model_lod22.obj")
 # (t -19..19.5, s -6.2..-0.2) se polozi na zapadni rovinu: jehly kolem vikýru,
 # stromovy trn u dvojshluku (t~-10.8) i koruna v SZ rohu (t -16..-17, class-6
 # chyba nad parkovistem - GT polygon tam zasahuje, strecha zustava).
-# 5c. vychodni okap vcetne SV rohu (s +4.0..+6.3) + cela severni cast (t az -19):
-# curl u hrany a trny koruny (93+35 vrcholu, res>0.15) na prislusne roviny.
+# 5d. stejne okapy Z/V: viz nize za 5c (potrebuje tV/sV).
 Vold = np.array(Vold, dtype=float)
 tV = (Vold[:, :2] - cc) @ eave
 sV = (Vold[:, :2] - cc) @ perp
@@ -130,13 +130,67 @@ rese = Vold[:, 2] - (pe[0] * Vold[:, 0] + pe[1] * Vold[:, 1] + pe[2])
 talle = bande & (rese > 0.15)
 Vold[talle, 2] = (pe[0] * Vold[talle, 0] + pe[1] * Vold[talle, 1] + pe[2])
 print("srovnano vychodniho okapu: %d vrcholu" % int(talle.sum()))
+
+# --- 5d. stejne okapy Z/V: TUHA rotace vychodu kolem STAREHO 3D hrebene
+# (smyk deformoval quady -> boolean explodoval, nm=5/RMSE 10). Rotace zachova
+# tvary faces -> boolean-safe. Hreben zustava, vychodni okap (s=+6.1) jde na
+# vysku zapadniho (s=-6.1). XY se temer nemeni (mala rotace), pokryti 1.0.
+nw = np.array([-pw[0], -pw[1], 1.0]); nw /= np.linalg.norm(nw)
+ne = np.array([-pe[0], -pe[1], 1.0]); ne /= np.linalg.norm(ne)
+u = np.cross(nw, ne); u /= np.linalg.norm(u)
+dd = np.array([pw[0] - pe[0], pw[1] - pe[1]])
+tt = -((dd @ cc) + (pw[2] - pe[2])) / (dd @ perp)
+r0 = cc + tt * perp
+z0 = pw[0] * r0[0] + pw[1] * r0[1] + pw[2]
+R0 = np.array([r0[0], r0[1], z0])
+Z_W = pw[0] * (cc[0] - 6.1 * perp[0]) + pw[1] * (cc[1] - 6.1 * perp[1]) + pw[2]
+# referencni vrchol u vychodniho okapu (t~0)
+d2 = (Vold[:, 0] - (r0[0] + 6.1 * perp[0])) ** 2 + (Vold[:, 1] - (r0[1] + 6.1 * perp[1])) ** 2
+ref = Vold[int(np.argmin(d2))]
+w = ref - R0
+coef = 1.0 - (u @ (w / np.linalg.norm(w))) ** 2  # ~sin^2 uhlu w vuci ose
+def z_at(th):
+    c, s_ = np.cos(th), np.sin(th)
+    v = w * c + np.cross(u, w) * s_ + u * (u @ w) * (1 - c)
+    return R0[2] + v[2]
+lo, hi = -0.5, 0.5
+assert (z_at(lo) - Z_W) * (z_at(hi) - Z_W) < 0
+for _ in range(60):
+    mid = 0.5 * (lo + hi)
+    if (z_at(lo) - Z_W) * (z_at(mid) - Z_W) <= 0:
+        hi = mid
+    else:
+        lo = mid
+th = 0.5 * (lo + hi)
+print("rotace vychodu o %.2f deg (okap %.2f -> %.2f)" % (
+    np.degrees(th), ref[2], Z_W))
+c, s_ = np.cos(th), np.sin(th)
+s_r0 = float((r0 - cc) @ perp)
+sel = sV > (s_r0 - 0.3)
+P = Vold[sel] - R0
+Ux = np.broadcast_to(u, P.shape)
+Vold[sel] = (P * c + np.cross(Ux, P) * s_ +
+             np.outer(P @ u, u) * (1 - c)) + R0
+print("rigidne otoceno vychodu: %d vrcholu" % int(sel.sum()))
 FLAT = f"output/pl_geof/{FID}/model_west15_flat.obj"
 with open(FLAT, "w", encoding="utf-8") as f:
     f.write("# Geoflow LOD22 + srovnane okoli 15 vikýru (rezerva pro boolean)\n")
     for v in Vold:
         f.write("v %.3f %.3f %.3f\n" % tuple(v))
     for fa in Fold:
-        f.write("f " + " ".join(str(i + 1) for i in fa) + "\n")
+        if len(fa) == 4:
+            # triangulace quadu (kratsi diagonalou): boolean-safe, zadne bowtie
+            P = Vold[np.array(fa)]
+            d02 = float(np.linalg.norm(P[0] - P[2]))
+            d13 = float(np.linalg.norm(P[1] - P[3]))
+            if d02 <= d13:
+                f.write("f %d %d %d\n" % (fa[0] + 1, fa[1] + 1, fa[2] + 1))
+                f.write("f %d %d %d\n" % (fa[0] + 1, fa[2] + 1, fa[3] + 1))
+            else:
+                f.write("f %d %d %d\n" % (fa[0] + 1, fa[1] + 1, fa[3] + 1))
+                f.write("f %d %d %d\n" % (fa[1] + 1, fa[2] + 1, fa[3] + 1))
+        else:
+            f.write("f " + " ".join(str(i + 1) for i in fa) + "\n")
 print("zapsano", FLAT)
 
 

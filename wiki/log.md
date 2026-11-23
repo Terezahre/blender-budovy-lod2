@@ -17,6 +17,14 @@
   RMSE vše 3.231->2.938. Sever: 4 trny koruny (t~-10) + SV curl (t -13..-18).
 - Příčina curlů: žlabové body + Geoflow přehnutí na hraně footprintu.
 
+## [2026-11-23] fix | SZ vikýř U0 zpět + stejné okapy Z/V (16 vikýřů)
+- U0 (E 637085.08, N 488271.97, top 128.13, n=51): 98 % bílých orto-pixelů,
+  zstd 0.10 m — správný vikýř, vrácen (16/16 boolean OK, bias +0.21).
+- Okapy: východ rigidně otočen kolem 3D hřebene (−8.76°), okap 124.53->125.38
+  = západní; nm=0, pokrytí 1.0. Cena: jádro 0.550->0.732 (východ mimo data).
+- Solver MANIFOLD (EXACT na koplanárním podkladu u U0 smazal celé tělo).
+- Výsledek: 776 verts / 814 faces, RMSE 3.337 (pásy 0.825).
+
 ## [2026-11-21] ingest | Skutečný Geoflow běh 0.3.6 + srovnání
 - Disposition: New
 - Raw: raw/geoflow/2026-11-21-geof-run.md

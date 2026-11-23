@@ -67,7 +67,7 @@ def boolean(target, tool, op):
     md = target.modifiers[-1]
     md.name = "Bool_%s" % op
     md.operation = op
-    md.solver = "EXACT"
+    md.solver = "MANIFOLD"  # robustni vuci presne koplanarnim plocham po flatteningu (EXACT mazal cele telo u U0)
     md.object = tool
     bpy.ops.object.modifier_apply(modifier=md.name)
 
