@@ -126,52 +126,23 @@ tall = band & (resv > 0.15)
 Vold[tall, 2] = (pw[0] * Vold[tall, 0] + pw[1] * Vold[tall, 1] + pw[2])
 print("srovnano jehel v zapadnim pasu: %d vrcholu" % int(tall.sum()))
 bande = (tV > -19.0) & (tV < 19.5) & (sV > 4.0) & (sV < 6.3)
-rese = Vold[:, 2] - (pe[0] * Vold[:, 0] + pe[1] * Vold[:, 1] + pe[2])
-talle = bande & (rese > 0.15)
-Vold[talle, 2] = (pe[0] * Vold[talle, 0] + pe[1] * Vold[talle, 1] + pe[2])
-print("srovnano vychodniho okapu: %d vrcholu" % int(talle.sum()))
-
-# --- 5d. stejne okapy Z/V: TUHA rotace vychodu kolem STAREHO 3D hrebene
-# (smyk deformoval quady -> boolean explodoval, nm=5/RMSE 10). Rotace zachova
-# tvary faces -> boolean-safe. Hreben zustava, vychodni okap (s=+6.1) jde na
-# vysku zapadniho (s=-6.1). XY se temer nemeni (mala rotace), pokryti 1.0.
-nw = np.array([-pw[0], -pw[1], 1.0]); nw /= np.linalg.norm(nw)
-ne = np.array([-pe[0], -pe[1], 1.0]); ne /= np.linalg.norm(ne)
-u = np.cross(nw, ne); u /= np.linalg.norm(u)
-dd = np.array([pw[0] - pe[0], pw[1] - pe[1]])
-tt = -((dd @ cc) + (pw[2] - pe[2])) / (dd @ perp)
-r0 = cc + tt * perp
-z0 = pw[0] * r0[0] + pw[1] * r0[1] + pw[2]
-R0 = np.array([r0[0], r0[1], z0])
-Z_W = pw[0] * (cc[0] - 6.1 * perp[0]) + pw[1] * (cc[1] - 6.1 * perp[1]) + pw[2]
-# referencni vrchol u vychodniho okapu (t~0)
-d2 = (Vold[:, 0] - (r0[0] + 6.1 * perp[0])) ** 2 + (Vold[:, 1] - (r0[1] + 6.1 * perp[1])) ** 2
-ref = Vold[int(np.argmin(d2))]
-w = ref - R0
-coef = 1.0 - (u @ (w / np.linalg.norm(w))) ** 2  # ~sin^2 uhlu w vuci ose
-def z_at(th):
-    c, s_ = np.cos(th), np.sin(th)
-    v = w * c + np.cross(u, w) * s_ + u * (u @ w) * (1 - c)
-    return R0[2] + v[2]
-lo, hi = -0.5, 0.5
-assert (z_at(lo) - Z_W) * (z_at(hi) - Z_W) < 0
-for _ in range(60):
-    mid = 0.5 * (lo + hi)
-    if (z_at(lo) - Z_W) * (z_at(mid) - Z_W) <= 0:
-        hi = mid
-    else:
-        lo = mid
-th = 0.5 * (lo + hi)
-print("rotace vychodu o %.2f deg (okap %.2f -> %.2f)" % (
-    np.degrees(th), ref[2], Z_W))
-c, s_ = np.cos(th), np.sin(th)
-s_r0 = float((r0 - cc) @ perp)
-sel = sV > (s_r0 - 0.3)
-P = Vold[sel] - R0
-Ux = np.broadcast_to(u, P.shape)
-Vold[sel] = (P * c + np.cross(Ux, P) * s_ +
-             np.outer(P @ u, u) * (1 - c)) + R0
-print("rigidne otoceno vychodu: %d vrcholu" % int(sel.sum()))
+# 5c. vychodni okap: CAP na refit+0.35 (misto srovnani na rovinu).
+# Rotace ZRUSENA (mrak ma okapy prirozene nesoumerne). Cap smaze jen
+# Geoflow prehnuti (>0.35 nad rovinou), prirozeny ret ~0.3 zustava.
+# Hreben zustava, zapad vcetne 16 vikýru beze zmen.
+gmed = float(np.median(z[(~inside) & (c == 2)]))
+s_all = (np.stack([x[inside], y[inside]], 1) - cc) @ perp
+rsel = np.zeros(len(x), bool)
+rsel[inside] = (s_all > 0.5) & (s_all < 4.5) & (z[inside] > gmed + 1.5)
+rsel = rsel & (c == 6)
+A_ = np.column_stack([x[rsel], y[rsel], np.ones(int(rsel.sum()))])
+peN, *_ = np.linalg.lstsq(A_, z[rsel], rcond=None)
+rese = Vold[:, 2] - (peN[0] * Vold[:, 0] + peN[1] * Vold[:, 1] + peN[2])
+talle = bande & (rese > 0.35)
+Vold[talle, 2] = (peN[0] * Vold[talle, 0] + peN[1] * Vold[talle, 1] + peN[2] + 0.35)
+print("refit vychod (n=%d); capnuto prestrelenych: %d vrcholu" % (
+    int(rsel.sum()), int(talle.sum())))
+# 5d ZHRUSENO (rotace vychodu): mrak ma okapy prirozene nesoumerne.
 FLAT = f"output/pl_geof/{FID}/model_west15_flat.obj"
 with open(FLAT, "w", encoding="utf-8") as f:
     f.write("# Geoflow LOD22 + srovnane okoli 15 vikýru (rezerva pro boolean)\n")

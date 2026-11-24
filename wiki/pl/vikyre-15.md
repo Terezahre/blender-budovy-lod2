@@ -22,11 +22,13 @@ top = q95 LiDARu v jeho místě (vlastní výška), graft + boolean v Blenderu.
   GT polygon tam zasahuje, LiDAR 2025 říká střecha z~128.
 - Geoflow jehly (až 128.9) přesahují skutečné topy → boolean nutný, graft nestačí.
   Solver MANIFOLD (EXACT mazal celé tělo u U0 na koplanárním podkladu).
-- Stejné okapy Z/V: východ rigidně otočen kolem 3D hřebene (−8.76°),
-  okap 124.53 → 125.38 (= západní). Komin v meshi není.
-- Výsledek: `model_west15_bool.obj` (782 verts / 804 faces, nm=0),
-  RMSE 3.378 (jádro 0.732 — východní svah mimo data rozhodnutím,
-  pásy vikýřů 0.825); oba okapy přesně 125.38 po celé délce.
+- Stejné okapy Z/V se NEKONAJÍ: mrak má okapy přirozeně nesouměrné
+  (Z 125.45 vs V ~124.3, oba rovné podél délky). Pokus o rotaci východu
+  na 125.38 vrácen zpět – falsifikoval by východ o ~1 m.
+  Východní okap jen zbaven curlu (cap na refit+0.35), hrana sedí na mraku.
+- Výsledek: `model_west15_bool.obj` (776 verts / 814 faces, nm=0),
+  RMSE 2.987 (jádro 0.547, pásy vikýřů 0.825);
+  okapy Z 125.34 / V 124.14 dle mračna, bez curlu.
 - Předchůdce (jen 5 vikýřů, viz [oprava vikýřů z ortofota](vikyre-orto.md))
   slučoval prostřední řadu do 1 velkého a konce bral ze stromu/stínu.
 
